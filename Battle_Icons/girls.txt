@@ -11,8 +11,6 @@ https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Rem
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Solise_Awakened_Battle.png,
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Talene_Battle.png,
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Thali_Battle.png,
-
-https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Mehira_Battle.png,
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Antandra_Battle.png,
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Belinda_Battle.png,
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Isabella_Battle.png,
@@ -20,6 +18,8 @@ https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Lyc
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Raine_Battle.png,
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Satrana_Battle.png,
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Tasi_Battle.png,
+
+https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Mehira_Battle.png,
 
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Seas0n/confused.png,
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Seas0n/cry.png,
@@ -30,3 +30,12 @@ https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Seas0n/tongue.pn
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Seas0n/wave.png,
 
 https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Seas0n/stab.png,
+
+https://www.midjourney.com/app/jobs/733f974b-d8ce-401a-9ec4-639d21f852b3/
+
+https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Lucilla_Battle.png,
+https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Belinda_Awakened_Battle.png,
+https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Solise_Awakened_Battle.png,
+https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Rem_Battle.png,
+https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/Battle_Icons/Nevanthi_Battle.png,
+
