@@ -1,0 +1,51 @@
+{
+    "Boss": "Nightmare",
+    "Teams": [
+        [
+            [
+                "Scarlet"
+            ],
+            [
+                "A.Athalia",
+                "Rosaline",
+                "A.Baden"
+            ],
+            [
+                "Raine"
+            ],
+            [
+                "Orthros",
+                "Naroko",
+                "Estrilda"
+            ],
+            [
+                "Daemia"
+            ]
+        ],
+        [
+            [
+                "Scarlet"
+            ],
+            [
+                "Orthros"
+            ],
+            [
+                "A.Athalia"
+            ],
+            [
+                "Nakoro"
+            ],
+            [
+                "Lucilla"
+            ]
+        ]
+    ],
+    "Beasts": [
+        [
+            "Blade"
+        ],
+        [
+            "Blade"
+        ]
+    ]
+}
