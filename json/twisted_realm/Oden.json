@@ -1,10 +1,10 @@
 {
     "Boss": "Oden",
     "Player": [
-        ""
+        "FireMeow"
     ],
     "Time": [
-        ""
+        "277.43T"
     ],
     "Teams": [
         [
@@ -31,19 +31,19 @@
     "Artifacts": [
         [
             [
-                "Athalia2"
+                "Eye5"
             ],
             [
-                "Rowan2"
+                "Tasi1"
             ],
             [
-                "Orthros1"
+                "Zolrath1"
             ],
             [
-                "Rowan2"
+                "Mehira2"
             ],
             [
-                "Zolrath2"
+                "Tasi0"
             ]
         ]
     ]

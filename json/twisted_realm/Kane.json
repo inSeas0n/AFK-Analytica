@@ -1,49 +1,49 @@
 {
-    "Boss": "Morgana",
+    "Boss": "Kane",
     "Player": [
-        "顽童"
+        "FireMeow"
     ],
     "Time": [
-        "17.22s"
+        "467.71T"
     ],
     "Teams": [
         [
             [
-                "A.Baden"
+                "Palmer"
             ],
             [
-                "A.Solise"
+                "A.Athalia"
             ],
             [
-                "Hodgkin"
+                "Daemia"
             ],
             [
-                "Silas"
+                "Liberta"
             ],
             [
-                "Estrilda"
+                "Rosaline"
             ],
             [
-                "Panda"
+                "Owl"
             ]
         ]
     ],
     "Artifacts": [
         [
             [
-                "Athalia2"
-            ],
-            [
                 "Rowan2"
             ],
             [
-                "Orthros1"
+                "Saurus1"
             ],
             [
-                "Rowan2"
+                "Daemia2"
             ],
             [
-                "Zolrath2"
+                "Liberta2"
+            ],
+            [
+                "Rosaline0"
             ]
         ]
     ]

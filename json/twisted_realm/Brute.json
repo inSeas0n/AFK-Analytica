@@ -1,27 +1,27 @@
 {
-    "Boss": "Morgana",
+    "Boss": "Brute",
     "Player": [
-        "顽童"
+        "Raracha"
     ],
     "Time": [
-        "17.22s"
+        "2116.43T"
     ],
     "Teams": [
         [
             [
-                "A.Baden"
+                "Daemia"
             ],
             [
-                "A.Solise"
+                "Palmer"
             ],
             [
-                "Hodgkin"
+                "A.Belinda"
             ],
             [
-                "Silas"
+                "Jerome"
             ],
             [
-                "Estrilda"
+                "Lavatune"
             ],
             [
                 "Panda"
@@ -31,19 +31,19 @@
     "Artifacts": [
         [
             [
-                "Athalia2"
+                "Mehira2"
             ],
             [
-                "Rowan2"
+                "Tasi1"
             ],
             [
-                "Orthros1"
+                "Oden2"
             ],
             [
-                "Rowan2"
+                "Zolrath1"
             ],
             [
-                "Zolrath2"
+                "Tasi1"
             ]
         ]
     ]
