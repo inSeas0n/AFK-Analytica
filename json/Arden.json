@@ -1,0 +1,50 @@
+{
+    "Boss": "Arden",
+    "Player": [
+        "DongGree"
+    ],
+    "Time": [
+        "9.32s"
+    ],
+    "Teams": [
+        [
+            [
+                "Raine"
+            ],
+            [
+                "Daemia"
+            ],
+            [
+                "Rowan"
+            ],
+            [
+                "Scarlet"
+            ],
+            [
+                "Jerome"
+            ],
+            [
+                "Panda"
+            ]
+        ]
+    ],
+    "Artifacts": [
+        [
+            [
+                "Rowan1"
+            ],
+            [
+                "Mehira2"
+            ],
+            [
+                "Rowan2"
+            ],
+            [
+                "Oden2"
+            ],
+            [
+                "Zolrath0"
+            ]
+        ]
+    ]
+}

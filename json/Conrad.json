@@ -1,0 +1,50 @@
+{
+    "Boss": "Mirror",
+    "Player": [
+        "None"
+    ],
+    "Time": [
+        "16.58s"
+    ],
+    "Teams": [
+        [
+            [
+                "Lucilla"
+            ],
+            [
+                "Anasta"
+            ],
+            [
+                "Liberta"
+            ],
+            [
+                "Naroko"
+            ],
+            [
+                "Eorin"
+            ],
+            [
+                "Seal"
+            ]
+        ]
+    ],
+    "Artifacts": [
+        [
+            [
+                "Rowan1"
+            ],
+            [
+                "Saurus1"
+            ],
+            [
+                "Tasi2"
+            ],
+            [
+                "Orthros2"
+            ],
+            [
+                "Athalia1"
+            ]
+        ]
+    ]
+}

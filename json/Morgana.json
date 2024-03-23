@@ -1,0 +1,50 @@
+{
+    "Boss": "Morgana",
+    "Player": [
+        "顽童"
+    ],
+    "Time": [
+        "17.22s"
+    ],
+    "Teams": [
+        [
+            [
+                "A.Baden"
+            ],
+            [
+                "A.Solise"
+            ],
+            [
+                "Hodgkin"
+            ],
+            [
+                "Silas"
+            ],
+            [
+                "Estrilda"
+            ],
+            [
+                "Panda"
+            ]
+        ]
+    ],
+    "Artifacts": [
+        [
+            [
+                "Athalia2"
+            ],
+            [
+                "Rowan2"
+            ],
+            [
+                "Orthros1"
+            ],
+            [
+                "Rowan2"
+            ],
+            [
+                "Zolrath2"
+            ]
+        ]
+    ]
+}

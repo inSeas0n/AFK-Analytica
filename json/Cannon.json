@@ -1,0 +1,50 @@
+{
+    "Boss": "Cannon",
+    "Player": [
+        "commedesgarcon"
+    ],
+    "Time": [
+        "14.27s"
+    ],
+    "Teams": [
+        [
+            [
+                "A.Gavus"
+            ],
+            [
+                "Daemia"
+            ],
+            [
+                "Crassio"
+            ],
+            [
+                "A.Safiya"
+            ],
+            [
+                "A.Brutus"
+            ],
+            [
+                "Owl"
+            ]
+        ]
+    ],
+    "Artifacts": [
+        [
+            [
+                "Oden1"
+            ],
+            [
+                "Mehira2"
+            ],
+            [
+                "Athalia1"
+            ],
+            [
+                "Rowan2"
+            ],
+            [
+                ""
+            ]
+        ]
+    ]
+}

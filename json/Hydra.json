@@ -1,0 +1,50 @@
+{
+    "Boss": "Hydra",
+    "Player": [
+        "吉利"
+    ],
+    "Time": [
+        "18.85s"
+    ],
+    "Teams": [
+        [
+            [
+                "Baden"
+            ],
+            [
+                "Trishea"
+            ],
+            [
+                "Lavatune"
+            ],
+            [
+                "Emilia"
+            ],
+            [
+                "Twins"
+            ],
+            [
+                "Moth"
+            ]
+        ]
+    ],
+    "Artifacts": [
+        [
+            [
+                "Saurus1"
+            ],
+            [
+                "Oden2"
+            ],
+            [
+                "Tasi1"
+            ],
+            [
+                "Mehira2"
+            ],
+            [
+                "Tasi1"
+            ]
+        ]
+    ]
+}
