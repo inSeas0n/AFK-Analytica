@@ -1,15 +1,13 @@
 {
-    "Boss": "Mirror", // Boss_Name
+    "Boss": "Mirror",
     "Player": [
-        "Team_1_Player(오구)",
-        "Seas0n"
+        "오구"
     ],
     "Time": [
-        "15.77s",
-        "-----"
+        "15.77s"
     ],
     "Teams": [
-        [ // Team 1 Heroes
+        [
             [
                 "A.Athalia"
             ],
@@ -31,7 +29,7 @@
         ]
     ],
     "Artifacts": [
-        [ //Team 1 Artifacts
+        [
             [
                 "Saurus2"
             ],
