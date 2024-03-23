@@ -1,6 +1,8 @@
 {
     "Boss": "Boss_Name (Nightmare)",
-    "Player": "Player_Name (Seas0n)",
+    "Player": [
+        "Player_Name (Seas0n)"
+],
     "Time": "Time (8.22s)",
     "Teams": [
         [ // Team 1 Heroes
