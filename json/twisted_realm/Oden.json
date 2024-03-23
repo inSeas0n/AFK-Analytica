@@ -1,0 +1,50 @@
+{
+    "Boss": "Oden",
+    "Player": [
+        ""
+    ],
+    "Time": [
+        ""
+    ],
+    "Teams": [
+        [
+            [
+                "Lucilla"
+            ],
+            [
+                "Liberta"
+            ],
+            [
+                "Jerome"
+            ],
+            [
+                "Daemia"
+            ],
+            [
+                "Palmer"
+            ],
+            [
+                "Owl"
+            ]
+        ]
+    ],
+    "Artifacts": [
+        [
+            [
+                "Athalia2"
+            ],
+            [
+                "Rowan2"
+            ],
+            [
+                "Orthros1"
+            ],
+            [
+                "Rowan2"
+            ],
+            [
+                "Zolrath2"
+            ]
+        ]
+    ]
+}

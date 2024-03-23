@@ -1,0 +1,50 @@
+{
+    "Boss": "Shemira",
+    "Player": [
+        ""
+    ],
+    "Time": [
+        ""
+    ],
+    "Teams": [
+        [
+            [
+                "Lucilla"
+            ],
+            [
+                "Daemia"
+            ],
+            [
+                "Lavatune"
+            ],
+            [
+                "Palmer"
+            ],
+            [
+                "Liberta"
+            ],
+            [
+                "Panda"
+            ]
+        ]
+    ],
+    "Artifacts": [
+        [
+            [
+                "Tasi0"
+            ],
+            [
+                "Daemia2"
+            ],
+            [
+                "Rowan2"
+            ],
+            [
+                "Tasi1"
+            ],
+            [
+                "Blade5"
+            ]
+        ]
+    ]
+}

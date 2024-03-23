@@ -1,0 +1,50 @@
+{
+    "Boss": "Nemora",
+    "Player": [
+        ""
+    ],
+    "Time": [
+        ""
+    ],
+    "Teams": [
+        [
+            [
+                "Rosaline"
+            ],
+            [
+                "A.Belinda"
+            ],
+            [
+                "Palmer"
+            ],
+            [
+                "Rowan"
+            ],
+            [
+                "Lavatune"
+            ],
+            [
+                "Owl"
+            ]
+        ]
+    ],
+    "Artifacts": [
+        [
+            [
+                "Call5"
+            ],
+            [
+                "Hat5"
+            ],
+            [
+                "Harp5"
+            ],
+            [
+                "Call5"
+            ],
+            [
+                "Call5"
+            ]
+        ]
+    ]
+}

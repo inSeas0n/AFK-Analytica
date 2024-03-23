@@ -1,0 +1,50 @@
+{
+    "Boss": "Destroyer",
+    "Player": [
+        ""
+    ],
+    "Time": [
+        ""
+    ],
+    "Teams": [
+        [
+            [
+                "A.Lyca"
+            ],
+            [
+                "Lavatune"
+            ],
+            [
+                "Daemia"
+            ],
+            [
+                "Palmer"
+            ],
+            [
+                "Liberta"
+            ],
+            [
+                "Owl"
+            ]
+        ]
+    ],
+    "Artifacts": [
+        [
+            [
+                "Athalia2"
+            ],
+            [
+                "Tasi0"
+            ],
+            [
+                "Mehira2"
+            ],
+            [
+                "Tasi0"
+            ],
+            [
+                "Tasi1"
+            ]
+        ]
+    ]
+}
