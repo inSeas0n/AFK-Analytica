@@ -1,0 +1,103 @@
+{
+    "Boss": "Boss_Name(Nightmare)",
+    "Player": [
+        "Team_1_Player(Seas0n)",
+        "Team_2_Player(eXi1e)"
+    ],
+    "Time": [
+        "Team_1_Time (8.22s)",
+        "Team_2_Time (10.25s)"
+    ],
+    "Teams": [
+        [ // Team 1 Heroes
+            [
+                "Position_1_Main(Scarlet)"
+            ],
+            [
+                "Position_2_Main(A.Athalia)",
+                "Position_2_Alt_1(Rosaline)",
+                "Position_2_Alt_2(A.Baden)"
+            ],
+            [
+                "Position_3_Main(Raine)"
+            ],
+            [
+                "Position_4_Main(Orthros)",
+                "Position_4_Alt_1(Naroko)",
+                "Position_4_Alt_2(Estrilda)"
+            ],
+            [
+                "Position_5_Main(Daemia)"
+            ],
+            [
+                "Beast_Main(Blade)",
+                "Beast_Alt_1(Panda)"
+            ]
+        ],
+        [ //Team 2 Heroes
+            [
+                "Scarlet"
+            ],
+            [
+                "Orthros"
+            ],
+            [
+                "A.Athalia"
+            ],
+            [
+                "Nakoro"
+            ],
+            [
+                "Lucilla"
+            ],
+            [
+                "Blade",
+                "Blade"
+            ]
+        ] //etc for all teams up to 4-5
+    ],
+    "Artifacts": [
+        [ //Team 1 Artifacts
+            [
+                "Position_1_Main(Saurus1)"
+            ],
+            [
+                "Position_2_Main(Oden0)",
+                "Position_2_Alt_1(Tasi0)",
+                "Position_2_Alt_2(Mehira2)"
+            ],
+            [
+                "Position_3_Main(Zolrath0)"
+            ],
+            [
+                "Position_4_Main(Zolrath2)",
+                "Position_4_Alt_1(Tasi2)",
+                "Position_4_Alt_2(Tidus1)"
+            ],
+            [
+                "Position_5_Main(Tidus0)"
+            ]
+        ], //There is no position 6 artifact
+        [
+            [
+                "Saurus1"
+            ],
+            [
+                "MainOden0",
+                "Tasi0",
+                "Mehira2"
+            ],
+            [
+                "Zolrath0"
+            ],
+            [
+                "Zolrath2",
+                "Tasi2",
+                "Tidus1"
+            ],
+            [
+                "Tidus0"
+            ]
+        ] //etc for all teams up to 4-5
+    ]
+}
