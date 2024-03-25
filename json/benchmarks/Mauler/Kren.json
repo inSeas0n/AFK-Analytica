@@ -1,0 +1,34 @@
+{
+    "Name": "Kren",
+    "Faction": "Mauler",
+    "Class": "Celerity",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        3
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e21",
+            "DEF%",
+            "HP%",
+            "ATK%",
+            "Haste",
+            "PP"
+        ],
+        [
+            "e30",
+            "ATK%",
+            "Haste",
+            "PP"
+        ]
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "Name": "A.Brutus",
+    "Faction": "Mauler",
+    "Class": "Might",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        30,
+        9,
+        35,
+        9
+    ],
+    "Furn": [
+        "HP%",
+        "Haste",
+        1,
+        "Crit",
+        "PP",
+        1,
+        "DEF%",
+        "TY",
+        1
+    ],
+    "Plus": [
+        "+++",
+        "++",
+        "+"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "Haste",
+            "Haste",
+            "IS"
+        ],
+        [
+            "e44",
+            "ATK%",
+            "Haste",
+            "Haste",
+            "IS"
+        ],
+        [
+            "e60",
+            "Haste",
+            "Haste"
+        ],
+        [
+            "e67",
+            "ATK%",
+            "Haste",
+            "Haste"
+        ]
+    ]
+}

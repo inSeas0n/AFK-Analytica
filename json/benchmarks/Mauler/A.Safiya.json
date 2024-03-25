@@ -1,0 +1,58 @@
+{
+    "Name": "A.Safiya",
+    "Faction": "Mauler",
+    "Class": "Sustenance",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "BOOTS"
+    ],
+    "SI": [
+        30,
+        3,
+        30,
+        9,
+        35,
+        9
+    ],
+    "Furn": [
+        "HP%",
+        "IS",
+        1,
+        "DEF%",
+        "CBR",
+        0,
+        "CDR",
+        "Haste",
+        1
+    ],
+    "Plus": [
+        "++",
+        "+",
+        "+++"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "Haste",
+            "IS"
+        ],
+        [
+            "e41",
+            "ATK%",
+            "IS",
+            "Haste"
+        ],
+        [
+            "e60",
+            "Haste"
+        ],
+        [
+            "e66",
+            "ATK%",
+            "Haste"
+        ]
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "Skriath",
+    "Faction": "Mauler",
+    "Class": "Sorcery",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        0, 
+        3
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": []
+}

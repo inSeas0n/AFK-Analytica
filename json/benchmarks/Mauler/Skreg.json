@@ -1,0 +1,30 @@
+{
+    "Name": "Skreg",
+    "Faction": "Mauler",
+    "Class": "Fortitude",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        10,
+        3,
+        10,
+        9,
+        20,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e30",
+            "IS"
+        ],
+        [
+            "e33",
+            "IS"
+        ]
+    ]
+}

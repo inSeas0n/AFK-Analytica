@@ -1,0 +1,38 @@
+{
+    "Name": "Crassio",
+    "Faction": "Mauler",
+    "Class": "Celerity",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        3,
+        30,
+        3
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "Haste",
+            "PP"
+        ],
+        [
+            "e33",
+            "Haste"
+        ],
+        [
+            "e41",
+            "ATK%",
+            "Haste",
+            "PP"
+        ]
+    ]
+}

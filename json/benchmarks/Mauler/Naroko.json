@@ -1,0 +1,59 @@
+{
+    "Name": "Naroko",
+    "Faction": "Mauler",
+    "Class": "Fortitude",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        30,
+        0,
+        30,
+        9,
+        30,
+        9
+    ],
+    "Furn": [
+        "HP%",
+        "CBR",
+        0,
+        "ATK%",
+        "Haste",
+        1,
+        "DEF%",
+        "CDR",
+        0
+    ],
+    "Plus": [
+        "++",
+        "+++",
+        "+"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "Haste",
+            "IS"
+        ],
+        [
+            "e36",
+            "Haste",
+            "IS"
+        ],
+        [
+            "e41",
+            "ATK%",
+            "Haste",
+            "IS"
+        ],
+        [
+            "e60",
+            "Haste"
+        ]
+    ]
+}
