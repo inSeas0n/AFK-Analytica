@@ -24,7 +24,7 @@
         "DEF%",
         "ATK%",
         1,
-        "CRIT",
+        "Crit",
         "HP%",
         0
     ],
@@ -39,14 +39,14 @@
             "ATK%",
             "HP%",
             "CDA",
-            "CRIT"
+            "Crit"
         ],
         [
             "e44",
             "ATK%",
             "MP",
             "CDA",
-            "CRIT"
+            "Crit"
         ],
         [
             "e60",
