@@ -1,1 +1,48 @@
-{"Name":"Atheus","Faction":"Wilder","Class":"Fortitude","Armor":"INT","Gear":["WEP","BOOTS","CHEST","HELM"],"SI":[20,0,30,9],"Furn":["HP%","IS",1,"DEF%","CBR",0,"TY","HP%",0],"Plus":["+++","+","++"],"Engrave":[["e30"],["e41","HP%","Haste","IS"],["e60"]]}
+{
+    "Name": "Atheus",
+    "Faction": "Wilder",
+    "Class": "Fortitude",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        30,
+        9
+    ],
+    "Furn": [
+        "HP%",
+        "IS",
+        1,
+        "DEF%",
+        "CBR",
+        0,
+        "TY",
+        "HP%",
+        0
+    ],
+    "Plus": [
+        "+++",
+        "+",
+        "++"
+    ],
+    "Engrave": [
+        [
+            "e30"
+        ],
+        [
+            "e41",
+            "HP%",
+            "Haste",
+            "IS"
+        ],
+        [
+            "e60"
+        ]
+    ]
+}

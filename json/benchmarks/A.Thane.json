@@ -1,11 +1,12 @@
 {
-    "Name": "A.Belinda",
+    "Name": "A.Thane",
     "Faction": "Lightbearer",
-    "Class": "Sorcery",
-    "Armor": "INT",
+    "Class": "Celerity",
+    "Armor": "AGI",
     "Gear": [
         "WEP",
         "HELM",
+        "CHEST",
         "BOOTS"
     ],
     "SI": [
@@ -15,39 +16,43 @@
         9
     ],
     "Furn": [
-        "HP%",
-        "Haste",
-        1,
         "ATK%",
-        "TY",
+        "CDA",
         1,
-        "MP",
-        "DEF%",
+        "CRIT",
+        "ATK%",
+        1,
+        "Haste",
+        "PP",
         1
     ],
     "Plus": [
-        "+++",
         "++",
-        "+"
+        "++",
+        "+++"
     ],
     "Engrave": [
         [
-            "e30"
+            "e30",
+            "ATK%",
+            "Haste",
+            "PP"
         ],
         [
             "e41",
             "ATK%",
             "Haste",
-            "MP"
+            "PP"
         ],
         [
-            "e60"
+            "e60",
+            "Haste"
         ],
         [
             "e67",
             "ATK%",
             "Haste",
-            "MP"
+            "PP"
         ]
     ]
 }
