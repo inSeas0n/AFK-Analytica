@@ -1,0 +1,63 @@
+{
+    "Name": "Palmer",
+    "Faction": "Lightbearer",
+    "Class": "Sustenance",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        3,
+        20,
+        9,
+        30,
+        9
+    ],
+    "Furn": [
+        "ATK%",
+        "MP",
+        1,
+        "DEF%",
+        "ATK%",
+        1,
+        "CRIT",
+        "HP%",
+        0
+    ],
+    "Plus": [
+        "+++",
+        "+",
+        "+"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "HP%",
+            "CDA",
+            "CRIT"
+        ],
+        [
+            "e44",
+            "ATK%",
+            "MP",
+            "CDA",
+            "CRIT"
+        ],
+        [
+            "e60",
+            "MP",
+            "CDA"
+        ],
+        [
+            "e68",
+            "ATK%",
+            "MP",
+            "CDA"
+        ]
+    ]
+}
