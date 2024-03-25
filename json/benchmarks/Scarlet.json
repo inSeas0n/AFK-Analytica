@@ -1,0 +1,59 @@
+{
+    "Name": "Scarlet",
+    "Faction": "Lightbearer",
+    "Class": "Sorcery",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "BOOTS"
+    ],
+    "SI": [
+        30,
+        0,
+        30,
+        9,
+        30,
+        9
+    ],
+    "Furn": [
+        "HP%",
+        "Dodge",
+        0,
+        "Haste",
+        "CBR",
+        1,
+        "ATK%",
+        "CDA",
+        1
+    ],
+    "Plus": [
+        "+",
+        "++",
+        "+++"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "MP",
+            "IS",
+            "IS"
+        ],
+        [
+            "e44",
+            "ATK%",
+            "MP",
+            "IS",
+            "IS"
+        ],
+        [
+            "e60"
+        ],
+        [
+            "e66",
+            "ATK%",
+            "MP"
+        ]
+    ]
+}

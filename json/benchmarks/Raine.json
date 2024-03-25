@@ -1,0 +1,40 @@
+{
+    "Name": "Raine",
+    "Faction": "Lightbearer",
+    "Class": "Sustenance",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        10,
+        3,
+        20,
+        3,
+        20,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e18",
+            "DEF%",
+            "ATK%",
+            "HP%",
+            "Haste"
+        ],
+        [
+            "e30",
+            "Haste"
+        ],
+        [
+            "e33",
+            "Haste",
+            "Haste"
+        ]
+    ]
+}

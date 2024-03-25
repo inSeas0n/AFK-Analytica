@@ -1,0 +1,25 @@
+{
+    "Name": "Estrilda",
+    "Faction": "Lightbearer",
+    "Class": "Might",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        10,
+        3,
+        20,
+        3,
+        20,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e30"
+        ]
+    ]
+}

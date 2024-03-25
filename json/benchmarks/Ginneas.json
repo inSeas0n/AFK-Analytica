@@ -1,0 +1,27 @@
+{
+    "Name": "Ginneas",
+    "Faction": "Lightbearer",
+    "Class": "Fortitude",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e33",
+            "Haste"
+        ],
+        [
+            "e36",
+            "Haste",
+            "IS"
+        ]
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "Name": "Rowan",
+    "Faction": "Lightbearer",
+    "Class": "Sustenance",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        30,
+        0,
+        30,
+        3
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e13",
+            "Haste"
+        ],
+        [
+            "e30",
+            "Haste"
+        ],
+        [
+            "e33",
+            "Haste"
+        ]
+    ]
+}

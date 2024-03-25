@@ -1,0 +1,25 @@
+{
+    "Name": "Jerome",
+    "Faction": "Lightbearer",
+    "Class": "Might",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        3
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e11",
+            "ATK%",
+            "AS",
+            "Haste"
+        ]
+    ]
+}

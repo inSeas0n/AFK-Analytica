@@ -1,0 +1,42 @@
+{
+    "Name": "Rosaline",
+    "Faction": "Lightbearer",
+    "Class": "Sustenance",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        20,
+        3,
+        30,
+        3
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e18",
+            "ATK%",
+            "DEF%",
+            "Haste"
+        ],
+        [
+            "e30",
+            "ATK%",
+            "Haste"
+        ],
+        [
+            "e33",
+            "Haste"
+        ],
+        [
+            "e38",
+            "ATK%",
+            "Haste"
+        ]
+    ]
+}
