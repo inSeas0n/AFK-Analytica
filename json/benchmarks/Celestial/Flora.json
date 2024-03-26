@@ -1,0 +1,45 @@
+{
+    "Name": "Flora",
+    "Faction": "Celestial",
+    "Class": "Sorcery",
+    "Armor": "INT",
+    "Gear": [],
+    "SI": [
+        20,
+        0,
+        20,
+        3,
+        25,
+        3,
+        30,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e16",
+            "HP%",
+            "DEF%",
+            "Haste",
+            "Crit"
+        ],
+        [
+            "e33",
+            "Haste"
+        ],
+        [
+            "e36",
+            "Haste",
+            "Crit"
+        ],
+        [
+            "e40",
+            "Haste",
+            "Crit",
+            "ATK%",
+            "HP%",
+            "Heal"
+        ]
+    ]
+}

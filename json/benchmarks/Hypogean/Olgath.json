@@ -1,55 +1,58 @@
 {
-    "Name": "Anasta",
-    "Faction": "Mauler",
-    "Class": "Might",
-    "Armor": "STR",
+    "Name": "Olgath",
+    "Faction": "Hypogean",
+    "Class": "Celerity",
+    "Armor": "AGI",
     "Gear": [
         "WEP",
+        "HELM",
+        "CHEST",
         "BOOTS"
     ],
     "SI": [
         20,
-        0,
+        3,
         20,
         9,
         30,
         9
     ],
     "Furn": [
-        "HP%",
-        "DEF%",
+        "CDA",
+        "TY",
         0,
-        "ATK%",
+        "Crit",
         "Acc",
         0,
+        "ATK%",
         "Haste",
-        "AS",
         1
     ],
     "Plus": [
-        "+",
         "++",
+        "+",
         "+++"
     ],
     "Engrave": [
         [
-            "e11",
+            "e33",
             "ATK%",
-            "IS",
+            "PP",
             "Haste"
         ],
         [
-            "e30"
+            "e33",
+            "Haste"
         ],
         [
-            "e44",
+            "e41",
             "ATK%",
-            "Haste",
             "PP",
-            "IS"
+            "Haste"
         ],
         [
-            "e60"
+            "e60",
+            "Haste"
         ]
     ]
 }

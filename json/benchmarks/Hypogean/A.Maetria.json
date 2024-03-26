@@ -1,0 +1,47 @@
+{
+    "Name": "A.Maetria",
+    "Faction": "Hypogean",
+    "Class": "Sorcery",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "BOOTS"
+    ],
+    "SI": [
+        30,
+        3,
+        30,
+        9,
+        35,
+        9
+    ],
+    "Furn": [
+        "HP%",
+        "IS",
+        1,
+        "ATK%",
+        "TY",
+        1,
+        "MP",
+        "DEF%",
+        0
+    ],
+    "Plus": [
+        "++",
+        "+++",
+        "+"
+    ],
+    "Engrave": [
+        [
+            "e60",
+            "Haste"
+        ],
+        [
+            "e67",
+            "ATK%",
+            "Haste",
+            "MP"
+        ]
+    ]
+}

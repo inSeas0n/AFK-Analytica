@@ -1,0 +1,17 @@
+{
+    "Name": "Khazard",
+    "Faction": "Hypogean",
+    "Class": "Sorcery",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        30,
+        0
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": []
+}

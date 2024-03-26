@@ -1,0 +1,39 @@
+{
+    "Name": "Lucretia",
+    "Faction": "Hypogean",
+    "Class": "Celerity",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        30,
+        0,
+        30,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "PP",
+            "LL"
+        ],
+        [
+            "e38",
+            "ATK%",
+            "PP"
+        ],
+        [
+            "e41",
+            "ATK%",
+            "PP",
+            "LL"
+        ]
+    ]
+}

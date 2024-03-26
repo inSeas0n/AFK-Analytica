@@ -1,0 +1,60 @@
+{
+    "Name": "Veithael",
+    "Faction": "Celestial",
+    "Class": "Fortitude",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        30,
+        0,
+        30,
+        9,
+        35,
+        9
+    ],
+    "Furn": [
+        "ATK%",
+        "TY",
+        1,
+        "DEF%",
+        "HP%",
+        0,
+        "ATK%",
+        "PP",
+        0
+    ],
+    "Plus": [
+        "+++",
+        "+",
+        "++"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "Haste",
+            "TY"
+        ],
+        [
+            "e41",
+            "ATK%",
+            "Haste",
+            "TY"
+        ],
+        [
+            "e60",
+            "Haste"
+        ],
+        [
+            "e67",
+            "ATK%",
+            "Haste",
+            "TY"
+        ]
+    ]
+}

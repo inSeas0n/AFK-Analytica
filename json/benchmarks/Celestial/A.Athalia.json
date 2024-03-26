@@ -1,29 +1,31 @@
 {
-    "Name": "Anasta",
-    "Faction": "Mauler",
+    "Name": "A.Athalia",
+    "Faction": "Celestial",
     "Class": "Might",
-    "Armor": "STR",
+    "Armor": "AGI",
     "Gear": [
         "WEP",
+        "HELM",
+        "CHEST",
         "BOOTS"
     ],
     "SI": [
         20,
-        0,
-        20,
-        9,
+        3,
         30,
+        9,
+        35,
         9
     ],
     "Furn": [
         "HP%",
-        "DEF%",
-        0,
+        "ATK%",
+        1,
         "ATK%",
         "Acc",
-        0,
-        "Haste",
-        "AS",
+        1,
+        "PP",
+        "Crit",
         1
     ],
     "Plus": [
@@ -33,23 +35,26 @@
     ],
     "Engrave": [
         [
-            "e11",
+            "e30",
             "ATK%",
-            "IS",
-            "Haste"
-        ],
-        [
-            "e30"
+            "Crit",
+            "Crit",
+            "CDA"
         ],
         [
             "e44",
             "ATK%",
-            "Haste",
-            "PP",
-            "IS"
+            "Crit",
+            "Crit",
+            "CDA"
         ],
         [
             "e60"
+        ],
+        [
+            "e66",
+            "ATK%",
+            "CDA"
         ]
     ]
 }

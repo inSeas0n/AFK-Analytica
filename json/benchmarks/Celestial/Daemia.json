@@ -1,10 +1,11 @@
 {
-    "Name": "Anasta",
-    "Faction": "Mauler",
-    "Class": "Might",
-    "Armor": "STR",
+    "Name": "Daemia",
+    "Faction": "Celestial",
+    "Class": "Sorcery",
+    "Armor": "INT",
     "Gear": [
         "WEP",
+        "HELM",
         "BOOTS"
     ],
     "SI": [
@@ -17,36 +18,32 @@
     ],
     "Furn": [
         "HP%",
-        "DEF%",
+        "TY",
         0,
         "ATK%",
-        "Acc",
-        0,
-        "Haste",
-        "AS",
+        "MP",
+        1,
+        "TY",
+        "IS",
         1
     ],
     "Plus": [
         "+",
-        "++",
-        "+++"
+        "+++",
+        "++"
     ],
     "Engrave": [
         [
-            "e11",
+            "e30",
             "ATK%",
-            "IS",
-            "Haste"
+            "MP",
+            "MP"
         ],
         [
-            "e30"
-        ],
-        [
-            "e44",
+            "e41",
             "ATK%",
-            "Haste",
-            "PP",
-            "IS"
+            "MP",
+            "MP"
         ],
         [
             "e60"

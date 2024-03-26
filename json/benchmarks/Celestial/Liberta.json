@@ -1,29 +1,30 @@
 {
-    "Name": "Anasta",
-    "Faction": "Mauler",
-    "Class": "Might",
-    "Armor": "STR",
+    "Name": "Liberta",
+    "Faction": "Celestial",
+    "Class": "Sustenance",
+    "Armor": "INT",
     "Gear": [
         "WEP",
+        "HELM",
         "BOOTS"
     ],
     "SI": [
         20,
-        0,
-        20,
-        9,
+        3,
         30,
+        9,
+        35,
         9
     ],
     "Furn": [
         "HP%",
-        "DEF%",
-        0,
-        "ATK%",
-        "Acc",
+        "TY",
         0,
         "Haste",
-        "AS",
+        "CBR",
+        0,
+        "DEF%",
+        "Haste",
         1
     ],
     "Plus": [
@@ -33,23 +34,22 @@
     ],
     "Engrave": [
         [
-            "e11",
+            "e30",
             "ATK%",
-            "IS",
+            "Haste",
+            "Heal",
+            "MP"
+        ],
+        [
+            "e60",
             "Haste"
         ],
         [
-            "e30"
-        ],
-        [
-            "e44",
+            "e68",
             "ATK%",
             "Haste",
-            "PP",
-            "IS"
-        ],
-        [
-            "e60"
+            "Heal",
+            "MP"
         ]
     ]
 }

@@ -1,7 +1,7 @@
 {
-    "Name": "Anasta",
-    "Faction": "Mauler",
-    "Class": "Might",
+    "Name": "Canisa",
+    "Faction": "Hypogean",
+    "Class": "Fortitude",
     "Armor": "STR",
     "Gear": [
         "WEP",
@@ -9,44 +9,41 @@
     ],
     "SI": [
         20,
-        0,
-        20,
-        9,
+        3,
         30,
         9
     ],
     "Furn": [
         "HP%",
-        "DEF%",
-        0,
+        "IS",
+        1,
         "ATK%",
         "Acc",
         0,
+        "CDR",
         "Haste",
-        "AS",
         1
     ],
     "Plus": [
-        "+",
         "++",
+        "+",
         "+++"
     ],
     "Engrave": [
         [
-            "e11",
+            "e30",
             "ATK%",
             "IS",
-            "Haste"
+            "TY"
         ],
         [
-            "e30"
-        ],
-        [
-            "e44",
-            "ATK%",
-            "Haste",
-            "PP",
+            "e33",
             "IS"
+        ],
+        [
+            "e36",
+            "IS",
+            "TY"
         ],
         [
             "e60"

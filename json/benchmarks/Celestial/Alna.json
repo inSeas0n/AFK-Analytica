@@ -1,0 +1,35 @@
+{
+    "Name": "Alna",
+    "Faction": "Celestial",
+    "Class": "Might",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        9,
+        30,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e8",
+            "ATK%",
+            "Haste"
+        ],
+        [
+            "e30",
+            "Haste"
+        ],
+        [
+            "e33",
+            "Haste"
+        ]
+    ]
+}

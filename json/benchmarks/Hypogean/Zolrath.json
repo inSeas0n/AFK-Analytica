@@ -1,28 +1,30 @@
 {
-    "Name": "Anasta",
-    "Faction": "Mauler",
+    "Name": "Zolrath",
+    "Faction": "Hypogean",
     "Class": "Might",
-    "Armor": "STR",
+    "Armor": "AGI",
     "Gear": [
         "WEP",
+        "HELM",
+        "CHEST",
         "BOOTS"
     ],
     "SI": [
-        20,
         0,
-        20,
-        9,
+        3,
+        30,
+        3,
         30,
         9
     ],
     "Furn": [
-        "HP%",
-        "DEF%",
-        0,
+        "CDR",
         "ATK%",
+        0,
+        "AS",
         "Acc",
         0,
-        "Haste",
+        "ATK%",
         "AS",
         1
     ],
@@ -35,21 +37,20 @@
         [
             "e11",
             "ATK%",
-            "IS",
-            "Haste"
+            "CDA",
+            "PP"
         ],
         [
-            "e30"
-        ],
-        [
-            "e44",
+            "e30",
             "ATK%",
-            "Haste",
-            "PP",
-            "IS"
+            "CDA",
+            "PP"
         ],
         [
-            "e60"
+            "e41",
+            "ATK%",
+            "CDA",
+            "PP"
         ]
     ]
 }

@@ -1,51 +1,45 @@
 {
-    "Name": "Anasta",
-    "Faction": "Mauler",
+    "Name": "Framton",
+    "Faction": "Hypogean",
     "Class": "Might",
-    "Armor": "STR",
+    "Armor": "AGI",
     "Gear": [
         "WEP",
+        "HELM",
+        "CHEST",
         "BOOTS"
     ],
     "SI": [
-        20,
-        0,
         20,
         9,
         30,
         9
     ],
     "Furn": [
-        "HP%",
-        "DEF%",
-        0,
         "ATK%",
-        "Acc",
+        "Haste",
+        1,
+        "Crit",
+        "ATK%",
         0,
         "Haste",
         "AS",
         1
     ],
     "Plus": [
-        "+",
         "++",
+        "+",
         "+++"
     ],
     "Engrave": [
         [
-            "e11",
+            "e30",
             "ATK%",
-            "IS",
-            "Haste"
+            "IS"
         ],
         [
-            "e30"
-        ],
-        [
-            "e44",
+            "e38",
             "ATK%",
-            "Haste",
-            "PP",
             "IS"
         ],
         [

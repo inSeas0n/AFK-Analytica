@@ -1,7 +1,7 @@
 {
-    "Name": "Anasta",
-    "Faction": "Mauler",
-    "Class": "Might",
+    "Name": "Lucilla",
+    "Faction": "Hypogean",
+    "Class": "Sustenance",
     "Armor": "STR",
     "Gear": [
         "WEP",
@@ -9,44 +9,40 @@
     ],
     "SI": [
         20,
-        0,
-        20,
-        9,
+        3,
         30,
         9
     ],
     "Furn": [
         "HP%",
-        "DEF%",
-        0,
+        "TY",
+        1,
         "ATK%",
-        "Acc",
+        "CBR",
         0,
+        "Crit",
         "Haste",
-        "AS",
         1
     ],
     "Plus": [
-        "+",
         "++",
+        "+",
         "+++"
     ],
     "Engrave": [
         [
-            "e11",
+            "e30",
             "ATK%",
             "IS",
-            "Haste"
-        ],
-        [
-            "e30"
+            "TY",
+            "PR"
         ],
         [
             "e44",
             "ATK%",
-            "Haste",
-            "PP",
-            "IS"
+            "IS",
+            "TY",
+            "PR"
         ],
         [
             "e60"

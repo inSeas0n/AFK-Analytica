@@ -1,0 +1,49 @@
+{
+    "Name": "Twins",
+    "Faction": "Celestial",
+    "Class": "Sustenance",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        20,
+        3,
+        25,
+        3
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e18",
+            "HP%",
+            "DEF%",
+            "ATK%",
+            "Haste"
+        ],
+        [
+            "e30",
+            "HP%",
+            "DEF%",
+            "PR",
+            "Haste"
+        ],
+        [
+            "e33",
+            "Haste"
+        ],
+        [
+            "e36",
+            "HP%",
+            "DEF%",
+            "PR",
+            "Haste"
+        ]
+    ]
+}

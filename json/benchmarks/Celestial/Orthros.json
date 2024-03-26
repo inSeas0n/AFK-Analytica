@@ -1,0 +1,19 @@
+{
+    "Name": "Orthros",
+    "Faction": "Celestial",
+    "Class": "Might",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        10,
+        3,
+        20,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": []
+}
