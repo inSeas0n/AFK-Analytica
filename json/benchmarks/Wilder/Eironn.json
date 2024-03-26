@@ -1,0 +1,26 @@
+{
+    "Name": "Eironn",
+    "Faction": "Wilder",
+    "Class": "Celerity",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        15,
+        0
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e16",
+            "HP%",
+            "DEF%",
+            "Acc",
+            "Haste"
+        ]
+    ]
+}

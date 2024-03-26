@@ -1,0 +1,28 @@
+{
+    "Name": "Edwin",
+    "Faction": "Graveborn",
+    "Class": "Fortitude",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        20,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e30",
+            "Haste"
+        ],
+        [
+            "e33",
+            "Haste"
+        ]
+    ]
+}

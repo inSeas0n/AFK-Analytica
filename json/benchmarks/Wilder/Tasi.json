@@ -1,0 +1,26 @@
+{
+    "Name": "Tasi",
+    "Faction": "Wilder",
+    "Class": "Sustenance",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        15,
+        0,
+        20,
+        0
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e13",
+            "HP%",
+            "ATK%",
+            "Haste"
+        ]
+    ]
+}

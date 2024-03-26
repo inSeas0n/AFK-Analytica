@@ -1,0 +1,49 @@
+{
+    "Name": "A.Lyca",
+    "Faction": "Wilder",
+    "Class": "Celerity",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        3,
+        30,
+        9
+    ],
+    "Furn": [
+        "ATK%",
+        "CDA",
+        1,
+        "Crit",
+        "Haste",
+        1,
+        "PP",
+        "HP%",
+        0
+    ],
+    "Plus": [
+        "++",
+        "++",
+        "+"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "PP"
+        ],
+        [
+            "e60"
+        ],
+        [
+            "e66",
+            "ATK%",
+            "PP"
+        ]
+    ]
+}

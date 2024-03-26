@@ -1,57 +1,55 @@
 {
-    "Name": "Scarlet",
-    "Faction": "Lightbearer",
-    "Class": "Sorcery",
-    "Armor": "INT",
+    "Name": "A.Baden",
+    "Faction": "Graveborn",
+    "Class": "Celerity",
+    "Armor": "STR",
     "Gear": [
         "WEP",
         "HELM",
+        "CHEST",
         "BOOTS"
     ],
     "SI": [
         30,
         0,
         30,
+        9,
+        35,
         9
     ],
     "Furn": [
         "HP%",
-        "Dodge",
-        0,
-        "Haste",
-        "CBR",
+        "DEF%",
         1,
         "ATK%",
-        "CDA",
+        "ACC",
+        1,
+        "ATK%",
+        "Crit",
         1
     ],
     "Plus": [
         "+",
         "++",
-        "+++"
+        "++"
     ],
     "Engrave": [
         [
-            "e30",
-            "ATK%",
-            "MP",
-            "IS",
-            "IS"
+            "e30"
         ],
         [
-            "e44",
+            "e41",
             "ATK%",
-            "MP",
-            "IS",
+            "PP",
             "IS"
         ],
         [
             "e60"
         ],
         [
-            "e66",
+            "e67",
             "ATK%",
-            "MP"
+            "PP"
         ]
     ]
 }

@@ -1,0 +1,21 @@
+{
+    "Name": "Saurus",
+    "Faction": "Wilder",
+    "Class": "Might",
+    "Armor": "STR",
+    "Gear": [],
+    "SI": [
+        30,
+        0,
+        30,
+        3
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e5",
+            "ATK%"
+        ]
+    ]
+}

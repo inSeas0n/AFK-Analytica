@@ -1,0 +1,46 @@
+{
+    "Name": "A.Solise",
+    "Faction": "Wilder",
+    "Class": "Sustenance",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        9,
+        30,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "HP%",
+            "Haste",
+            "MP"
+        ],
+        [
+            "e46",
+            "ATK%",
+            "HP%",
+            "Haste",
+            "MP"
+        ],
+        [
+            "e66",
+            "Haste"
+        ],
+        [
+            "e72",
+            "ATK%",
+            "HP%",
+            "Haste",
+            "MP"
+        ]
+    ]
+}

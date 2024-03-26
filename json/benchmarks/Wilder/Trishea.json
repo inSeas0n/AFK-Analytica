@@ -1,0 +1,32 @@
+{
+    "Name": "Trishea",
+    "Faction": "Wilder",
+    "Class": "Sorcery",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        20,
+        3,
+        30,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "Haste"
+        ],
+        [
+            "e38",
+            "ATK%",
+            "Haste"
+        ]
+    ]
+}

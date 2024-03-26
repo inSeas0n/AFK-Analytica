@@ -1,8 +1,8 @@
 {
-    "Name": "Naroko",
-    "Faction": "Mauler",
-    "Class": "Fortitude",
-    "Armor": "STR",
+    "Name": "Ivan",
+    "Faction": "Graveborn",
+    "Class": "Sustenance",
+    "Armor": "INT",
     "Gear": [
         "WEP",
         "BOOTS"
@@ -17,36 +17,37 @@
     ],
     "Furn": [
         "HP%",
-        "CBR",
-        0,
         "ATK%",
-        "Haste",
         1,
+        "ATK%",
         "DEF%",
-        "CDR",
-        0
+        0,
+        "DEF%",
+        "ATK%",
+        1
     ],
     "Plus": [
-        "++",
         "+++",
-        "+"
+        "+",
+        "++"
     ],
     "Engrave": [
         [
             "e30",
             "ATK%",
             "Haste",
+            "IS",
             "IS"
         ],
         [
-            "e36",
-            "Haste",
-            "IS"
+            "e33",
+            "Haste"
         ],
         [
-            "e41",
+            "e44",
             "ATK%",
             "Haste",
+            "IS",
             "IS"
         ],
         [

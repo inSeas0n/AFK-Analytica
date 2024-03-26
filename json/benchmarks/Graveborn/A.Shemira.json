@@ -1,0 +1,59 @@
+{
+    "Name": "A.Shemira",
+    "Faction": "Graveborn",
+    "Class": "Fortitude",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        30,
+        9,
+        35,
+        9
+    ],
+    "Furn": [
+        "HP%",
+        "TY",
+        2,
+        "TY",
+        "CBR",
+        0,
+        "DEF%",
+        "CDR",
+        0
+    ],
+    "Plus": [
+        "+++",
+        "+",
+        "++"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "HP%",
+            "Heal",
+            "AS",
+            "TY"
+        ],
+        [
+            "e44",
+            "HP%",
+            "Heal",
+            "AS",
+            "TY"
+        ],
+        [
+            "e60"
+        ],
+        [
+            "e65",
+            "HP%"
+        ]
+    ]
+}

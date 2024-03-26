@@ -1,0 +1,31 @@
+{
+    "Name": "Daimon",
+    "Faction": "Graveborn",
+    "Class": "Fortitude",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        3,
+        25,
+        3
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e15",
+            "HP%",
+            "DEF%",
+            "ATK%"
+        ],
+        [
+            "e30",
+            "MR",
+            "MR"
+        ]
+    ]
+}

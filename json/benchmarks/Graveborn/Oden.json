@@ -1,0 +1,36 @@
+{
+    "Name": "Oden",
+    "Faction": "Graveborn",
+    "Class": "Sorcery",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        3,
+        30,
+        3,
+        30,
+        9
+    ],
+    "Furn": [
+        "ATK%",
+        "DEF%",
+        0,
+        "Haste",
+        "ATK%",
+        1,
+        "ATK%",
+        "HP%",
+        0
+    ],
+    "Plus": [
+        "+",
+        "+++",
+        "++"
+    ],
+    "Engrave": []
+}

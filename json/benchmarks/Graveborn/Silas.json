@@ -1,0 +1,39 @@
+{
+    "Name": "Silas",
+    "Faction": "Graveborn",
+    "Class": "Sustenance",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        10,
+        3,
+        20,
+        9,
+        30,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e18",
+            "DEF%",
+            "HP%",
+            "ATK%",
+            "Heal"
+        ],
+        [
+            "e30",
+            "ATK%",
+            "Heal"
+        ],
+        [
+            "e38",
+            "ATK%",
+            "Heal"
+        ]
+    ]
+}

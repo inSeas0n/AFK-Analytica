@@ -1,0 +1,44 @@
+{
+    "Name": "Grezhul",
+    "Faction": "Graveborn",
+    "Class": "Fortitude",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        9,
+        25,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e15",
+            "HP%",
+            "DEF%",
+            "ATK%"
+        ],
+        [
+            "e19",
+            "HP%",
+            "DEF%",
+            "ATK%",
+            "Crit",
+            "Haste"
+        ],
+        [
+            "e30",
+            "ATK%",
+            "Haste"
+        ],
+        [
+            "e38",
+            "ATK%",
+            "Haste"
+        ]
+    ]
+}

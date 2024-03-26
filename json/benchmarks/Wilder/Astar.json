@@ -1,0 +1,39 @@
+{
+    "Name": "Astar",
+    "Faction": "Wilder",
+    "Class": "Sustenance",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM"
+    ],
+    "SI": [
+        20,
+        0,
+        30,
+        0,
+        30,
+        3
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e13",
+            "HP%",
+            "ATK%",
+            "Crit"
+        ],
+        [
+            "e30",
+            "ATK%",
+            "CDA",
+            "Crit"
+        ],
+        [
+            "e38",
+            "ATK%",
+            "CDA"
+        ]
+    ]
+}

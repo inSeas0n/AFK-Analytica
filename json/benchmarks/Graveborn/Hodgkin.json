@@ -1,0 +1,31 @@
+{
+    "Name": "Hodgkin",
+    "Faction": "Graveborn",
+    "Class": "Fortitude",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        3,
+        20,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e18",
+            "HP%",
+            "DEF%",
+            "ATK%",
+            "IS"
+        ],
+        [
+            "e33",
+            "IS"
+        ]
+    ]
+}

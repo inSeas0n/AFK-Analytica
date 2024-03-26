@@ -1,0 +1,43 @@
+{
+    "Name": "Tamrus",
+    "Faction": "Wilder",
+    "Class": "Might",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        20,
+        9,
+        30,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e8",
+            "ATK%",
+            "Haste"
+        ],
+        [
+            "e30",
+            "Haste",
+            "IS"
+        ],
+        [
+            "e36",
+            "Haste",
+            "IS"
+        ],
+        [
+            "e60",
+            "Haste"
+        ]
+    ]
+}
