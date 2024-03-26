@@ -1,0 +1,41 @@
+{
+    "Name": "Ainz",
+    "Faction": "Dimensional",
+    "Class": "Sorcery",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        3,
+        30,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e21",
+            "HP%",
+            "ATK%",
+            "DEF%",
+            "AS",
+            "MP"
+        ],
+        [
+            "e30",
+            "ATK%",
+            "AS",
+            "MP"
+        ],
+        [
+            "e41",
+            "ATK%",
+            "AS",
+            "MP"
+        ]
+    ]
+}

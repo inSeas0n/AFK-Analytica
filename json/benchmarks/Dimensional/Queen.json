@@ -1,0 +1,41 @@
+{
+    "Name": "Queen",
+    "Faction": "Dimensional",
+    "Class": "Might",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        0,
+        9,
+        20,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e16",
+            "ATK%",
+            "DEF%",
+            "IS",
+            "Crit"
+        ],
+        [
+            "e30",
+            "Crit",
+            "IS"
+        ],
+        [
+            "e33",
+            "IS"
+        ],
+        [
+            "e36",
+            "Crit",
+            "IS"
+        ]
+    ]
+}

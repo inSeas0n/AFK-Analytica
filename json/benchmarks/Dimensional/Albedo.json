@@ -1,0 +1,37 @@
+{
+    "Name": "Albedo",
+    "Faction": "Dimensional",
+    "Class": "Fortitude",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        30,
+        0,
+        30,
+        3,
+        30,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e18",
+            "HP%",
+            "DEF%",
+            "ATK%",
+            "Haste"
+        ],
+        [
+            "e33",
+            "Haste"
+        ],
+        [
+            "e60",
+            "Haste"
+        ]
+    ]
+}

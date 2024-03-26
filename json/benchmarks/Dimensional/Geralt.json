@@ -1,0 +1,38 @@
+{
+    "Name": "Geralt",
+    "Faction": "Dimensional",
+    "Class": "Might",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        10,
+        0,
+        20,
+        0,
+        20,
+        9
+    ],
+    "Furn": [],
+    "Plus": [],
+    "Engrave": [
+        [
+            "e11",
+            "ATK%",
+            "Crit",
+            "IS"
+        ],
+        [
+            "e30",
+            "IS"
+        ],
+        [
+            "e33",
+            "IS"
+        ]
+    ]
+}

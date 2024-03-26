@@ -1,0 +1,50 @@
+{
+    "Name": "Robin Hood",
+    "Faction": "Dimensional",
+    "Class": "Celerity",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        9,
+        25,
+        9,
+        30,
+        9
+    ],
+    "Furn": [
+        "HP%",
+        "Haste",
+        1,
+        "ATK%",
+        "Acc",
+        0,
+        "DEF%",
+        "Crit",
+        0
+    ],
+    "Plus": [
+        "+++",
+        "++",
+        "+"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "Haste",
+            "IS",
+            "TY"
+        ],
+        [
+            "e39",
+            "Haste",
+            "IS",
+            "TY"
+        ]
+    ]
+}
