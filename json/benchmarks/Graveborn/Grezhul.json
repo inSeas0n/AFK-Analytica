@@ -17,20 +17,6 @@
     "Plus": [],
     "Engrave": [
         [
-            "e15",
-            "HP%",
-            "DEF%",
-            "ATK%"
-        ],
-        [
-            "e19",
-            "HP%",
-            "DEF%",
-            "ATK%",
-            "Crit",
-            "Haste"
-        ],
-        [
             "e30",
             "ATK%",
             "Haste"

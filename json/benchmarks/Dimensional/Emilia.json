@@ -1,0 +1,55 @@
+{
+    "Name": "Emilia",
+    "Faction": "Dimensional",
+    "Class": "Sorcery",
+    "Armor": "INT",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        30,
+        3,
+        30,
+        9
+    ],
+    "Furn": [
+        "Heal",
+        "CBR",
+        0,
+        "Heal",
+        "IS",
+        1,
+        "Heal",
+        "HP%",
+        0
+    ],
+    "Plus": [
+        "+",
+        "+++",
+        "++"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "Haste"
+        ],
+        [
+            "e33",
+            "Haste"
+        ],
+        [
+            "e41",
+            "ATK%",
+            "MP",
+            "Haste"
+        ],
+        [
+            "e60",
+            "Haste"
+        ]
+    ]
+}

@@ -1,14 +1,15 @@
 {
-    "Name": "Ainz",
+    "Name": "Joan",
     "Faction": "Dimensional",
-    "Class": "Sorcery",
-    "Armor": "INT",
+    "Class": "Sustenance",
+    "Armor": "STR",
     "Gear": [
         "WEP",
-        "HELM",
         "BOOTS"
     ],
     "SI": [
+        20,
+        0,
         20,
         3,
         30,
@@ -18,16 +19,17 @@
     "Plus": [],
     "Engrave": [
         [
-            "e30",
+            "e32",
             "ATK%",
-            "AS",
-            "MP"
+            "Heal"
         ],
         [
-            "e41",
+            "e38",
             "ATK%",
-            "AS",
-            "MP"
+            "Heal"
+        ],
+        [
+            "e60"
         ]
     ]
 }

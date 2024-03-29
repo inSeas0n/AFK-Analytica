@@ -1,12 +1,13 @@
 {
-    "Name": "Flora",
-    "Faction": "Celestial",
+    "Name": "Leonardo",
+    "Faction": "Dimensional",
     "Class": "Sorcery",
     "Armor": "INT",
-    "Gear": [],
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
     "SI": [
-        20,
-        0,
         20,
         3,
         20,
@@ -16,11 +17,9 @@
     "Plus": [],
     "Engrave": [
         [
-            "e16",
-            "HP%",
-            "DEF%",
+            "e30",
             "Haste",
-            "Crit"
+            "IS"
         ],
         [
             "e33",
@@ -29,7 +28,7 @@
         [
             "e36",
             "Haste",
-            "Crit"
+            "IS"
         ]
     ]
 }

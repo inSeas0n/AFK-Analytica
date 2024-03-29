@@ -1,9 +1,13 @@
 {
-    "Name": "Flora",
-    "Faction": "Celestial",
+    "Name": "Yennefer",
+    "Faction": "Dimensional",
     "Class": "Sorcery",
     "Armor": "INT",
-    "Gear": [],
+    "Gear": [
+        "WEP",
+        "HELM",
+        "BOOTS"
+    ],
     "SI": [
         20,
         0,
@@ -16,11 +20,11 @@
     "Plus": [],
     "Engrave": [
         [
-            "e16",
-            "HP%",
-            "DEF%",
+            "e30",
+            "ATK%",
             "Haste",
-            "Crit"
+            "IS",
+            "MP"
         ],
         [
             "e33",
@@ -29,7 +33,11 @@
         [
             "e36",
             "Haste",
-            "Crit"
+            "IS"
+        ],
+        [
+            "e60",
+            "Haste"
         ]
     ]
 }

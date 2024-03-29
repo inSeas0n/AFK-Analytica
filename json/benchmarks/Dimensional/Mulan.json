@@ -1,0 +1,56 @@
+{
+    "Name": "Mulan",
+    "Faction": "Dimensional",
+    "Class": "Celerity",
+    "Armor": "AGI",
+    "Gear": [
+        "WEP",
+        "HELM",
+        "CHEST",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        9,
+        30,
+        9
+    ],
+    "Furn": [
+        "Crit",
+        "TY",
+        0,
+        "Acc",
+        "Haste",
+        1,
+        "ATK%",
+        "PP",
+        0
+    ],
+    "Plus": [
+        "+",
+        "+++",
+        "++"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "Haste",
+            "PP"
+        ],
+        [
+            "e33",
+            "Haste"
+        ],
+        [
+            "e41",
+            "ATK%",
+            "Haste",
+            "PP"
+        ],
+        [
+            "e60",
+            "Haste"
+        ]
+    ]
+}

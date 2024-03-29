@@ -1,0 +1,58 @@
+{
+    "Name": "Rem",
+    "Faction": "Dimensional",
+    "Class": "Might",
+    "Armor": "STR",
+    "Gear": [
+        "WEP",
+        "BOOTS"
+    ],
+    "SI": [
+        20,
+        0,
+        20,
+        9,
+        30,
+        9
+    ],
+    "Furn": [
+        "HP%",
+        "TY",
+        0,
+        "ATK%",
+        "Acc",
+        0,
+        "ATK%",
+        "Haste",
+        1
+    ],
+    "Plus": [
+        "+",
+        "++",
+        "+++"
+    ],
+    "Engrave": [
+        [
+            "e30",
+            "ATK%",
+            "Haste",
+            "PP"
+        ],
+        [
+            "e41",
+            "ATK%",
+            "Haste",
+            "PP"
+        ],
+        [
+            "e60",
+            "Haste"
+        ],
+        [
+            "e67",
+            "ATK%",
+            "Haste",
+            "PP"
+        ]
+    ]
+}
