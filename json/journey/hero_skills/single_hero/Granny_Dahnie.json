@@ -1,0 +1,175 @@
+{
+    "name": "Granny Dahnie",
+    "level": "S-Level",
+    "class": "Tank",
+    "damage_type": "Physical",
+    "faction": "Wilder",
+    "description": "A Wilder Tank wearing the Glimmerbloom equipment, who can absorb enemies' Energy and their Haste while taking damage.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Threshold of Jade",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "2 tiles",
+                "initial_energy": "300",
+                "description": "Granny Dahnie summons Parasitic Grass within <b>2 </b>tiles for <b>3s</b>. Every second, enemies within range cannot move or act and lose <b>25 </b>Energy and at least <b>60%</b> of her ATK as HP. The total amount of their lost HP is <b>130% </b>of her ATK<b> </b>Granny Dahnie also recovers an equal amount of HP. She is unaffected while Parasitic Grass exists.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "The total amount of enemies' lost HP is increased to 140% per second, and each enemy's minimum HP loss is increased to 65%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "The Energy loss per second of enemies in range is increased to 35."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "The total amount of enemies' lost HP is increased to 150% per second, and each enemy's minimum HP loss is increased to 70%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "The total amount of enemies' lost HP is increased to 160% per second, and each enemy's minimum HP loss is increased to 75%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Seed Cannon",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "0s",
+                "range": "Global",
+                "description": "When an enemy deals total damage equal to <b>15%</b> of Granny Dahnie's max HP to her, Granny Dahnie shoots Parasitic Seeds at this enemy, dealing <b>120% </b>damage and reducing their Haste by <b>40 </b>for <b>6s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Reduces the enemy's Haste by 50."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Reduces the enemy's Haste by 55."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Reduces the enemy's Haste by 60."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Angry Taunt",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "10s",
+                "range": "Global",
+                "description": "Granny Dahnie taunts an enemy for <b>3s </b>and instantly recovers <b>140% </b>of her ATK as<b> </b>HP. This skill prioritizes the enemy who targets the weakest ally.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Granny Dahnie recovers 150% HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Granny Dahnie recovers 160% HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Granny Dahnie recovers 170% HP."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Granny Dahnie increases her Vitality by <b>11 </b>during battle. She gains an extra<b> 3 </b>Vitality while casting Threshold of Jade.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Granny Dahnie increases her Vitality by 15 during battle. She gains an extra 4 Vitality while casting Threshold of Jade."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Granny Dahnie increases her Vitality by 19 during battle. She gains an extra 5 Vitality while casting Threshold of Jade."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Glimmerbloon Blessings",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "When Granny Dahnie's HP ratio is lower than <b>50%</b>, the Glimmerbloom Shield grows bigger, increasing her Phys DEF by <b>50%</b> and Magic DEF by <b>50%</b> and recovering <b>100% </b>of her ATK as <b> </b>HP every second. The skill lasts <b>12s </b>and can be cast once every battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Recovers 105% HP every second."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Gains unaffected when skill takes effect."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Recovers 110% HP every second."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Recovers 120% of her ATK as HP when shooting seeds using Seed Cannon."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Lock-on Projectiles",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Shoots a projectile at the target for every <b>2s </b>your control effects last on that target, dealing <b>120%</b> damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases damage to 125%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 130%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases damage to 135%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases damage to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases damage to 145%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases damage to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases damage to 155%."
+                    }
+                ]
+            }
+        }
+    ]
+}

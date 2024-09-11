@@ -1,0 +1,175 @@
+{
+    "name": "Shakir",
+    "level": "S-Level",
+    "class": "Rogue",
+    "damage_type": "Physical",
+    "faction": "Mauler",
+    "description": "A ferocious Warrior who can dominate the battlefield, especially in his Wolf Mode.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Wolf Form",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "400",
+                "description": "Shakir morphs into a wolf and smashes a tile, knocking up the enemy there, and dealing <b>190% </b>damage to enemies within <b>2 </b>tiles, during which he is Unaffected. Shakir consumes <b>60 </b>Energy per second to maintain his wolf shape. Shakir generates a Lupine Aura in a range of <b>2</b>-tile while in the wolf shape, dealing damage to all enemies within the frontal radius of the arc with normal attacks. Allies within the range of Lupine Aura reduce <b>20% </b>taken damage and increase <b>10 </b>Haste.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Reduces the allies' damage taken within Lupine Aura by 20% and increases their Haste by 15."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Reduces the allies' damage taken within Lupine Aura by 25% and increases their Haste by 15."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Reduces the allies' damage taken within Lupine Aura by 25% and increases their Haste by 20."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Reduces the allies' damage taken within Lupine Aura by 25% and increases their Haste by 25."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Agonizing Rush",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "6s",
+                "range": "1 tile",
+                "description": "Shakira launches<b> 3 </b>consecutive strikes at an enemy, dealing <b>90%</b> damage with the first <b>2 </b>attacks and <b>160%</b> damage with the <b>3rd</b> attack. While in Wolf Form, this skill damages enemies within a frontal <b>1</b>-tile arc.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "The 3rd attack deals 180% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "The 3rd attack deals 200% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "The 3rd attack deals 220% damage."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Wolf's Will",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "tiles",
+                "description": "<b>Pasive. </b>Shakir increases <b>25 </b>Ranged DEF. In Wolf Form he is Unaffected and gains <b>30 </b>Life Drain. Each non-summoned ally within Lupine Aura grants him <b>5%</b> ATK.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases pasive Life Drain to 40."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases pasive Ranged DEF bonus to 30."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "The bonus ATK from each non-summoned ally within Lupine Aura is increased to 7.5%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Shakir reduces his damage taken by <b>9%</b> during battle. His damage taken is further reduced by<b> 4%</b> if at least <b>2 </b>non-summoned allies are buffed by his Lupine Aura.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Shakir reduces his damage taken by 12% during battle. His damage taken is further reduced by 5% if at least 2 non-summoned allies are buffed by his Lupine Aura."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Shakir reduces his damage taken by 15% during battle. His damage taken is further reduced by 7% if at least 2 non-summoned allies are buffed by his Lupine Aura."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "All-Conquering",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "tiles",
+                "description": "Shakir can cast his Ultimate once his Energy exceeds <b>800</b>. Shakir stays in Wolf Form and consumes no Energy within <b>5s </b>each time after casting the Ultimate.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Shakir stays in Wolf Form and consumes no Energy within 7s each time after casting his Ultimate."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Each non-summoned ally within Lupine Aura can share the same bonus ATK from Wolf's Will."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Shakir can cast Ultimate upon reaching over 700 Energy."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Shakir reduces the target's Vitality by 60 within 4s using the 3rd hit of Agonizing Rush."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Battle Zeal",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains a shield that absorbs <b>8%</b> damage for <b>6s </b>when dealing Ultimate damage to an enemy.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the shield value to 9%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the shield value to 10%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the shield value to 11%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the shield value to 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the shield value to 13%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the shield value to 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the shield value to 15%."
+                    }
+                ]
+            }
+        }
+    ]
+}

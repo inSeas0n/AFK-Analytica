@@ -1,0 +1,175 @@
+{
+    "name": "Lumont",
+    "level": "S-Level",
+    "class": "Tank",
+    "damage_type": "Physical",
+    "faction": "Mauler",
+    "description": "A courageous Tank who is skilled at absorbing damage and melee combat.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Lumont's Charge",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "8 tiles",
+                "initial_energy": "0",
+                "description": "Lumont selects a tile in range and charges at it, knocking enemies in his path toward the selected tile. When he reaches the selected tile, Lumont deals <b>240%</b> damage to all surrounding enemies and taunts them for <b>3s</b>. Lamont is unaffected while casting the skill.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 260%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the duration of taunt to 4s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 280%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 300%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Totem Power",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "15ss",
+                "range": "Global",
+                "description": "Lumont harnesses the Totem Power, gaining a shield that can block <b>450%</b> damage for <b>12s</b>. For every adjacent enemy, the shield value is increased by <b>30%</b>. He also increases Phys DEF of <b>2 </b>closest allies by <b>30% f</b>or <b>7s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases the shield value by 35% for every adjacent enemy."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the shield value by 40% for every adjacent enemy."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the shield value by 45% for every adjacent enemy."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "War Stomp",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "6s",
+                "range": "1 tile",
+                "description": "Lumont stomps the ground, dealing <b>240%</b> damage to adjacent enemies and stunning them for <b>1s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases damage to 260%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Reduces this skill's cooldown by 1s for every enemy hit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases damage to 280%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Lumont increases his Haste by <b>9 </b>during battle. His Haste is increased by an extra <b>6</b> when there are at least <b>2 </b>enemies nearby.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Lumont increases his Haste by 12 during battle. His Haste is increased by an extra 8 when there are at least 2 enemies nearby."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Lumont increases his Haste by 15 during battle. His Haste is increased by an extra 10 when there are at least 2 enemies nearby."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Rage",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "0s",
+                "range": "1 tile",
+                "description": "Lumont smashes the ground with totem <b>3 </b>times after receiving damage equal to<b> 40%</b> of his max HP, dealing <b>150% </b>damage to enemies within <b>1, 2,</b> and <b>3</b> tiles in order and reducing their ATK by<b> 25%</b> for <b>6s</b>. Lamont is unaffected while casting the skill.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "An extra skill attempt is granted when a battle starts or an ally is defeated for the first time."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases damage to 180%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases damage to 210%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Lumont recovers 7% of his max HP per second while shielded by Totem Power."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Heart of Unity",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Increases Haste by<b> 8</b> for all deployed allies if they are alive <b>10s </b>into a battle, until the end of the battle. Increases the damage dealt by all deployed allies by<b> 8%</b> if they are alive <b>40s </b>into a battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 9%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 10%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 11%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 13%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 15%."
+                    }
+                ]
+            }
+        }
+    ]
+}

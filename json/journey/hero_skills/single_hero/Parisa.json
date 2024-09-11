@@ -1,0 +1,175 @@
+{
+    "name": "Parisa",
+    "level": "A-Level",
+    "class": "Mage",
+    "damage_type": "Magic",
+    "faction": "Wilder",
+    "description": "A noble Mage who can increase allies' Crit, and recover energy when dealing critical damage with her normal attacks.",
+    "auto_attack_range": "5",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Floral Splendor",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "10 tiles",
+                "initial_energy": "0",
+                "description": "Parisa marks the nearest non-marked enemy with a flower until the battle ends, dealing <b>480% </b>damage to all floral-marked targets and other enemies within <b>1 </b>tiles of them. If the skill hits the targets multiple times within <b>2s</b>, the subsequent damage dealt by targets is reduced by<b> 20%</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 490%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Each defeated enemy who carries Floral Mark grants Parisa 60 Energy recovery in 5s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 510%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 520%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Wilder Blessing",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "10s",
+                "range": "5 tiles",
+                "description": "Parisa increases ATK SPD by <b>22 </b>and normal attack damage by <b>22%</b> for <b>10s </b>for herself and <b>1 </b>nearest ally.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases ATK SPD by 25, and the normal attack damage by 25%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases ATK SPD by 28, and the normal attack damage by 28%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases ATK SPD by 30, and the normal attack damage by 30%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Flower Power",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "0s",
+                "range": "5 tiles",
+                "description": "After every <b>3 </b>normal attacks, Parisa launches a bouquet of flowers that gradually expands toward her target, dealing<b> 200%</b> damage to all enemies along the path. Each enemy hit by flowers restores herself an extra <b>70 </b>Energy. Every bouquet of flowers can recover her Energy\nup to <b>3 </b>times.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "The flowers deal 205% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "The flowers deal 210% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "The flowers deal 215% damage."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases ATK by <b>12%</b> during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases ATK by 16% during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases ATK by 20% during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Falling Blossom",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "10 tiles",
+                "description": "Parisa marks the nearest enemy in a symmetrical position with a flower when a battle starts.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Normal attacks hit 1 more target after inflicting 4 marks."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Normal attacks hit 1 more target after inflicting 3 marks."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Normal attacks hit 1 more target after inflicting 2 marks."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "The required normal attacks to trigger Flower Power is reducded to 1."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Battle Rush",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Increases own Haste by <b>21 </b>for <b>10s </b>after each Ultimate cast.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the Haste bonus to 23."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the Haste bonus to 25."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the Haste bonus to 27."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the Haste bonus to 29."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the Haste bonus to 31."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the Haste bonus to 33."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the Haste bonus to 35."
+                    }
+                ]
+            }
+        }
+    ]
+}

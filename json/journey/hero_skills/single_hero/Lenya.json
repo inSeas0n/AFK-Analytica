@@ -1,0 +1,175 @@
+{
+    "name": "Lenya",
+    "level": "A-Level",
+    "class": "Rogue",
+    "damage_type": "Physical",
+    "faction": "Wilder",
+    "description": "",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Wild Duel",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "-",
+                "range": "Global",
+                "initial_energy": "300",
+                "description": "Lenya targets the enemy who has dealt the highest cumulative damage and dashes at them, delivering a flying kick that deals <b>200%</b> damage and knocks them back in a straight line toward an open area. She then follows up with a second flying kick, dealing <b>200% </b>damage, before initiating a duel with that enemy. The duel lasts for <b>12s</b>, during which both Lenya and the enemy prioritize attacking each other. Kenya's flying kick can stun the enemy for <b>2</b> seconds, and she is Unaffected while performing the kicks.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Lenya increases her flying kick's damage to 210%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Lenya increases her flying kick's damage to 220%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Lenya increases her flying kick's damage to 230%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Lenya increases her flying kick's damage to 240%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Tornado Strike",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "12s",
+                "range": "1 Tile",
+                "description": "<b>Passive -</b> Lenya blocks a normal attack from her current target if the target is within <b>1</b> tile. She then retaliates with a kick that deals<b> 260% </b>damage and stuns the target for <b>2s</b>. The effect can be triggered once every <b>6s </b>and makes Lenya Unaffected while active.<p><b>Active - </b>Lenya performs a tornado kick, dealing <b>110%</b> damage <b>3</b> times to surrounding enemies.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases the damage dealt to 120%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the damage dealt to 125%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the damage dealt to 130%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Flurry Kicks",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "0s",
+                "range": "1 Tile",
+                "description": "Lenya increases her Crit by <b>15</b>. When dealing critical damage with her normal attacks, she immediately follows up with a power kick that deals <b>200%</b> damage and stuns the enemy for <b>1s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Lenya increases her power kick's damage to 210%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Lenya increases her power kick's damage to 230%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Lenya increases her power kick's damage to 240%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases Haste by <b>12 </b>during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases Haste by 16 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases Haste by 20 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Winning Resolve",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "1 Tile",
+                "description": "Lenya unlocks her full potential once a duel begins, increasing her Crit DMG Boost by <b>55 </b>and ATK by <b>15%</b> during the duel. While at full potential, her Flurry Kicks skill delivers a superkick instead of a power kick, dealing <b>70%</b> damage <b>8</b> times and stunning the enemy for <b>2s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases Crit DMG Boost by 60 and ATK by 18%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "If Lenya deals more damage than her target by the end of the duel, she is considered the winner. Winning the duel increases the duration her full potential effects by 8s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases Crit DMG Boost by 65 and ATK by 20%"
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Reduces damage taken from enemies other than her target by 35%."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Battle Rush",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Increases own Haste by 21 for 10s after each Ultimate cast.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the Haste bonus to 23."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the Haste bonus to 25."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the Haste bonus to 27."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the Haste bonus to 29."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the Haste bonus to 31."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the Haste bonus to 33."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the Haste bonus to 35."
+                    }
+                ]
+            }
+        }
+    ]
+}

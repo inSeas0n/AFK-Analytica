@@ -1,0 +1,175 @@
+{
+    "name": "Viperian",
+    "level": "A-Level",
+    "class": "Mage",
+    "damage_type": "Magic",
+    "faction": "Graveborn",
+    "description": "A Graveborn Mage who specializes in life rituals and is able to deal a lot of ranged damage.",
+    "auto_attack_range": "5",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Spiritual Viper",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "250",
+                "description": "<b>Passive</b>. Viperian burns HP as much as possible when a battle starts, sending Darkviper's to possess all enemies until his HP is below<b> 60%</b>. During this skill, he is Unaffected while losing <b>7%</b> max HP for each Darkviper deployed. Every possessed enemy drops <b>20 </b>Energy on Hit, losing <b>1%</b> HP per second to sustain the survivability of the Darkviper on them. Viperian calls a Darkviper back to recover <b>14%</b> HP when his HP ratio is below<b> 30%</b>.<p><b>Active</b>. Viperian deals <b>280%</b> damage to all possessed enemies. He inflicts the nearest enemy with the same effect and Darkviper possession if no enemy on the battlefield is possessed.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 290%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 300%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 310%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 320%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Vitality Extract",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "8s",
+                "range": "5 tiles",
+                "description": "Viperian drains HP from the healthiest enemy, dealing<b> 210%</b> damage and recovering HP that equals the damage dealt.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 220%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 230%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 240%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Ecnhantment Fang",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "15s",
+                "range": "Global",
+                "description": "<b>Passive: </b>Darkvipers launch Tearing Bite once every <b>3s </b>during the battle, dealing <b>65%</b> damage once to all the possessed enemies. <p><b>Active: </b>Viperian burns <b>10%</b> max HP to enhance the next Tearing Bite, dealing <b>140%</b> damage to the target and reducing their Energy by <b>60</b>.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases Common Tearing Bite damage to 75%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases Enhanced Tearing Bite damage to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Reduces the target's Energy by 100."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases Haste by <b>12 </b>during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases Haste by 16 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases Haste by 20 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Crimson Waltz",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "30s",
+                "range": "Global",
+                "description": "Viperian burns <b>30% </b>HP 10s into a battle if his HP ratio is above <b>90%,</b> dealing <b>420% </b>damage to all enemies. He is Unaffected during the skill casting. This skill can be triggered once every <b>30s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases damage to 450%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Dark vipers gain 2 enhancements after the skill is cast."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases damage to 480%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "Darkvipers return when the possessed enemies are defeated, recovering 14% HP and 80 Energy for Viperian."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Guardian Shield",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains a shield that absorbs<b> 280%</b> damage every <b>2s </b>if HP drops below<b> 30%</b> in the first <b>15s </b>of a battle. These shields can stack and remain effective until <b>15s </b>into the battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 290%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 300%.."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 310%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 320%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 330%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 340%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 350%."
+                    }
+                ]
+            }
+        }
+    ]
+}

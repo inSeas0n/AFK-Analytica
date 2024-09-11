@@ -1,0 +1,175 @@
+{
+    "name": "Niru",
+    "level": "A-Level",
+    "class": "Support",
+    "damage_type": "Magic",
+    "faction": "Graveborn",
+    "description": "A Support who is well-versed in enchantments that can ensure allies remain helpful in the field in spirit form.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Spirit Salvation",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "1s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Niru casts the spell to protect an ally from a fatal blow, turning them into a Spirit and restoring their HP to<b> 45%</b> of max HP. The Spirit cannot be attacked and will be defeated when its HP runs out. The Spirit can only deal <b>45%</b> of its original damage while losing an increasing amount of HP every second. This skill prioritizes the weakest ally.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "For every (up to 5) non-summoned enemy defeated, the blessed ally restores an extra 10% of max HP when entering the Spirit form."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "For every non-summoned enemy defeated, the ally in Spirit form restores 10% of max HP (up to 5 times for each character)."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Ally in Spirit form deals 55% of the original damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Ally in Spirit form deals 65% of the original damage."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Soul Reaping",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "12s",
+                "range": "Global",
+                "description": "Niru attacks the weakest enemy, dealing <b>120%</b> damage plus damage equal to <b>0.3 </b>times the target's lost HP. The additional damage cannot exceed<b> 450%</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases additional damage to 0.35 times of the target's lost HP, up to 525%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases additional damage to 0.4 times of the target's lost HP, up to 600%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases additional damage to 0.45 times of the target's lost HP, up to 600%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Soul Drain",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "8s",
+                "range": "Global",
+                "description": "Niru drains the life force of all enemies, dealing<b> 150%</b> damage to each enemy, plus <b>3%</b> of the target's max HP, up to<b> 70%</b> of his ATK. He then restores an equal amount of HP to the weakest ally.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "The damage dealt to each enemy is increased to 160%, plus 3.5% of the target's max HP, up to 80%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "The damage dealt to each enemy is increased to 170%, plus 4% of the target's max HP, up to 90%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "The damage dealt to each enemy is increased to 180%, plus 5% of the target's max HP, up to 100%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases HP by <b>17%</b> during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases HP by 23% during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases HP by 29% during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Soul Sponge",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "3 tiles",
+                "description": "Niru casts Ultimate on the nearest ally without consuming Energy when a battle starts, prioritizing the ally behind himself.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "The Spirits will not lose HP over time until all allies enter Spirit form for 8s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Until all allies enter Spirit form for 10s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Until all allies enter Spirit form for 12s."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Soul Reading prevents the enemy's HP recovery in 8s."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Guardian Shield",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains a shield that absorbs<b> 280%</b> damage every <b>2s </b>if HP drops below<b> 30%</b> in the first <b>15s </b>of a battle. These shields can stack and remain effective until <b>15s </b>into the battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 290%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 300%.."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 310%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 320%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 330%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 340%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 350%."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "name": "Kafra",
+    "level": "A-Level",
+    "class": "Warrior",
+    "damage_type": "Physical",
+    "faction": "Wilder",
+    "description": "A determined Warrior who doesn't hesitate to charge at enemies in front.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Gale Thrust",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "3s",
+                "range": "1 tile",
+                "initial_energy": "0",
+                "description": "<b>Passive</b>. Kafra prioritizes attacking the enemy who carries Forest Mark. Kafra inflicts a Forest Mark on an enemy when casting Ultimate and launches a mighty strike, dealing <b>500%</b> damage and knocking them back for <b>2</b>-tile. Only <b>1 </b>Forest Mark exists per attack.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 510%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 520%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 530%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 550%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Relentless Sword",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "2.5s",
+                "range": "Global",
+                "description": "When a marked enemy is out of Kafra's attack range, Kafra charges towards the enemy, dealing <b>280%</b> damage and stunning them for <b>1.5s. </b>If there's no marked enemy, Kafra marks the nearest enemy and casts the skill.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 290%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 300%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 320%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Wind Mark",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "The Forest Mark reduces the enemy's Phys DEF by<b> 6%</b>. When a marked enemy is defeated, Kafra and allies within <b>2 </b>tiles of this enemy recover <b>100% </b>of his ATK as HP every <b>0.375s</b> for <b>1.125s.</b>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Reduces Phys DEF by 9%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Reduces Phys DEF by 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Reduces Phys DEF by 15%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases ATK by <b>12%</b> during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases ATK by 16% during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases ATK by 20% during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Exiling Strike",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "3s",
+                "range": "Global",
+                "description": "When a marked enemy receives healing from other enemies, Kafra jumps to the healer and attacks them, dealing <b>250%</b> damage and reducing their Haste by <b>40 </b>for <b>5s</b>. Kafra is unaffected during the period.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Kafra gains a shield that can block 350% damage (of Caster's ATK for 5s while casting this skill."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases damage to 260%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases damage to 270%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "The damage of Relentless Sword's first casting in battle is increased to 520%"
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Energy Surge",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Recovers <b>90</b> energy every <b>3s </b>after the battle starts until the first ultimate is cast.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases Energy revovery to 95."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases Energy revovery to 100."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases Energy revovery to 105."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases Energy revovery to 110."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases Energy revovery to 115."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases Energy revovery to 120."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases Energy revovery to 125."
+                    }
+                ]
+            }
+        }
+    ]
+}

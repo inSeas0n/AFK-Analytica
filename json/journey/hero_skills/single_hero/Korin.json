@@ -1,0 +1,175 @@
+{
+    "name": "Korin",
+    "level": "A-Level",
+    "class": "Warrior",
+    "damage_type": "Physical",
+    "faction": "Lightbearer",
+    "description": "A Warrior who has magic arms and is skilled at dealing high damage to ranged enemies.",
+    "auto_attack_range": "2",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Demonseal Spear",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "2 tiles",
+                "initial_energy": "0",
+                "description": "Korin sweeps his spear to enemies within <b>2</b> tiles, dealing <b>70% </b>damage<b> 4 </b>times and immobilizing them for <b>2s</b>. When the skill hits adjacent enemies, the targets are knocked back <b>1 </b>tile.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases immobilize duration to 4s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 75%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 80%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 85%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "All-round Tactic",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "9s",
+                "range": "Global",
+                "description": "Korin jumps next to the weakest ally, granting both of them a shield that blocks <b>300%</b> damage (based on Caster's ATK) for <b>5s</b>. Korin then dashes to the closest enemy, dealing <b>180% </b>true damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Shield value is increased to 320%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 200%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 220%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Air Strike",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Korin deals a guaranteed critical strike to enemies<b> 1</b> tile beyond. For every <b>1% </b>of his crit rate, his critical damage is increased by <b>1%</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "For every 1% of his crit rate, his critical damage is increased by 1.2%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "For every 1% of his crit rate, his critical damage is increased by 1.5%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "For every 1% of his crit rate, his critical damage is increased by 1.6%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases Haste by <b>12 </b>during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases Haste by 16 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases Haste by 20 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Vine Arms",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "When Korin and the allies within <b>2 </b>tiles cast their Ultimates <b>3 </b>times in total, Korin's arms feel nature's power and enchant his spear with Wilder magic, dealing additional true damage equal to<b> 2%</b> of the targets' max HP for <b>8s </b>with follow-up attacks, and the extra damage cannot exceed <b>40% </b>of Korin's ATK.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases the ATK SPD by 60 during the skill."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases the additional true damage to 2.5% of the targets' max Points."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases the additional true damage to 2.8% of the targets' max Points."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Damage dealt by enemies 1 tile beyond is reduced by 25%."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Arcane Barrage",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Fires an extra projectile after every <b>3 </b>normal attacks that hit a target, dealing <b>140% </b>damage to the target.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases damage to 145%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases damage to 155%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases damage to 160%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases damage to 165%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases damage to 170%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases damage to 175%."
+                    }
+                ]
+            }
+        }
+    ]
+}

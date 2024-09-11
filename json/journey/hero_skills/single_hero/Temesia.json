@@ -1,0 +1,175 @@
+{
+    "name": "Temesia",
+    "level": "S-Level",
+    "class": "Tank",
+    "damage_type": "Physical",
+    "faction": "Lightbearer",
+    "description": "A fearless Tank who excels at charging and smashing the enemies's backline.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Knight's Heart",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "1 tile",
+                "initial_energy": "0",
+                "description": "<b>Passive. </b>Temesia does not perform normal attacks. Instead, she selects the farthest enemy and charges toward them dealing <b>125%</b> damage to all enemies in her path. Upon reaching the target, she changes direction and restores <b>180 </b>Energy. Temesia's attack animation speed is not affected by her ATK SPD or Haste. Each point of ATK SPD or Haste increases her charge damage by <b>1%</b>.<p><b>Active. </b>Temesia summons her mount Dawn to leap forward, dealing<b> 300%</b> damage to adjacent enemies and knocking them down. Her charge speed will be increased by <b>10%</b> afterward, up to<b> 2</b> stacks.</p><p>\n\n\n</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage dealt by Temesia's charge to 125%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage dealt by Temesia's charge to 125%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage dealt by Temesia's charge to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage dealt by Temesia's charge to 160%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Iron Heel",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "0s",
+                "range": "2 tiles",
+                "description": "Temesia commands her mount Down to kick an enemy while changing the charge direction, dealing <b>150%</b> damage and inflicting an interruption effect. Reduces the enemy's damage dealt by <b>15%</b> for <b>5s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Restores 10% of lost HP when changing the charge direction."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 160%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 170%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Courage Sword",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "15s",
+                "range": "3 tiles",
+                "description": "Temesia wields her broadsword to attack adjacent enemies four times while charging, dealing damage that is equal to<b> 40%</b> of the targets' ATK. Each damage doesn't exceed <b>70%</b> of her ATK.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Each damage is increased to 45% of the targets' ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Each damage is increased to 50% of the targets' ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Each damage is increased to 60% of the targets' ATK."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Temesia increases her ATK by <b>11%</b> during battle. She also gains an extra <b>2% </b>ATK the first time she casts Knight's Heart.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Temesia increases her ATK by 14% during battle. She also gains an extra 3% ATK the first time she casts Knight's Heart."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Temesia increases her ATK by 18% during battle. She also gains an extra 4% ATK the first time she casts Knight's Heart."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Invincible Fury",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "3 tiles",
+                "description": "Temesia permanently becomes Unaffected after casting Knight's Heart <b>2</b> times, turning the charge damage into true damage.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Restores 1% of her max HP per second under this status."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Restores 1.2% of her max HP per second under this status."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Restores 1.4% of her max HP per second under this status."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "Reduces the enemy's Phys DEF by 1% when hit by Temesia's charge, up to 6 stacks "
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Bloodlust Blade",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "In battle, increases the physical damage taken by adjacent enemies to <b>13%</b>. This effect can't stack.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 15%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 16%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 17%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 18%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 19%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 20%."
+                    }
+                ]
+            }
+        }
+    ]
+}

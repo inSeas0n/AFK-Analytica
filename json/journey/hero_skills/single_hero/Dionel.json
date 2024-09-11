@@ -1,0 +1,175 @@
+{
+    "name": "Dionel",
+    "level": "S-Level",
+    "class": "Marksman",
+    "damage_type": "Physical",
+    "faction": "Celestial",
+    "description": "An outstanding Marksman who makes a big difference under allied reinforcement and continuously deals massive AoE damage.",
+    "auto_attack_range": "5",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Dawn Light",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "1.25s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Dionel soars into the air and cannot be targeted for <b>6</b>s, during which he attacks the area with the most enemies using sword shock, dealing <b>170</b>% damage to all adjacent enemies. The last hit of sword shock knocks the enemy up, and its damage dealt is increased to <b>250</b>%.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Gains a Nectar Feast buff within the effect duration. Using this skill won't shorten its duration until the skill ends if Dionel has already been buffed."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the damage of sword shock to 180% and the damage of its last hit to 260%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "The skill duration is extended by 2s if Dionel achieves an Assist or Kill, triggered only once per casting."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases the damage of sword shock to × 190% and the damage of its last hit to 270%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Starry Void",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "0s",
+                "range": "Global",
+                "description": "<b>Passive:</b> Dionel's normal attack turns into a Penetration attack, dealing <b>145</b>% damage to all enemies along the way.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases the Penetration attack damage to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Flashes to a better attacking position if not in a good spot, triggered once every 6s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the Penetration attack damage to 155%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Nectar Feast",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "22s",
+                "range": "Global",
+                "description": "<b>Passive:</b> Dionel gains a stack of Intoxication when receiving the non-permanent stats boost from an ally, increasing <b>15</b>% ATK and <b>15 </b>ATK SPD up to <b>3 </b>stacks, triggered once only by each ally,<p><b>Active</b>: Dionel drinks the divine nectar to increase <b>20</b>% ATK and <b>20 </b>ATK SPD for <b>12</b>s.\n</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "For each Intoxication stack, the ATK bonus is increased to 16%, and the ATK SPD bonus is increased to 16."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "For each Intoxication stack, the ATK bonus is increased to 18%, and the ATK SPD bonus is increased to 18."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "The bonuses from active casting are increased to 25% ATK and 25 ATK SPD."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Dionel's normal attack permanently increases his ATK SPD by<b> 3</b> during battle, for a maximum ATK SPD bonus of <b>30</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Dionel's normal attack permanently increases his ATK SPD by 4 during battle, for a maximum ATK SPD bonus of 40."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Dionel's normal attack permanently increases his ATK SPD by 5 during battle, for a maximum ATK SPD bonus of 50."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Celestial Spear",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "15s",
+                "range": "Global",
+                "description": "Dionel summons a light spear after a short delay, dealing <b>200</b>% true damage to all enemies, up to<b> 3 </b>casting per battle. The skill is only available when the owned Intoxication is fully stacked.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases the skill damage dealt to 210%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Deals extra true damage equal to 20% of the target's current HP when first casting the skill in a battle. Reduces target's Vitality by 60 in the next 8s. The extra damage is no more than 1000% of ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases the skill damage dealt to 220%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Dionel increases Execution by 20 within the duration of Nectar Feast if it's been activated."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Guardian Shield",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains a shield that absorbs<b> 280%</b> damage every <b>2s </b>if HP drops below <b>30%</b> in the first <b>15s </b>of a battle. These shields can stack and remain effective until <b>15s </b>into the battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 290%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 300%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 310%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 320%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 330%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 340%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 350%."
+                    }
+                ]
+            }
+        }
+    ]
+}

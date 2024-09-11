@@ -1,0 +1,175 @@
+{
+    "name": "Rhys",
+    "level": "S-Level",
+    "class": "Marksman",
+    "damage_type": "Physical",
+    "faction": "Mauler",
+    "description": "A fiery-tempered Marksman who can continue moving while attacking.",
+    "auto_attack_range": "6",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Flame Barrage",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "10 tiles",
+                "initial_energy": "0",
+                "description": "<b>Passive. </b>Rhys can move while attacking but is unable to do so for <b>8s </b>if under control effects. ATK SPD and Haste won't affect his attack animation speed. Every <b>1</b> ATK SPD or Haste grants him <b>2</b> Crit DMG Boost. <p>Rhys fires at enemies within a radius of arc, shooting <b>6</b> projectiles across the battlefield, each dealing <b>280%</b> damage to enemies on its path. Rhys then loads his lance with Blast Ammo, allowing his normal attacks to deal <b>180% </b>damage to the target and causing <b>40%</b> splash damage to enemies in <b>1</b>-tile arc behind the target until he is affected by a control effect.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases the damage dealt by each projectile against enemies on its path to 290%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the damage dealt by each projectile against enemies on its path to 300%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases the damage dealt by each projectile against enemies on its path to 310%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases the damage dealt by each projectile against enemies on its path to 320%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Defensive Stance",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "12s",
+                "range": "Global",
+                "description": "<b>Passive</b>. Rhys gains <b>10 </b>Crit.<p><b>Active</b>. Rhys gains control immunity when taking control effects.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Restores 120% of his ATK as HP upon casting this skill."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the Passive Crit bonus to 12."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the Passive Crit bonus to 15."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Concussive Strike",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "10s",
+                "range": "2 tiles",
+                "description": "Rhys loads Shock Ammo to shoot enemies within<b> 2</b>-tile, dealing <b>220%</b> damage and knocking them back <b>2</b>-tile. He's unable to cast this skill when loaded with Blast Ammo.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases damage to 230%"
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 240%"
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases damage to 250%"
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Rhys increase his Crit DMG Boost by <b>22 </b>during battle. He gains an extra <b>8 </b>Crit DMG Boost when his lance is loaded with Blast Ammo.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Rhys increase his Crit DMG Boost by 30 during battle. He gains an extra 10 Crit DMG Boost when his lance is loaded with Blast Ammo."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Rhys increase his Crit DMG Boost by 38 during battle. He gains an extra 12 Crit DMG Boost when his lance is loaded with Blast Ammo."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Fury Rush",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Rhys gains bonus movement speed when moving on the battlefield. He reaches the max speed <b>5s </b>into a battle and loads Blast Ammo.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases Blast Ammo damage to 220% and the splash damage to 50%. Increases the splash range to a 2-tile arc behind the target."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases Blast Ammo damage to 230% and the splash damage to 55%. Increases the splash range to a 2-tile arc behind the target."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases Blast Ammo damage to 240% and the splash damage to 60%. Increases the splash range to a 2-tile arc behind the target."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Reduces the cooldown of Defensive Stance to 3s."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Focus Hit",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains <b>16 </b>Crit and <b>13 </b>Haste when there are no enemies within a <b>2</b>-tile radius for the last <b>3s</b>. This effect ends is after an enemy approaches.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Grants 18 Crit and 14 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Grants 20 Crit and 15 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Grants 22 Crit and 16 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Grants 24 Crit and 17 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Grants 26 Crit and 18 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Grants 28 Crit and 19 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Grants 30 Crit and 20 Haste."
+                    }
+                ]
+            }
+        }
+    ]
+}

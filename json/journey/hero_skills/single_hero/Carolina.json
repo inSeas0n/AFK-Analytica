@@ -1,0 +1,175 @@
+{
+    "name": "Carolina",
+    "level": "S-Level",
+    "class": "Mage",
+    "damage_type": "Magic",
+    "faction": "Graveborn",
+    "description": "A Mage who is skilled at controlling enemies and dealing extra damage to enemies under control effects.",
+    "auto_attack_range": "4",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Frozen Grave",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "After charging up briefly, Carolina selects an enemy target, dealing <b>240%</b> damage to the target and freezing them for <b>6s</b>. Then, she creates an arctic field that inflicts Frostbite on the target and surrounding enemies within <b>2</b> tiles every <b>2s</b>. Carolina prioritizes selecting the target with the most enemies in their surrounding <b>2</b> tiles, and each stack of Frostbite reduces the target's Haste by <b>15 </b>for <b>6s</b>, up to <b>3</b> stacks.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 260%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "The Frozen duration is increased to 8s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 270%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 280%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Freezing Nova",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "10s",
+                "range": "4 tiles",
+                "description": "Carolina deals <b>155% </b>damage to a target and adjacent enemies and inflicts a Frostbite stack.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 165%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 175%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 185%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Snowball Witchery",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "0s",
+                "range": "Global",
+                "description": "Carolina surrounds herself with <b>4</b> snowballs and automatically shoots a snowball to attack enemies every <b>3s</b>, dealing <b>130%</b> damage to the targets under control effects. Each enemy can be attacked by a snowball every <b>2.5s</b>. Carolina creates more snowballs when they are all used up.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases damage to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Each enemy can be attacked by a snowball every 1.5s."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Carolina increases her Crit by <b>14 </b>during battle. She gains an extra <b>18 </b>Crit after casting Snowball Witchery <b>5</b> times.",
+                "upgrades": [
+                   {
+                        "unlocks": "Level 2",
+                        "upgrade": "Carolina increases her Crit by 19 during battle. She gains an extra 24 Crit after casting Snowball Witchery 5 times."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Carolina increases her Crit by 24 during battle. She gains an extra 30 Crit after casting Snowball Witchery 5 times."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Frost Protection",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "When casting Snowball Witchery, Carolina permanently increases the damage of the snowballs by <b>10%,</b> up to<b> 7</b> times. From the third cast of Snowball Witchery, Carolina deals area damage to adjacent tiles with newly produced snowballs and reduces enemies' Magic DEF by <b>15% </b>for <b>6s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Uses a snowball to attack the same controlled enemy hit by Carolina's normal attacks."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases the Magic DEF reduction to 25%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases the Magic DEF reduction to 30%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Carolina inflicts Frostbite when dealing damage with Snowball Witchery"
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Lock-on Projectiles",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Shoots a projectile at the target for every <b>2s </b>your control effects last on that target, dealing <b>120%</b> damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases damage to 125%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 130%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases damage to 135%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases damage to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases damage to 145%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases damage to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases damage to 155%."
+                    }
+                ]
+            }
+        }
+    ]
+}

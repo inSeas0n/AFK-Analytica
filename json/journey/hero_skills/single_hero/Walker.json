@@ -1,0 +1,175 @@
+{
+    "name": "Walker",
+    "level": "A-Level",
+    "class": "Rogue",
+    "damage_type": "Physical",
+    "faction": "Lightbearer",
+    "description": "A steadfast Rogue who undertakes the bounties of the mightiest enemies and defeats them.",
+    "auto_attack_range": "2",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Six-Shot",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "10 tiles",
+                "initial_energy": "0",
+                "description": "Walker loads his revolver with <b>6 </b>bullets, randomly shooting at enemies in front, prioritizing enemies not hit during this cast. Each bullet deals <b>50% </b>damage plus<b> 5%</b> of the target's max HP (the bonus damage is up to<b> 60%</b> of his ATK), stunning the target for <b>1.5s</b>. Subsequent hits on the same target deal <b>50% </b>damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "When the enemies in front include a target marked with Bounty Pursuit, the remaining bullets will be directed at the targeted enemy after shooting all others."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 55%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 60%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases stun duration to 2s"
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Shotgun Blast",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "0s",
+                "range": "2 tiles",
+                "description": "Walker shoots <b>3</b> penetrative bullets using normal attacks, dealing damage to enemies in the frontal area. His main target will always receive damage from <b>3 </b>bullets, each with <b>34%</b> damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Walker's normal attacks stun the enemies for 0.125s upon dealing critical hits."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases each bullet's damage dealt to 37%"
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases each bullet's damage dealt to 40%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Bounty Pursuit",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Walker claims the bounty on the enemy with the highest accumulated damage dealt <b>10s </b>after a battle starts. Walker prioritizes attacking this enemy upon claiming the bounty, increasing his damage dealt by <b>25%</b> and reducing his damage taken by <b>18%</b>. Walker gains <b>5 </b>Crit boost (up to <b>15</b>) till the battle ends when the targeted enemy is defeated.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Upon claiming the bounty, Walker fires 3 shots at the enemy who is marked with it. Each shot deals 50% damage plus the damage equal to 4% of the target's lost HP (the bonus damage is up to 25% of his ATK)."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Walker can claim the bounty again after the previous targeted enemy is defeated."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Upon claiming the bounty, Walker fires 3 shots at the enemy who is marked with it. Each shot deals 55% damage plus the damage equal to 4% of the target's lost HP (the bonus damage is up to 25% of his ATK)"
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases Crit DMG Boost by <b>30</b> during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases Crit DMG Boost by 40 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases Crit DMG Boost by 50 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Aerial Thunder",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Walker throws a grenade at each of the <b>3</b> enemies when a battle starts, then uses his revolver to detonate the grenade. The enemies within a <b>1</b>-tile arc will be stunned for <b>2s</b>, taking <b>140% </b>damage and losing <b>10%</b> Phys DEF in <b>15s </b>upon grenades exploding. The above skill effect only takes effect once when multiple grenades hit the same target.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Reduces the enemies' Crit Resist by 10 in 15s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases damage to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases damage to 160%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Walker gains a shield equal to 20% of max HP when dealing damage to the targeted enemy for the first time. The shield lasts till the target is defeated."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Vigilant Ward",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains a shield that absorbs <b>460%</b> damage upon achieving an Assist or Kill for the first time. The shield expires after <b>3s </b>if the battle has lasted at least <b>15s</b> otherwise it remains active until it absorbs the maximum damage.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Shield value is increased to 480%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Shield value is increased to 500%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Shield value is increased to 520%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Shield value is increased to 540%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Shield value is increased to 560%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Shield value is increased to 580%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Shield value is increased to 600%."
+                    }
+                ]
+            }
+        }
+    ]
+}

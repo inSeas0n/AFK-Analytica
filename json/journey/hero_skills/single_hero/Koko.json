@@ -1,0 +1,175 @@
+{
+    "name": "Koko",
+    "level": "A-Level",
+    "class": "Support",
+    "damage_type": "Physical",
+    "faction": "Mauler",
+    "description": "A cute and kind Support to provide allies with a temporary DMG Reduction.",
+    "auto_attack_range": "4",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Full Energy",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Koko inspires herself and all allies and grants them a <b>45%</b> DMG Reduction for <b>12s</b>. The reduced damage will be recorded and settled once as true damage when the skill duration ends. When the skill takes effect, allies gain <b>30 </b>Life Drain and<b> 10%</b> ATK. While active, the effect cannot be dispelled and prevents Koko from recasting the skill.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases the DMG Reduction effect to 50%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the DMG Reduction effect to 55%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases gained Life Drain to 35."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases gained Life Drain to 40."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Fulfilling Feast",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "10s",
+                "range": "Global",
+                "description": "Koko feeds the weakest ally, healing them by<b> 230%</b> of her ATK as HP and granting them <b>10%</b> ATK for <b>5s</b>. Koko also feeds Patto to recover <b>350%</b> of her ATK as HP every <b>15s</b>, increasing <b>20 </b>Composure for <b>7s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Recovers 240% HP for allies."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Recovers 250% HP for allies."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Recovers 260% HP for allies."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Patto Smash",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "15s",
+                "range": "4 Tiles",
+                "description": "Koko throws a mighty spear at the target, dealing <b>210%</b> damage and increasing their damage taken by <b>10%</b> in the next <b>5s</b>. If there's an enemy within her adjacent tiles, Patto will smash the ground, dealing <b>210%</b> damage to adjacent enemies and stunning them for <b>3s</b>. This effect can only be triggered once every <b>8s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases damage to 220%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 230%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases damage to 240%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases Haste by <b>12 </b>during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases Haste by 16 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases Haste by 20 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Fluffy Shield",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "After the damage recorded in Full Energy has been settled, all allies gain a shield for <b>7s </b>that can absorb damage equal to <b>15% </b>of the total damage dealt by allies affected by Full Energy when it's active. ",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases the shield value to 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Removes all allied heroes' control effects when casting Full Energy, gaining 20 Resilience when the skill takes effect."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Gains 30 Resilience when the skill takes effect."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Increases the ally's or Patto Vitality by 25 for 6s after Koko feeds them using Fulfilling Feast."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Vanguard's Bulwark",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Grants a shield to the frontmost ally (excluding the caster), absorbing <b>340%</b> damage for <b>4s </b>when a battle starts.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Shield value is increased to 360%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Shield value is increased to 380%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Shield value is increased to 400%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Shield value is increased to 420%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Shield value is increased to 440%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Shield value is increased to 460%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Shield value is increased to 480%."
+                    }
+                ]
+            }
+        }
+    ]
+}

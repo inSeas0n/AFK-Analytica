@@ -1,0 +1,175 @@
+{
+    "name": "Rowan",
+    "level": "S-Level",
+    "class": "Support",
+    "damage_type": "Magic",
+    "faction": "Lightbearer",
+    "description": "A witty Support who is skilled at providing high Energy and HP recovery for allies.",
+    "auto_attack_range": "3",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Fatal Greed",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "1 tile",
+                "initial_energy": "400",
+                "description": "Rowan moves up to <b>1</b> tile and throws coins upon reaching the destination, providing surrounding allies within <b>2</b> tiles with <b>250 </b>Energy.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases Energy recovery to 260 points."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases Energy recovery to 280 points."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases Energy recovery to 300 points."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases Energy recovery to 320 points."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Smart Stall",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Rowan places <b>2 </b>health potions on his trolley when a battle starts. Allies within <b>2 </b>tiles with HP ratio below <b>50%</b> automatically uses a potion to heal for <b>40%</b> of their max HP by up to <b>800%</b> of Rowan's ATK. Each ally can use up to health potion every <b>6s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases the recovery amount of health potion to 42% of allies' max HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Rowan also places an energy potion when a battle starts. He automatically uses the potion to recover 400 Energy when the Energy of an ally within 2 tiles exceeds 600."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the recovery amount of health potion to 45% of allies' max HP."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Quack Waltz",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "3.25s",
+                "range": "Global",
+                "description": "Rowan calls on Bradduck to attack an enemy, dealing <b>150% </b>damage and absorbing <b>70</b> Energy.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "If all health potions have been used up, this skill no longer attacks but instead replenishes the trolley with a health potion. This effect can be triggered once every 3 times of Quack Waltz."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 190%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases damage to 230%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Rowan increases his Haste by <b>7</b> during battle. His Haste is increased by an extra <b>6</b> until he replenishes a health potion using Quack Waltz.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Rowan increases his Haste by 10 during battle. His Haste is increased by an extra 8 until he replenishes a health potion using Quack Waltz."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Rowan increases his Haste by 12 during battle. His Haste is increased by an extra 10 until he replenishes a health potion using Quack Waltz."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Great Bargain",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Once per battle, after selling <b>3 </b>health potions, Rowan places a super health potion that restores <b>60%</b> of an ally's max HP and permanently\nincreases their Phys DEF and Magic DEF by <b>30%.</b>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "The health potion recovers 65% of the user's max HP, permanently increasing their Phys DEF and Magic LEFT by 35%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "For every 1 fights in a battle, when Bradduck replenishes the health potion, it turns into a super health potion."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "The health potion recovers 70% of the user's max HP, permanently increasing their Phys DEF and Magic DEF by 40%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Rowan places 1 more health potions when a battle starts using Smart Stall."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Energy Surge",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Recovers <b>90</b> energy every <b>3s </b>after the battle starts until the first ultimate is cast.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases Energy revovery to 95."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases Energy revovery to 100."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases Energy revovery to 105."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases Energy revovery to 110."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases Energy revovery to 115."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases Energy revovery to 120."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases Energy revovery to 125."
+                    }
+                ]
+            }
+        }
+    ]
+}

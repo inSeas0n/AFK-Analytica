@@ -1,0 +1,175 @@
+{
+    "name": "Florabelle",
+    "level": "S-Level",
+    "class": "Warrior",
+    "damage_type": "Physical",
+    "faction": "Wilder",
+    "description": "A Warrior adept at summoning various creatures to continuously deal damage.",
+    "auto_attack_range": "5",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Pounding Blow",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "1.25s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Florabelle summons Spiny when a battle starts. Spiny inherits <b>80%</b> of Florabelle's Max HP, dealing <b>60%</b> damage with normal attacks. Spiny retreats to the pod when defeated, then rejoins the battle after <b>10s</b>.<p><b>Active: </b>Florabelle selects a tile to summon Smash to smash the ground, dealing <b>300%</b> damage to all adjacent enemies and knocking them into the air. Smashy inherits <b>220%</b> of Florabelle's Max HP, dealing <b>120%</b> damage with normal attacks. Smashy takes 100% extra damage when under control effects. </p><p>Florabelle casts the skill to remove all debuffs on Smashy and restore its HP to full, commanding Smash to smash the target area ground again.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases Spiny's normal attack damage to 70%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "When all three petalia are on the battlefield, summoning Smashy will trigger a coordinated attack from all petalia, dealing 400% damage to all enemies within 3 tiles and knocking them into the air."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases Spiny's normal attack damage to 80%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases Smashy's normal attack damage to 220%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Overgrowth",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "14s",
+                "range": "Global",
+                "description": "Feeds a petalium with petalplum to transform them into a giant for <b>8s</b>. Giant petalia will gain an extra <b>60</b> Haste and <b>60</b> Life Drain. When multiple petalia are on the field, this skill targets them in the order of Smashy, Swifty, and Spiny.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases Life Drain in giant form to 80."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases Life Drain in giant form to 100."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the duration of the giant form to 10s."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Tiny Sharpshooter",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "8s",
+                "range": "Global",
+                "description": "Summons Swifty in the back. Swifty has a 6-tile attack range and inherits <b>45%</b> of Florabelle's Max HP, and its normal attack deals <b>80%</b> damage. Casting this skill while Swifty is already on the battlefield initiates Swifty's Rapid Fire, unleashing <b>8</b> arrows at random targets, each dealing <b>70%</b> damage. Swifty cannot be summoned again for the next 8s after being defeated.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases Swifty's normal attack damage to 95%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the damage of each arrow to 88% when Swifty casts Rapid Fire."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases Swifty's normal attack damage to 110%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Florabelle increases her ATK by <b>10%</b> during battle. She gains an extra <b>4%</b> ATK when at least <b>2</b> of her summons are on the battlefield.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Florabelle increases her ATK by 14% during battle. She gains an extra 6% ATK when at least 2 of her summons are on the battlefield."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Florabelle increases her ATK by 18% during battle. She gains an extra 8% ATK when at least 2 of her summons are on the battlefield."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Protective Blessing",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Grants a Natural Blessing to allied summons upon their entrance to the battlefield, providing them with a permanent shield capable of absorbing damage equal to <b>280%</b> of Florabella's ATK. This skill can be activated once every 0.5s.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Boosts the shield granted by this skill to 330% of Florabella's ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Feeds the allied summon with the highest ATK with an unripe petalplum when Flora belle casts Overgrowth. This transforms the summon into a giant, increasing their Haste by 27 and Life Drain by 32."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Boosts the shield granted by this skill to 330% of Florabella's ATK."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Allied petalia in their giant form are immune to control effects."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Mark of Agony",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Increases the damage dealt to a target by <b>11%</b> for <b>3s </b>after dealing damage to that target with normal attacks. This effect can't stack.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the damage taken by 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the damage taken by 13%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the damage taken by 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the damage taken by 15%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the damage taken by 16%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the damage taken by 17%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the damage taken by 18%."
+                    }
+                ]
+            }
+        }
+    ]
+}

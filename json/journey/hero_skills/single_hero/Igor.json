@@ -1,0 +1,175 @@
+{
+    "name": "Igor",
+    "level": "S-Level",
+    "class": "Warrior",
+    "damage_type": "Physical",
+    "faction": "Graveborn",
+    "description": "An agile Warrior who can jump between tombstones to deal AoE damage.",
+    "auto_attack_range": "10",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Funeral Ring",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "10 tiles",
+                "initial_energy": "0",
+                "description": "Igor summons a tombstone where he stands when a battle starts. Every time an enemy hero loses <b>40%</b> of their HP, Igor summons another tombstone on an empty tile closest to this enemy which will disappear after taking<b> 3</b> normal attacks. Igor will always stand on the tombstone and remain steadfast. Igor deals <b>150% </b>damage to all enemies when casting his Ultimate.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 180%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 210%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 240%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 270%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Ghastly Explosion",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "1s",
+                "range": "10 tiles",
+                "description": "All tombstones are activated every <b>8s </b>or when Igor cast Ultimate. Igor jumps onto an activated tombstone, dealing<b> 140%</b> damage to enemies within <b>1</b> tile and deactivating the tombstone. He gains Damage Immunity and can't be targeted during using the skill. When the tombstone Igor jumps onto is activated by his Ultimate, this attack deals <b>50%</b> additional damage.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 160%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 170%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Soul Siphon",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "2 tiles",
+                "description": "Igor uses the tombstone he's on to block the fatal blow damage and jumps onto another tombstone when existing multiple tombstones. He gains Damage Immunity during the skill. And Igor heals for <b>3%</b> of his max HP when using Ghastly Explosion or Soul Siphon. Each time you cast Soul Siphon after casting it 6 times, the HP loss ratio required to summon a tombstone with Funeral Ring increases by <b>12%</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Heals for 3.5% of Igor's max HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Heals for 4% of Igor's max HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Heals for 4.5% of Igor's max HP."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Igor increases his Life Drain by <b>7 </b>during battle. His Life Drain is increased by an extra<b> 6</b> until Soul Siphon is triggered for the first time.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Igor increases his Life Drain by 10 during battle. His Life Drain is increased by an extra 8 until Soul Siphon is triggered for the first time."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Igor increases his Life Drain by 12 during battle. His Life Drain is increased by an extra 10 until Soul Siphon is triggered for the first time."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Horror Strike",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "10 tiles",
+                "description": "Igor extends the range of Ghastly Explosion by 1 tile and reduces the target's' healing received by <b>50%</b> for <b>4s </b>when his HP ratio is above <b>70%</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Reduces the targets' healing received for 5s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Gains one use of the enhanced Ghastly Explosion regardless of Igor's HP for each Soul Siphon casting."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Reduces the targets' healing received for 6s."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "Igor summons an extra tomb at adjacent positions with the most enemies when the battle begins."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Combo",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "After casting the Ultimate, deals<b> 125%</b> damage to the current target with each of the next <b>4</b> skill casts or normal attacks.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the skill damage dealt to 130%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the skill damage dealt to 135%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the skill damage dealt to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the skill damage dealt to 145%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the skill damage dealt to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the skill damage dealt to 155%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the skill damage dealt to 160%."
+                    }
+                ]
+            }
+        }
+    ]
+}

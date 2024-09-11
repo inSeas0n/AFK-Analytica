@@ -1,0 +1,175 @@
+{
+    "name": "Valen",
+    "level": "A-Level",
+    "class": "Warrior",
+    "damage_type": "Physical",
+    "faction": "Lightbearer",
+    "description": "A Warrior who is skilled at dealing AoE damage and becomes stronger under his enhanced mode.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Thunder Swordwork",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Valen selects a tile and launches <b>7</b> Swift Strikes at the selected tile and adjacent tiles. Each strike deals <b>70%</b> damage to all targets. Valen is Invincible while striking. After striking, Valen gains Invigoration for <b>12s</b>, which increases Valen's ATK by<b> 20%</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 75%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 80%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 85%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 90%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Unseen Blade",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "9s",
+                "range": "1 tile",
+                "description": "Valen slashes the target <b>3 </b>times. Each slash deals <b>100%</b> damage. During Invigoration, Valen generates forked lightning with every slash and deals the same amount of damage to the target and up to <b>2 </b>surrounding enemies within <b>2 </b>tiles.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 105%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 110%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 115%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Fury Thunder Strike",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "11s",
+                "range": "2 tiles",
+                "description": "Valen can only cast his lightning strike when he gains Invigoration, dealing <b>190%</b> damage to all surrounding enemies within <b>2 </b>tiles.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases damage to 200%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 210%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases damage to 220%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases ATK by <b>12%</b> during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases ATK by 16% during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases ATK by 20% during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Eternal Thunder",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Invigoration status becomes permanent. When casting an Ultimate during Invigoration, Valen permanently gains <b>10% </b>ATK bonus from Invigoration, up to <b>10 </b>stacks.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases each stack of ATK bonus to 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Valen's normal attack triggers the lightning strike when he gains Invigoration, dealing the same amount of normal attack damage to a surrounding enemy within 2 tiles."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases each stack of ATK bonus to 13%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Valen inflicts 3s stun using Fury Thunder Strike."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Vigilant Ward",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains a shield that absorbs <b>460%</b> damage upon achieving an Assist or Kill for the first time. The shield expires after <b>3s </b>if the battle has lasted at least <b>15s</b> otherwise it remains active until it absorbs the maximum damage.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Shield value is increased to 480%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Shield value is increased to 500%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Shield value is increased to 520%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Shield value is increased to 540%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Shield value is increased to 560%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Shield value is increased to 580%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Shield value is increased to 600%."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "name": "Damian",
+    "level": "A-Level",
+    "class": "Support",
+    "damage_type": "Magic",
+    "faction": "Wilder",
+    "description": "An intelligent Support hero who uses all sorts of inventions and gizmos to heal allies and disrupt enemy attacks.",
+    "auto_attack_range": "20",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Explode, my chariot!",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "200",
+                "description": "<b>Passive</b>. Damian cannot be attacked during the battle. He builds a toy chariot that inherits <b>85%</b> of his HP and <b>100%</b> of his other stats to take his place when a battle starts. He then stays out of the battlefield and will run away after all allies are defeated.<p><b>Active</b>. If there is a toy chariot, Damian make it to charge to the target and explode, dealing <b>320%</b> damage to surrounding enemies within <b>1 </b>tiles and inflicting blind for <b>3s</b>. Damian restores <b>80 </b>Energy for every <b>10% </b>of the chariot's HP ratio. If there is no toy chariot, he builds a new toy chariot and move it to the target location.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 330%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 340%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 350%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 360%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Emergency Support!",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "7s",
+                "range": "Global",
+                "description": "If there is a toy chariot, Damian controls it to play music for the weakest ally within <b>3 </b>tiles, restoring <b>120% </b>HP to this ally <b>4 </b>times. If there is no toy chariot, Damian restores himself <b>300 </b>Energy.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "The healing amount is increased to 130%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "The healing amount is increased to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "The healing amount is increased to 150%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "It's a Plane!",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "14s",
+                "range": "Global",
+                "description": "Damian controls a toy plane to fly towards the farthest enemy and throw fireworks at them, dealing<b> 250%</b> damage and stunning the target for <b>3s</b>. ",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases stun duration to 5s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 275%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases damage to 300%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases ATK by <b>12%</b> during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases ATK by 16% during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases ATK by 20% during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Inventor's Will",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "3 tiles",
+                "description": "Each toy chariot activates a music halo when it responds to Emergency Support! for the first time, inspiring non-summoned allies within <b>2 </b>tiles and increasing their Haste by <b>40 </b>for <b>10s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Heals allies within 2 tiles for 80% of her ATK as HP per second."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Inspires non-summoned allies and grants them 50 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Inspires non-summoned allies and grants them 55 Haste."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "The blind duration is increased to 7s when the toy chariot's HP ratio is above 50%."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Vanguard's Bulwark",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Grants a shield to the frontmost ally (excluding the caster), absorbing <b>340%</b> damage for <b>4s </b>when a battle starts.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Shield value is increased to 360%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Shield value is increased to 380%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Shield value is increased to 400%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Shield value is increased to 420%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Shield value is increased to 440%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Shield value is increased to 460%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Shield value is increased to 480%."
+                    }
+                ]
+            }
+        }
+    ]
+}

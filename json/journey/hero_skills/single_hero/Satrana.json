@@ -1,0 +1,175 @@
+{
+    "name": "Satrana",
+    "level": "A-Level",
+    "class": "Mage",
+    "damage_type": "Magic",
+    "faction": "Mauler",
+    "description": "A Keeper of Flames who can sustain tremendous damage, reduce enemy's Vitality, and deal continuous damage.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Fiery Dance",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "2 tiles",
+                "initial_energy": "0",
+                "description": "Satrana does the fiery dance, dealing <b>240%</b> damage to surrounding enemies within <b>2 </b>tiles. She is invincible during the effect.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "The last strike of this skill charms enemies for 2s, making them only use normal attacks while charmed."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 260%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 280%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 300%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Vixen Rush",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "6s",
+                "range": "1 tiles",
+                "description": "Satrana scratches enemies in a <b>1</b>-tile arc twice. Each strike deals <b>110%</b> damage plus <b>2.5%</b> target's max HP. The additional damage cannot exceed <b>75%</b> of Satrana's ATK. The damage dealt by this skill grants Satrana <b>100 </b>Life Drain.\n ",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 115%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 120%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 130%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Ignite Passions",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Satrana grants Sparks to allies within <b>2</b> tiles when a battle starts. When Satrana or allies with Sparks deal damage to an enemy for <b>3 </b>times, the target is burned, taking damage equal to<b> 0.8%</b> of max HP every <b>1</b>s and reducing their Vitality by <b>20</b>. The skill damage cannot exceed <b>45%</b> of Satrana's ATK. The effect lasts until the battle ends.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "When all enemies or a total of 5 enemies have been ignited, the Vitality reduction is increased to 60."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 1% of the target's max HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "When all enemy heroes or 5 enemy heroes have been ignited. the damage is increased to 2% of max HP."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Reduces damage taken by <b>12%</b> during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Reduces damage taken by 16% during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Reduces damage taken by 20% during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Flame Protection",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "When an enemy hero is ignited, the magic damage taken by Satrana is reduced by<b> 16%</b> until the battle ends. Satrana grants this effect to a nearby ally when one more enemy hero is ignited.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Each ignited enemy hero grants Satrana 200 Energy."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "The magic damage taken by Satrana is reduced by 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "The magic damage taken by Satrana is reduced by 22%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Vixen Rush's cooldown is removed when all enemy heroes or when a total of 5 enemy heroes have been ignited."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "In battle, increases the magic damage taken by adjacent enemies to <b>13%.</b> This effect can't stack.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the magic damage taken by adjacent enemies to 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the magic damage taken by adjacent enemies to 15%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the magic damage taken by adjacent enemies to 16%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the magic damage taken by adjacent enemies to 17%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the magic damage taken by adjacent enemies to 18%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the magic damage taken by adjacent enemies to 19%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the magic damage taken by adjacent enemies to 20%."
+                    }
+                ]
+            }
+        }
+    ]
+}
