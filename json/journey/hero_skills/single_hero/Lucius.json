@@ -1,0 +1,175 @@
+{
+    "name": "Lucius",
+    "level": "A-Level",
+    "class": "Tank",
+    "damage_type": "Physical",
+    "faction": "Lightbearer",
+    "description": "A Support Tank who can grant shield to multiple allies.",
+    "auto_attack_range": "",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Divine Light Aegis",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Lucius selects a tile and grants allies on it and adjacent tiles a shield that blocks <b>470%</b> damage (based on Caster's Attack) for <b>10s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases shield value to 490%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases shield value to 500%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases shield value to 510%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases shield value to 520%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Divine Bash",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "8s",
+                "range": "1 tile",
+                "description": "Lucius deals <b>70% </b>damage to an enemy, knocks them back <b>1</b> tiles, and gains a shield that blocks<b> 300%</b> damage (based on Caster's Attack) for <b>8s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Stuns the enemy for 1s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases shield value to 310%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases shield value to 320%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Divine Light Blessing",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "When gaining a shield, Lucius uses Healing Power to restore HP that equals <b>80% </b>Attack<b> </b>+ <b>20%</b> of shield value for the weakest <b>1</b> allies.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases Lucius' shield by 8%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases Lucius' shield by 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases Lucius' shield by 20%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increasing Healing by 11 during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increasing Healing by 15 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increasing Healing by 19 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Righteous Fury",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "13s",
+                "range": "1 tile",
+                "description": "Shoots Divine Light to a <b>3</b>-tile wide and 4-tile length frontal area, dealing <b>90%</b> damage to all enemies within, reducing <b>8%</b> ATK for <b>4s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Each enemy hit grants a 3% (based on Caster's HP) shield for 4s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Reduces the target's ATK by 10%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Reduces the target's ATK by 12%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "The number of allies healed by Divine Light Blessing is increased to 1."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Heart of Unity",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Increases Haste by<b> 8</b> for all deployed allies if they are alive <b>10s </b>into a battle, until the end of the battle. Increases the damage dealt by all deployed allies by<b> 8%</b> if they are alive <b>40s </b>into a battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 9%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 10%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 11%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 13%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 15%."
+                    }
+                ]
+            }
+        }
+    ]
+}

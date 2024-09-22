@@ -1,0 +1,175 @@
+{
+    "name": "Soren",
+    "level": "A-Level",
+    "class": "Rogue",
+    "damage_type": "Physical",
+    "faction": "Mauler",
+    "description": "",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Whirlwind Swing",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Soren selects a tile and rushes there to swing his weapon, dealing <b>250%</b> +<b> 10%</b> damage to adjacent enemies and knocking them back <b>1 </b>tile. If the targets collide with allies, enemies, terrain, or battlefield borders along their path, they take <b>400% + 20%</b> damage and are stunned for <b>2.5s</b>. This skill prioritizes targeting the tile that will cause the most enemies to collide when cast automatically.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Soren deals 400% + 20% damage and stuns another enemy for 2.5s if the target knocked back by this skill collides with them."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the collision damare to 400% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases the collision damare to 420% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases the collision damare to 430% + 20%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Repel Sweep",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "11s",
+                "range": "1 Tile",
+                "description": "Soren swings his weapon to deal <b>180% + 10%</b> damage to an enemy in melee range, knocking them back <b>1 </b>tile. If the target collides with allies, enemies, terrain, or battlefield borders along their path, they take <b>250% + 20%</b> damage and are stunned for <b>1.5s</b>. Soren repositions himself to ensure maximum collisions between targets when casting this skill.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases base damage to 210% + 10%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the collision damage to 270% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Extends the stun duration upon collision to 2s."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Deflecting Swing",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "1 Tile",
+                "description": "Soren reduces the damage taken from a single attack that exceeds <b>10%</b> of his max HP by <b>70%, </b>resetting the cooldown of Repel Sweep. This effect can be triggered once every <b>7 - 1s.</b>\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases the DMG Reduction ratio to 80%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the DMG Reduction ratio to 90%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Reduces the skill cooldown to 6 - 1s."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases Haste by <b>12 </b>during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases Haste by 16 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases Haste by 20 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Dusk Rejuvenation",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "1 Tile",
+                "description": "Soren gains <b>60 </b>Haste and recovers<b> 4%</b> of max HP and <b>40 </b>Energy per second for <b>12s </b>when his HP ratio is below <b>60%.</b> This effect can only be triggered once per battle. ",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Soren removes all active control effects when this skill is triggered. It can be triggered repeatedly in a single battle, with a cooldown of 25s"
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases the bonus Haste to 80 while this skill is active."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases the HP recovery to 5% of the max HP every second while this skill is active"
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Increases the knockback distance of Repel Sweep to 2 tiles when Deflecting Swing is triggered, dealing extra damage equal to 50% of the blocked damage. "
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Battle Rush",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Increases own Haste by <b>21</b> for <b>10s</b> after each Ultimate cast.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the Haste bonus to 23."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the Haste bonus to 25."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the Haste bonus to 27."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the Haste bonus to 29."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the Haste bonus to 31."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the Haste bonus to 33."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the Haste bonus to 35."
+                    }
+                ]
+            }
+        }
+    ]
+}

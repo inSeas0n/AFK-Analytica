@@ -1,0 +1,175 @@
+{
+    "name": "Seth",
+    "level": "A-Level",
+    "class": "Rogue",
+    "damage_type": "Physical",
+    "faction": "Mauler",
+    "description": "A swift Assassin who is skilled at ambushing injured targets.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Shadow Strike",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Seth flashes towards an enemy, dealing <b>100% </b>damage <b>3</b> times, then freezes them briefly and jumps to deal <b>150%</b> more damage to the target. Seth becomes invincible and recovers HP equal to <b>25% </b>of the total damage dealt during this skill. Seth prioritizes selecting the weakest enemy as the target.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases the damage while jumping to 160%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases HP recovery from each Bloodlust stack to 15% of the total damage dealt."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases the damage while jumping to 170%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases the damage while jumping to 180%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Beatdown",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "6.5s",
+                "range": "Global",
+                "description": "Seth pounces on the weakest enemy in range and deals <b>150</b>% damage plus <b>25% </b>of the target's lost HP. The additional damage cannot exceed <b>400%</b> of his ATK.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 160%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 170%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 180%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Hunter Instinct",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Seth gains a stack of Bloodlust when the HP of a non-summoned enemy first falls below <b>33%</b>, up to <b>3 </b>stacks. Each stack permanently increases his Haste by <b>10 </b>and Life Drain by <b>7</b>. Seth gains <b>25%</b> Phys and Magic DEF when he first triggers Bloodlust.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Seth gains a stack of Bloodlust when the HP of a non-summoned enemy first falls below 50%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Each stack of Bloodlust permanently increases his Haste by 12 and Life Drain by 10."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Seth gains 25 Crit when he first triggers Bloodlust."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases ATK by 12% during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases ATK by 16% during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases ATK by 20% during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Fervent Hunt",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "When a non-summoned enemy is defeated, Seth immediately resets the cooldown of Beatdown and recovers <b>200 </b>Energy.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "The skill damage dealt by Beatdown is increased by an extra 15% for each casting, up to 5 stacks."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases Energy recovery to 240 points."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases Energy recovery to 260 points."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "The target's Phys DEF is reduced by an extra 15% for each stack of Bloodlust if Seth casts Beatdown with Bloodlust carried. The effect lasts for 6s."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Vigilant Ward",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains a shield that absorbs <b>460%</b> damage upon achieving an Assist or Kill for the first time. The shield expires after <b>3s </b>if the battle has lasted at least <b>15s</b> otherwise it remains active until it absorbs the maximum damage.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Shield value is increased to 480%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Shield value is increased to 500%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Shield value is increased to 520%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Shield value is increased to 540%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Shield value is increased to 560%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Shield value is increased to 580%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Shield value is increased to 600%."
+                    }
+                ]
+            }
+        }
+    ]
+}

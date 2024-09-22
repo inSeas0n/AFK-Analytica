@@ -1,0 +1,175 @@
+{
+    "name": "Cecia",
+    "level": "S-Level",
+    "class": "Marksman",
+    "damage_type": "Physical",
+    "faction": "Graveborn",
+    "description": "A Marksman who can control the battlefield and summon a powerful servant.",
+    "auto_attack_range": "5",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Queen's Summons",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Cecia summons Mr. Carlyle to a selected tile to assist. Mr. Carlyle inherits all of Cecia's stats and his normal attack deals <b>170%</b> damage to enemies within a <b>1</b>-tile arc. He gains an extra <b>45% </b>max HP but loses <b>4%</b> of max HP per second. When Mr. Carlyle is summoned, he initiates Spiky Wrath to entangle enemies within <b>2</b> tiles, dealing <b>140%</b> damage per second for <b>2s</b>. The entangled enemies cannot move or act. If Mr. Carlyle is already on the battlefield when this skill is used again, the skill restores his HP to Max, allowing him to cast the Spiky Wrath again.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Mr. Carlyle's max HP is increased by an extra 60%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Mr. Carlyle's normal attack deals 175% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Mr. Carlyle's normal attack deals 180% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Mr. Carlyle's normal attack deals 185% damage."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Earth's Offering",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "12s",
+                "range": "1 tile",
+                "description": "Cecia gains power from the earth to increase her and Mr. Carlyle's ATK SPD by <b>45 </b>for <b>8s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases ATK SPD by 50."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Mr. Carlyle's next normal attack will be replaced with Thundering Quake, dealing 320% damage to all surrounding enemieswithin 2 tiles and gaining 15 Life Drain."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases ATK SPD by 55."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Thorned Cluster",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "0s",
+                "range": "5 tiles",
+                "description": "<b>Passive</b>. Cecil and Mr. Carlyle gain <b>20 </b>DEF Penetration. Cecia's next normal attack is enhanced after she uses <b>3</b> normal attacks, dealing <b>220% </b>damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Cecia's DEF Penetration gained from the passive effect is increased to 25."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "The enhanced normal attack deals 225% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "The enhanced normal attack deals 230% damage."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Cecia increases her ATK SPD by <b>15</b>. She gains an extra <b>9 </b>ATK SPD while Mr. Carlyle is on the battlefield.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Cecia increases her ATK SPD by 20. She gains an extra 12 ATK SPD while Mr. Carlyle is on the battlefield."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Cecia increases her ATK SPD by 25. She gains an extra 15 ATK SPD while Mr. Carlyle is on the battlefield."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Trial of Thorns",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "15s",
+                "range": "5 tiles",
+                "description": "Cecia entangles an enemy with reinforced Thorns, dealing <b>60%</b> damage every second and the target cannot move or act for <b>4s</b>. Cecia absorbs <b>1.5%</b> of Phys DEF and Magic DEF from the target every second. The absorbed stats last until the battle ends and are also shared by Mr. Carlyle. Cecia can only absorb each target up to <b>8</b> times. This skill prioritizes enemies who have not reached the limit and are not in the control immunity status.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Absorbs 1 of the target's Vitality each time when stealing stats."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases the entangled targets' damage taken per second to 70%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases the entangled targets' damage taken per second to 80%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "The required normal attacks to trigger Thorned Cluster is reduced to 1."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Focus Hit",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains <b>16 </b>Crit and <b>13 </b>Haste when there are no enemies within a <b>2</b>-tile radius for the last <b>3s</b>. This effect ends is after an enemy approaches.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Grants 18 Crit and 14 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Grants 20 Crit and 15 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Grants 22 Crit and 16 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Grants 24 Crit and 17 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Grants 26 Crit and 18 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Grants 28 Crit and 19 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Grants 30 Crit and 20 Haste."
+                    }
+                ]
+            }
+        }
+    ]
+}

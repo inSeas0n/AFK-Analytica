@@ -1,0 +1,175 @@
+{
+    "name": "Atalanta",
+    "level": "S-Level",
+    "class": "Marksman",
+    "damage_type": "Physical",
+    "faction": "Lightbearer",
+    "description": "A nimble Marksman who knows how to inflict AoE damage at medium and short-range distances.",
+    "auto_attack_range": "4",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Wild Sniper",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "3 tiles",
+                "initial_energy": "0",
+                "description": "Atalanta selects a tile and dashes there, shooting a powerful penetrative bolt in the target direction, dealing <b>280%</b> damage to all enemies along a 1-tile wide path and stunning them for <b>2s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 300%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "When Atalanta hits an enemy with this skill, it triggers the explosion effect of Scorching Gift at the target's location, dealing 75% of the skill's damage. Scorching Gift can only deal damage 3 times to each enemy in this way each time she casts her Ultimate."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 320%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 340%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Sweet Encounter",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "12s",
+                "range": "4 tiles",
+                "description": "Atalanta swings her whip at an enemy, dealing <b>130% </b>damage, knocking them back <b>2 </b>tiles, and immobilizing them for<b> 3s</b>. If there is another enemy behind the target within range, Atalanta will instead knock the target towards that enemy, dealing damage and immobilizing both of them.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "If Atalanta knocks the target into another enemy, the two enemies take damage from each other. The damage received is equal to 150% of the other side's ATK, up to 300% of Atalanta's ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 150%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Scorching Gift",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "8s",
+                "range": "4 tiles",
+                "description": "Atalanta shoots an explosive bolt that explodes upon hitting an enemy, dealing <b>190%</b> damage to the target and adjacent enemies.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases damage to 200%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "The explosion range is increased to 2 tiles. However, enemies in the outermost circle of the explosion only take 60% of the original damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases damage to 210%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Atalanta increases her Haste by <b>12 </b>during battle. She gains an extra <b>2 </b>Haste after dealing damage to <b>3 </b>different enemies within <b>3s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Atalanta increases her Haste by 15 during battle. She gains an extra 4 Haste after dealing damage to 3 different enemies within 3s."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Atalanta increases her Haste by 18 during battle. She gains an extra 6 Haste after dealing damage to 3 different enemies within 3s."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Sleight of Hand",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "4 tiles",
+                "description": "Sweet Encounter can be cast <b>2</b> times in a row when a battle statrts, prioritizing different targets.<p>Passive, the damage dealt by Sweet Encounter is increased by <b>6%</b>.\n</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "The bonus damage ratio of Sweet Encounter is increased to 8%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Atalanta steals 10% ATK and 10% Phys DEF from the target every time she hits her main target with Sweet Encounter. This effect cannot be stacked on the same target, and the stolen stats will be returned in 8s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "The bonus damage ratio of Sweet Encounter is increased to 10%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "Atalanta recovers 10% of max HP every time an enemy is directly hit by Wild Sniper."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Elusive Mirage",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "After <b>5, 25,</b> and <b>40 </b>seconds into a battle, summons an untargetable illusion that casts the non-Ultimate skills in sequence, each with only<b> 85%</b> of the original Attack.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases ATK to 90% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases ATK to 95% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases ATK to 100% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases ATK to 105% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases ATK to 110% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases ATK to 115% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases ATK to 120% of its original value."
+                    }
+                ]
+            }
+        }
+    ]
+}

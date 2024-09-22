@@ -1,0 +1,175 @@
+{
+    "name": "Brutus",
+    "level": "S-Level",
+    "class": "Warrior",
+    "damage_type": "Physical",
+    "faction": "Mauler",
+    "description": "A valiant warrior who is indomitable in the front line.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Whirlwind Wrath",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "1.25s",
+                "range": "1 tiles",
+                "initial_energy": "0",
+                "description": "Brutus spins Mountain's Roar at high speed and deals<b> 110%</b> damage every second to adjacent enemies within 1 tile for <b>4s</b>. He is unaffected while spinning.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 120%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Brutus is immune to control effects while spinning. This skill's duration stacks with the duration of his other damage immunities."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 130%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 140%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Ferocious Roar",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "15s",
+                "range": "1 tiles",
+                "description": "Brutus roars with rage, taunting surrounding enemies within <b>2</b> tiles for <b>1.5s</b> and reducing their Phys DEF by <b>15%</b> for <b>9s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Reduces surrounding enemies' Phys DEF by 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Reduces surrounding enemies' Phys DEF by 25%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Reduces surrounding enemies' Phys DEF by 30%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Indomitable",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Brutus is immune to the first fatal blow he receives. He is then immune to all damage and bcomes unaffcted for <b>5s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Immunity grants 25 Life Drain and 25% ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Immunity grants 35 Life Drain and 30% ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Immunity grants 35 Life Drain and 35% ATK."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Brutus increases his Life Drain by <b>10 </b>during battle. He gains an extra <b>5 </b>Life Drain during his Ultimate.",
+                "upgrades": [
+                   {
+                        "unlocks": "Level 2",
+                        "upgrade": "Brutus increases his Life Drain by 13 during battle. He gains an extra 7 Life Drain during his Ultimate."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Brutus increases his Life Drain by 16 during battle. He gains an extra 8 Life Drain during his Ultimate."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Cleaving Strike",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "0s",
+                "range": "1 tile",
+                "description": "Brutus cleaves with all his might to enemies within <b>1</b>-tile arc in front after receiving physical damage <b>10</b> times from adjacent enemies, dealing<b> 200%</b> damage plus <b>12%</b> of the target's max HP. The total damage cannot exceed <b>750% </b>of his ATK. Brutus also gains <b>30%</b> Life Drain. This skill can be triggered once every <b>5s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Brutus deals 230% damage plus 12% of the target's max GP with this skill (the total damage cannot exceed 780% of his ATK)."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Removes the cooldown limit for this skill. Brutus can cast this skill for every 10 physical damage attacks he takes from adjacent enemies."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Brutus deals 260% damage plus 12% of the target's max GP with this skill (the total damage cannot exceed 780% of his ATK)."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "The duration of damage and control immunity from Indomitable is increased by 1s."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Bloodlust Blade",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "In battle, increases the physical damage taken by adjacent enemies to <b>13%</b>. This effect can't stack.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 15%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 16%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 17%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 18%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 19%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the physical damage taken by adjacent enemies to 20%."
+                    }
+                ]
+            }
+        }
+    ]
+}

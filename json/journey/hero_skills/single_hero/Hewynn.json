@@ -1,0 +1,175 @@
+{
+    "name": "Hewynn",
+    "level": "S-Level",
+    "class": "Support",
+    "damage_type": "Magic",
+    "faction": "Wilder",
+    "description": "A tender Fairy who is skilled at continuous healing.",
+    "auto_attack_range": "4",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Rain Prayer",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "200",
+                "description": "Hewynn heals all allies for <b>95%</b> of her ATK as HP. Effect lasts for <b>9s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Healing amount per second is increased to 100% HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Healing amount per second is increased to 105% HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Healing amount per second is increased to 110% HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Healing amount per second is increased to 115% HP."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Wound Healing",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "5s",
+                "range": "4 tiles",
+                "description": "Restores <b>280% </b>of her ATK as HP for 1 weakest ally.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Healing Amount is increased to 290% HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Healing Amount is increased to 300% HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Hewynn's skill grants this effect once every 3s to 1 weakest ally while casting her Ultimate."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Revitalize",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "When the current HP ratio of an ally is below <b>50%</b>, Hewynn grants them a healing bonus of <b>120% </b>of her ATK. This effect applies to each ally once every <b>8s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Hewynn heals an ally and removes all their dispellable debuffs. The effect can be triggered once for each ally every 6s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "The extra healing takes effect to each ally once every 6s, and the dispelling effect to each ally once every 4s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "The extra healing amount is increased to 130%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Hewynn increases her ATK by <b>9%</b> during battle. She gains an extra <b>6%</b> ATK after casting her Ultimate for the first time.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Hewynn increases her ATK by 12% during battle. She gains an extra 8% ATK after casting her Ultimate for the first time."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Hewynn increases her ATK by 14% during battle. She gains an extra 10% ATK after casting her Ultimate for the first time."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Tranquility",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Hewynn is unaffected for <b>6s. </b>While casting Rain Prayer, all allies take <b>30% </b>less damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Hewynn has 300 initial energy. All her allies' damage taken is decreased by 32% when the Rain Prayer takes effect."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "When Rain Prayer takes effect, Hewynn's healing grants a buff from Revitalize, and all her allies' damage taken is reduced by 34%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "The allies' damage taken is decreased by 36% when the Rain Prayer takes effect."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Hewynn also grants the healed ally 30 Haste for 6s when Revitalize is in effect."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Soul-lifting Touch",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Every <b>5s</b>, increases the ATK by <b>13%</b> and Haste by <b>11 </b>for <b>3s </b>for the ally who has dealt the most damage and has a HP ratio above<b> 75%.</b>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases ATK bonus by 14% and Haste bonus by 12."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases ATK bonus by 15% and Haste bonus by 13."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases ATK bonus by 16% and Haste bonus by 14."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases ATK bonus by 17% and Haste bonus by 15."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases ATK bonus by 18% and Haste bonus by 16."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases ATK bonus by 19% and Haste bonus by 17."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases ATK bonus by 20% and Haste bonus by 18."
+                    }
+                ]
+            }
+        }
+    ]
+}

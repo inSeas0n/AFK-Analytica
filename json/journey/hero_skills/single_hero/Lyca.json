@@ -1,0 +1,175 @@
+{
+    "name": "Lyca",
+    "level": "A-Level",
+    "class": "Marksman",
+    "damage_type": "Physical",
+    "faction": "Wilder",
+    "description": "A Marksman who is skilled at lowering enemy's Phys DEF and imbuing buffs to allies.",
+    "auto_attack_range": "5",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Comet Archery",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "11 tiles",
+                "initial_energy": "200",
+                "description": "Lyca fires a comet-like arrow in a chosen direction, dealing <b>200%</b> damage to enemies within <b>5</b> tiles along its path and leaving Nebula Reflection for <b>7s</b>. The allies under Nebula Reflection summon meteors to deal additional damage equal to <b>50%</b> of their ATK to the target while using normal attacks.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 220%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 240%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 260%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 270%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Empyrean Blessing",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "12s",
+                "range": "Global",
+                "description": "Lyca bestows blessings of the stars, increasing all allies' ATK SPD by <b>25 </b>for <b>6s</b>. It's triggered immediately at the start of a battle and grants all allies <b>120 </b>Energy.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases ATK SPD to 30."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases effect duration to 8s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases ATK SPD to 40."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Nova Fall",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "10s",
+                "range": "Global",
+                "description": "Lyca summons meteors to attack the nearest <b>2 </b>enemies, dealing <b>100%</b> damage and reducing their Phys DEF by <b>10%</b> for <b>5s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases damage to 120%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Reduces their Phys DEF by 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases damage to 130%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases ATK SPD by <b>21 </b>during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases ATK SPD by 27 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases ATK SPD by 33 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Meteor Catastrophe",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Summons meteors at the start of a battle and sends them to attack the targets while making normal attacks, dealing <b>40%</b> physical damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases damage to 50%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Lyca shoots an aerolite to attack a target with shields, dealing 350% damage. The target will be stunned for 4s if their shield is broken. Only 1 aerolite can be shot every 10s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Lyca deals 450% damage."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "When Lyca hits an target with Comet Archery, she reduces the targets' Phys DEF by 25% for 6s."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Mark of Agony",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Increases the damage dealt to a target by <b>11%</b> for <b>3s </b>after dealing damage to that target with normal attacks. This effect can't stack.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the damage taken by 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the damage taken by 13%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the damage taken by 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the damage taken by 15%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the damage taken by 16%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the damage taken by 17%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the damage taken by 18%."
+                    }
+                ]
+            }
+        }
+    ]
+}

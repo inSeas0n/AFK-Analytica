@@ -1,0 +1,175 @@
+{
+    "name": "Arden",
+    "level": "A-Level",
+    "class": "Mage",
+    "damage_type": "Magic",
+    "faction": "Wilder",
+    "description": "A wise Mage who can summon lightning to attack enemies under control effects.",
+    "auto_attack_range": "5",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Force of Nature",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "3s",
+                "range": "Global",
+                "initial_energy": "200",
+                "description": "Arden selects a tile and casts lightning strikes on all surrounding enemies within <b>2 </b>tiles, dealing <b>160%</b> damage and creating dark clouds that cover the area for <b>7s</b>. The dark clouds will repeatedly strike the enemies below with lightning when they are under control effects, dealing<b> 80%</b> damage each time. An enemy can only be struck once every <b>2s</b>. Arden prioritizes selecting the tile with the most surrounding enemies when casting the lightning strikes.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "The first lightning strike deals 180% damage, and the subsequent lightning strikes after the dark cloud deal 90% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "The first lightning strike deals 190% damage, and the subsequent lightning strikes after the dark cloud deal 95% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "The first lightning strike deals 200% damage, and the subsequent lightning strikes after the dark cloud deal 100% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "The first lightning strike deals 210% damage, and the subsequent lightning strikes after the dark cloud deal 110% damage."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Entangling Roots",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "8s",
+                "range": "Global",
+                "description": "Arden summons vines to entangle <b>2</b> closest enemies for <b>2s</b>, dealing <b>50% </b>damage every <b>1s</b>. This skill prioritizes enemies under the dark cloud.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 55%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 60%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 65%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Gift of Nature",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Arden recovers <b>12 </b>Energy whenever a non-summoned enemy is controlled. This effect can be triggered once for each enemy in <b>2s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "This effect can be triggered once for each enemy in l.5s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "This effect can be triggered once for each enemy in ls."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Arden recovers 15 Energy."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases ATK by <b>12% </b>during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases ATK by 16% during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases ATK by 20% during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Spring Thunderstorm",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Arden inflicts all enemies within the range of the dark cloud with Entangling Roots once after casting Force of Nature.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "The effect range of Arden's Ultimate is extended to 3-tile."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "The duration of Entangling Roots is increased to 3s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "The duration of Entangling Roots is increased to 3.5s."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "Force of Nature's minimum thunderstrike cooldown on the same enemy is reduced by ls."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Elusive Mirage",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "After <b>5, 25,</b> and <b>40 </b>seconds into a battle, summons an untargetable illusion that casts the non-Ultimate skills in sequence, each with only<b> 85%</b> of the original Attack.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases ATK to 90% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases ATK to 95% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases ATK to 100% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases ATK to 105% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases ATK to 110% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases ATK to 115% of its original value."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases ATK to 120% of its original value."
+                    }
+                ]
+            }
+        }
+    ]
+}

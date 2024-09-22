@@ -1,0 +1,175 @@
+{
+    "name": "Mirael",
+    "level": "A-Level",
+    "class": "Mage",
+    "damage_type": "Magic",
+    "faction": "Lightbearer",
+    "description": "A destructive Mage who is feeble but skilled at dealing high damage.",
+    "auto_attack_range": "3",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Winged Flame",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "1.25s",
+                "range": "11 tiles",
+                "initial_energy": "0",
+                "description": "Mirael selects a direction and summons a <b>3</b>-tile wide wall of flame at a target, dealing <b>600%</b> damage to enemies hit.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 610%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 620%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 630%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 640%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Bone Sear",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "6s",
+                "range": "10 tiles",
+                "description": "Mirael burns and deals <b>35%</b> damage every second to <b>1</b> enemies for <b>10s</b>. This skill prioritizes the unburned enemies.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage dealt per second to 37%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage dealt per second to 40%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage dealt per second to 45%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Fireball Singe",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "10s",
+                "range": "3 tiles",
+                "description": "Mirael shoots a fireball, dealing <b>250%</b> damage to a target and<b> 160%</b> damage to adjacent enemies.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Mirael shoots a fireball, dealing 260% damage to a target and 180% damage to adjacent enemies."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Mirael shoots a fireball, dealing 270% damage to a target and 190% damage to adjacent enemies."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Mirael shoots a fireball, dealing 280% damage to a target and 200% damage to adjacent enemies."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases ATK SPD by <b>21 </b>during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases ATK SPD by 27 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases ATK SPD by 33 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Fiery Blood",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Mirael uses Fireball Singe as her normal attack for the rest of the battle after casting Winged Flame for the first time. The Fireball Singer shoots <b>2 </b>fireballs each time, each dealing <b>150% </b>damage to the target and <b>100%</b> damage to the adjacent enemies.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Bone Spear can burn 2 enemies for the rest of the battle after Mirael casts Winged Flame for the first time."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "The damage dealt by each fireball to the target is increased to 160%, and the damage to the adjacent enemies is increased to 110%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "The damage dealt by each fireball to the target is increased to 170%, and the damage to the adjacent enemies is increased to 120%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "The burning duration of Bone Sear is extended by 4s."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Battle Rush",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Increases own Haste by <b>21 </b>for <b>10s </b>after each Ultimate cast.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the Haste bonus to 23."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the Haste bonus to 25."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the Haste bonus to 27."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the Haste bonus to 29."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the Haste bonus to 31."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the Haste bonus to 33."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the Haste bonus to 35."
+                    }
+                ]
+            }
+        }
+    ]
+}

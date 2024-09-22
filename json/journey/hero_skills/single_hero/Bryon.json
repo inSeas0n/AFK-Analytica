@@ -1,0 +1,175 @@
+{
+    "name": "Bryon",
+    "level": "S-Level",
+    "class": "Marksman",
+    "damage_type": "Magic",
+    "faction": "Wilder",
+    "description": "A magical Marksman who is gifted with extraordinary perception and who fights alongside his falcon.",
+    "auto_attack_range": "5",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Falcon Raid",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "1000",
+                "description": "<b>Passive</b>. When a battle starts, Bryon gains <b>1000 </b>Energy and summons his falcon Elona.<p><b>Active</b>. Bryon consumes <b>300 </b>Energy, calling Elona to deal <b>320% </b>damage to his current target. Elona remains on the battlefield, continuously consuming increasing amounts of Energy over time. When she runs out of Energy or Bryon is defeated, Elona leaves the battlefield. Elona cannot be attacked, and will ignore the terrain and prioritizes Bryon's target. Elona's normal attack deals <b>90% </b>of Byron's ATK as damage.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Elona gains enhanced effects after 8s into a battle. Normal attack damage is increased by 20%, and Haste is increased by 40. The enhancements are reset when Elona leaves the battlefield."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Elona gains enhanced thunderbolt effects after 18s into a battle, reducing Haste of adjacent enemies by 30 and dealing 40% damage per second. The enhancements are reset when Elona leaves the battlefield."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Elona's normal attack damage is increased to 100%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Elona's normal attack damage is increased to 110%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Tacit Strike",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "14s",
+                "range": "5 tiles",
+                "description": "Bryon summons<b> 4</b> magic leaves to attack the target. Each leaf deals <b>90% </b>damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "The damage dealt by each leaf is increased to 93%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "The damage dealt by each leaf is increased to 96%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "The damage dealt by each leaf is increased to 100%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Shadow Flash",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "16s",
+                "range": "5 tiles",
+                "description": "<b>Passive</b>. Bryon's normal attacks and skills deal damage <b>2</b> times, absorbing targets' <b>50 </b>Energy.\n<b>Active</b>. Bryon deals <b>190%</b> damage <b>2</b> times.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Bryon's normal attacks and skills deal damage 2 times, granting Elona's next normal attack with thunderbolts, dealing additional damage equal to 4% of enemy's current HP, along with a skill interruption effect. The extra damage cannot exceed 240% of Bryon's ATK, up to 3 stacks."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Active. Each damage dealt is increased to 195%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Active. Each damage dealt is increased to 200%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Bryon increases his Haste by <b>10 </b>during battle. He gains an extra <b>3 </b>Haste when Elona is on the battlefield.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Bryon increases his Haste by 13 during battle. He gains an extra 4 Haste when Elona is on the battlefield."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Bryon increases his Haste by 17 during battle. He gains an extra 5 Haste when Elona is on the battlefield."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Spiritual Companion",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "3 tiles",
+                "description": "Elona deals <b>350% </b>damage to the enemy and stuns them for <b>3s </b>when Bryon is being controlled or receives damage exceed <b>15%</b> of his max HP from a single hit. This skill takes effect once every <b>20s </b>and can only be triggered when Elona is on the field.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "When Bryon takes a fatal blow, Elona consumes all the Energy to block the fatal damage for him and restores 200% of byron's ATK as HP for Bryon. For the next 5s, Bryon cannot be targeted and recovers 40% HP per second. Then Elona departs from the battlefield and cannot be summoned for 10s. This effect can only be triggered once per battle."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Elona's counterattack damage is increased to 400%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Elona's counterattack damage is increased to 450%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Bryon generates two leaves beside Elona if the falcon is on the battlefield when Tacit Strike is cast."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Focus Hit",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains <b>16 </b>Crit and <b>13 </b>Haste when there are no enemies within a <b>2</b>-tile radius for the last <b>3s</b>. This effect ends is after an enemy approaches.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Grants 18 Crit and 14 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Grants 20 Crit and 15 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Grants 22 Crit and 16 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Grants 24 Crit and 17 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Grants 26 Crit and 18 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Grants 28 Crit and 19 Haste."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Grants 30 Crit and 20 Haste."
+                    }
+                ]
+            }
+        }
+    ]
+}

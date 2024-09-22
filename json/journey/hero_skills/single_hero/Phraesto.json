@@ -1,0 +1,175 @@
+{
+    "name": "Phraesto",
+    "level": "S-Level",
+    "class": "Tank",
+    "damage_type": "Magic",
+    "faction": "Hypogean",
+    "description": "A cunning Tank who is good at confusing enemies with powerful illusions.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Futile Echo",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "1.25s",
+                "range": "2 Tiles",
+                "initial_energy": "0",
+                "description": "<b>Passive</b>: Phraesto sacrifices <b>12%</b> of his max HP, summoning an identical Illusion during the preparation stage. This Illusion inherits <b>100%</b> of Phraesto stats and can cast all his skills. When both Phraesto and his Illusion are positioned in the same row, they each receive a <b>30%</b> damage reduction effect, lasting until one of them is defeated. <p><b>Active:</b> Phraesto deals <b>200%</b> + <b>20% </b>damage to enemies within <b>2</b> tiles, recovering himself <b>160% </b>+ <b>15%</b> HP for each enemy hit.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases the damage dealt to 240% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the damage dealt to 280% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases the damage dealt to 320% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases the damage dealt to 360% + 20%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Crimson Contract",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "14s",
+                "range": "1 Tile",
+                "description": "Phraesto and his Illusion each sign a permanent contract with different allied heroes positioned behind them when a battle starts, reducing the recipient's HP by <b>6%.</b> Phraesto increases the recipient's Energy Recovery Speed by <b>14%</b>, while the llusion increases the recipient's DMG Reduction by <b>14%</b>. The terms of each contract remain undetected by enemies before the battle starts.<p><b>Active</b>: Phraesto launches <b>3 </b>strikes against an enemy in front, dealing <b>100% + 10%</b> damage with the first<b> 2 </b>hits and <b>140% + 20% </b>damage with the <b>3rd </b>hit.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Phrase to warrants his receiving an extra 80 Energy. The Illusion grants the recipient a 180% shield for 6s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the damage of the 3rd hit to 210% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the damage of the 3rd hit to 280% + 20%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Vicious Sting",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "11s",
+                "range": "1 Tile",
+                "description": "Phrases to stings an enemy in front, dealing <b>50%</b> damage and inflicting them with Paralyzing Venom for <b>6s</b>. Enemies afflicted with Paralyzing Venom have their Haste reduced by <b>30 </b>and Vitality reduced by <b>45</b>. They also lose <b>2% + 20.4%</b> of their max HP per second, while restoring <b>3%</b> of the caster's max HP per second. Enemy HP loss can't exceed<b> 40%</b> of Phraesto ATK per second.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases the enemv's lost HP over second to 2.5% + 20.4% of their max HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the max HP ratio restored per second for Paralyzing Venom's caster to 4.5%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases the enemv's lost HP over second to 3.3% + 20.4% of their max HP."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Phraesto increases the Phys &amp; Magic DEF of both himself and his Illusion by <b>30%. </b>Whenever one of them loses <b>10% </b>of max HP, the other gains <b>15 </b>Energy.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Phraesto increases the Phys & Magic DEF of both himself and his Illusion by 40%. Whenever one of them loses 10% of max HP, the other gains 20 Energy."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Phraesto increases the Phys & Magic DEF of both himself and his Illusion by 50%. Whenever one of them loses 10% of max HP, the other gains 25 Energy."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "1 Tile",
+                "description": "Phraesto taunts the enemy who dealt the most damage if his Illusion is defeated before he is, dealing <b>500%</b> damage and stunning them for <b>4.5s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases the skill damage to 600%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases the skill damage to 700%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Phraesto summons a new Illusion in front of himself if the previous Illusion is defeated before he is. The new Illusion inherits only 60% of Phraesto's max HP. Triggers once at most per battle."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "When both Phraesto and his Illusion are positioned in the same row, they each receive a shield equal to 570% of their ATK when a battle starts, lasting up to 12s."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Taunts enemies within a <b>2-tile</b> radius for <b>3s</b> after each Ultimate cast.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Extends the buff duration to 3.5s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Extends the buff duration to 4s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Extends the buff duration to 4.5s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Extends the buff duration to 5s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Extends the buff duration to 5.5s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Extends the buff duration to 6s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Extends the buff duration to 6.5s."
+                    }
+                ]
+            }
+        }
+    ]
+}

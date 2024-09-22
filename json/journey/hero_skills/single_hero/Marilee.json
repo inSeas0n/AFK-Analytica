@@ -1,0 +1,175 @@
+{
+    "name": "Marilee",
+    "level": "A-Level",
+    "class": "Marksman",
+    "damage_type": "Physical",
+    "faction": "Lightbearer",
+    "description": "A deft Marksman who is better positioned farther from enemies.",
+    "auto_attack_range": "5",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Mid-Air Shot",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "3 tiles",
+                "initial_energy": "0",
+                "description": "Marilee moves up to <b>2 </b>tiles in any direction, dealing<b> 125%</b> damage to <b>2 </b>enemies closest to her initial location.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases moving distance to 3 tiles in any direction."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 135%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 145%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 155%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Mighty Arrow",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "0s",
+                "range": "5 tiles",
+                "description": "After every <b>2</b> normal attacks, Marilee briefly charges up before her next normal attack, dealing <b>160%</b> damage and inflicting stun for <b>0.5s.</b>\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 170%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 180%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 190%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Hyperfocus",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Marilee increases ATK by <b>4%</b> and ATK SPD by <b>25 </b>when there's no enemy within 2 tiles.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases ATK by 11%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases ATK by 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases ATK by 17%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases Crit DMG Boost by 30 during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases Crit DMG Boost by 40 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases Crit DMG Boost by 50 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Battlefield Learning",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Marilee's ATK is increased by <b>5%</b> when other allies cast an Ultimate, up to<b> 6</b> stacks. Her normal attacks deal true damage after reaching max stacks.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Gains an extra stack of Battlefield Learning when the Hyperfocus takes effect for every 10s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases each stack of ATK bonus to 7.5%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases each stack of ATK bonus to 8.5%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "The required no-enemy range for triggering Hyperfocus is shortened by 1-tile."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Arcane Barrage",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Fires an extra projectile after every <b>3 </b>normal attacks that hit a target, dealing <b>140% </b>damage to the target.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases damage to 145%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases damage to 155%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases damage to 160%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases damage to 165%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases damage to 170%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases damage to 175%."
+                    }
+                ]
+            }
+        }
+    ]
+}

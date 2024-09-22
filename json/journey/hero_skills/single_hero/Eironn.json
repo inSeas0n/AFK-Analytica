@@ -1,0 +1,175 @@
+{
+    "name": "Eironn",
+    "level": "S-Level",
+    "class": "Rogue",
+    "damage_type": "Magic",
+    "faction": "Wilder",
+    "description": "A Rogue skilled at attracting enemies and working well with allies who can deal AoE damage.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Elemental Realm",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "2s",
+                "range": "Global",
+                "initial_energy": "200",
+                "description": "Eironn combines the power of two swords and selects a tile, pulling in enemies within <b>2</b> tiles to the center. Then causes an explosion after a short delay, dealing <b>250%</b> damage to enemies within <b>2</b> tiles and immobilizing them for <b>3s</b>. Eironn prioritize choosing a tile with the mostsurroundine enemies.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 270%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 290%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 310%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 330%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Ice Spike",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "7s",
+                "range": "1 tile",
+                "description": "Eironn slashes to deal <b>110%</b> damage to enemies within a <b>3</b>-tile arc and reduces their Haste by <b>50 </b>for <b>5s</b>. Later, Eironn stabs the target, deals <b>220% </b>damage to the target and enemies standing in a line within <b>2</b> tiles, and decreases their Magic DEF by<b> 40%</b> for <b>5s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases the damage of slash to 115% and the damage of stab to 230%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the damage of slash to 120% and the damage of stab to 240%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the damage of slash to 125% and the damage of stab to 250%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Elemental Barrier",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "10s",
+                "range": "1 tile",
+                "description": "Eironn gains a shield that blocks <b>280%</b> damage for <b>10s</b>, Additionaly, Eironn gains 50% Dodge Rate while the shield is active.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases shield value to 300%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases shield value to 320%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "The Dodge Rate bonus is increased to 80%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Eironn increases his Ranged DEF by <b>15 </b>during battle. He gains an extra<b> 50%</b> Ranged DEF when his HP drops below <b>7</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Eironn increases his Ranged DEF by 19 during battle. He gains an extra 9 Ranged DEF when his HP drops below 50%."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Eironn increases his Ranged DEF by 23 during battle. He gains an extra 12 Ranged DEF when his HP drops below 50%."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Howling Hurricane",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Eironn's first casting of Ultimate in battles does not consume Energy, but the damage is reduced to <b>50%</b> of the original damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "The damage is reduced to 70% of the original."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases immobilize duration to 6s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "The damage is reduced to 80% of the original."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "Eironn reduces an extra 15% Magic DEF on an immobilized target if they are immobilized by Elemental Realm."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Combo",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "After casting the Ultimate, deals<b> 125%</b> damage to the current target with each of the next <b>4</b> skill casts or normal attacks.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the skill damage dealt to 130%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the skill damage dealt to 135%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the skill damage dealt to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the skill damage dealt to 145%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the skill damage dealt to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the skill damage dealt to 155%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the skill damage dealt to 160%."
+                    }
+                ]
+            }
+        }
+    ]
+}

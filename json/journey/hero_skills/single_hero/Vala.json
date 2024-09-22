@@ -1,0 +1,175 @@
+{
+    "name": "Vala",
+    "level": "S-Level",
+    "class": "Rogue",
+    "damage_type": "Physical",
+    "faction": "Lightbearer",
+    "description": "An Assassin who can switch between ranged attack and melee attack modes during battles, and pose a huge threat the backline enemies.",
+    "auto_attack_range": "7",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Swift Shift",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "When Vala casts the skill at an empty tile, she jumps to the tile and switches to the Skyblaster mode. She prioritizes shooting the marked enemy, dealing <b>450%</b> damage and stunning them for <b>4s</b>. <p>When Vala casts the skill at an enemy, she switches to the Sword mode. She rushes to slash the target, dealing<b> 420%</b> true damage. And all her normal attacks become melee attacks. </p><p>In Auto Battle mode, Vala switches to the Sword mode and prioritizes the marked enemy if their HP ratio is lower than <b>50%</b>. Otherwise, she switches to the Skyblaster mode to shoot the enemy and remains at a safe distance.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "In Skyblaster Mode, Vala deals 40% more damage to enemies with a HP ratio higher than 50%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "In Sword mode, Vala deals additional damage to enemies with a HP ratio lower than 50%. Damage dealt equals to 10% of target's lost HP, up to 300% of Vala's ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "In Skyblaster Mode, Vala deals 45% more damage to enemies with a HP ratio higher than 50%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "In Sword mode, Vala deals additional damage to enemies with a HP ratio lower than 50%. Damage dealt equals to 12% of target's lost HP. up to 300% of Vala's ATK."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Notice Beforehand",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "0s",
+                "range": "Global",
+                "description": "Vala sends a Notice to mark the farthest enemy when a battle starts. She attacks the Noticed enemy in priority, absorbing <b>90 </b>Energy for each hit. When the Noticed enemy is defeated, Vala sends the Notice Beforehand to the farthest enemy if she is in Skyblaster Mode or to the nearest enemy if she is in Sword Mode.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases Energy absorbed to 100."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases Energy absorbed to 110."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases Energy absorbed to 120."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Checkmate",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "12s",
+                "range": "7 tiles",
+                "description": "In Skyblaster mode, Vala shoots with an exclusive anesthetic bullet, dealing <b>230%</b> damage to an enemy and reducing their Haste by <b>60 </b>for <b>8s</b>. In Sword mode, Vala launches <b>3</b> consecutive strikes to an enemy. Each strike deals <b>100%</b> damage and stuns them for <b>1s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases the damage with Skyblaster to 240%; Increases the damage with each Sword hit to 105%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the damage with Skyblaster to 250%; Increases the damage with each Sword hit to 110%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases the damage with Skyblaster to 260%; Increases the damage with each Sword hit to 115%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Vala increases her ATK by <b>9%</b> during battle. She also gains an extra <b>3%</b> ATK every time a non-summoned enemy is defeated.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Vala increases her ATK by 12% during battle. She also gains an extra 4% ATK every time a non-summoned enemy is defeated."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Vala increases her ATK by 15% during battle. She also gains an extra 5% ATK every time a non-summoned enemy is defeated."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Night Maneuver",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "3 Tiles",
+                "description": "When a marked enemy is defeated, Vala hides in the darkness and can only be targeted after all other allies are defeated, increasing her movement speed by <b>60%</b> and Haste by <b>80 </b>for <b>10s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases her movement speed by 80% and Haste by 100 under this status."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Vala restores 40% of her max HP when a marked enemy is defeated."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases her movement speed by 90% and Haste by 120 under this status."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Vala's damage dealt to the marked enemy is increased by 10%"
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Battle Momentum",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Grants an extra <b>11%</b> ATK and <b>18 </b>Crit in the first <b>8s </b>of a battle. Defeating a non-summoned enemy while this buff is active extends its duration by <b>5s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Grants 12% ATK and 19 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Grants 13% ATK and 20 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Grants 14% ATK and 21 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Grants 15% ATK and 22 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Grants 16% ATK and 23 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Grants 17% ATK and 24 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Grants 18% ATK and 25 Crit."
+                    }
+                ]
+            }
+        }
+    ]
+}

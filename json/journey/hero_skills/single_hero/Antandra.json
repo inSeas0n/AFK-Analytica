@@ -1,0 +1,175 @@
+{
+    "name": "Antandra",
+    "level": "A-Level",
+    "class": "Tank",
+    "damage_type": "Physical",
+    "faction": "Mauler",
+    "description": "A brave Tank who can provide an ally sustained protection in the battle.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Shield Assault",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "1.25s",
+                "range": "1 tile",
+                "initial_energy": "300",
+                "description": "Antandra sets her shield up and taunts enemies within <b>2</b> tiles for ls, reducing her damage taken by<b> 60%</b> and becoming Unaffected for <b>5s</b>. Afterward, she raises the shield to stun adjacent enemies for <b>2s </b>and swings the spear, dealing <b>400%</b> damage to adjacent enemies and knocking them down, recovering <b>20%</b> HР. Each enemy hit recovers her an extra <b>8%</b> HР.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 420%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 440%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 450%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 460%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Shield Formation",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "15s",
+                "range": "Global",
+                "description": "Antandra selects the frontmost ally (except herself) as the guarded ally when a battle starts. Antandra grants herself and the guarded ally shields that block damage equal to <b>15%</b> of the ally's max HP for <b>5s</b>, and the shield value is up to <b>500%</b> of her ATK. Antandra reselects another front-most all (except herself) as the guarded ally if the previous one is defeated.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Reduces the skill cooldown by 3s whenever the guarded ally loses 10% max HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the shield value to 20% of the guarded ally's max HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the shield value to 25% of the guarded ally's max HP."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Spear Barrage",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "10s",
+                "range": "1 tile",
+                "description": "Antandra attacks the frontal area within 1-tile arc <b>3 </b>times and reduces the target's' ATK by <b>20% </b>for <b>6s</b>, with the first <b>2</b> hits dealing <b>100% </b>damage and the third hit dealing <b>120%</b> damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases the damage of 3rd attack to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the damage of 3rd attack to 160%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases the damage of 3rd attack to 180%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Antandra increases her Max HP by<b> 17%</b> during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Antandra increases her Max HP by 23% during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Antandra increases her Max HP by 29% during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Gale Barrier",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Antandra rushes next to the guarded ally when their HP ratio drops below <b>50%</b> for the first time, reducing their damage taken by <b>40%</b> for <b>10s</b>. This skill can only be used once for each guarded ally per battle.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Rushes next to the guarded ally, recovering their Energy by 100 per second for 4s."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Rushes next to the guarded ally, reducing their damage taken by 50%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Rushes next to the guarded ally, reducing their damage taken by 60%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "Each enemy hit by Shield Assault increases 10% of Antandra's Phys DEF, up to 6 stacks."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Battle Zeal",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains a shield that absorbs <b>8%</b> damage for <b>6s </b>when dealing Ultimate damage to an enemy.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the shield value to 9%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the shield value to 10%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the shield value to 11%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the shield value to 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the shield value to 13%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the shield value to 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the shield value to 15%."
+                    }
+                ]
+            }
+        }
+    ]
+}

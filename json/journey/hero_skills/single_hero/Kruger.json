@@ -1,0 +1,175 @@
+{
+    "name": "Kruger",
+    "level": "A-Level",
+    "class": "Warrior",
+    "damage_type": "Physical",
+    "faction": "Mauler",
+    "description": "A brave Warrior who can destroy enemies' Phys DEF and vanish them.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Devastating Axe",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "1 tile",
+                "initial_energy": "400",
+                "description": "Kruger launches a mighty slash to knock down an enemy for <b>1.5s</b>, dealing <b>450% </b>damage and inflicting them with <b>3</b> stacks of Shatter Armor. Each stack reduces the target's Phys DEF by <b>10%,</b> up to<b> 4</b> stacks on a target\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "If Kruger is present, the ally inflicts enemies with an extra stack of Shatter Armor when reducing their Phys DEF."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 465%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 480%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage to 500%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Smashing Assault",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "5s",
+                "range": "1 tile",
+                "description": "Kruger slashes an enemy, dealing <b>240%</b> damage and inflicting them with a stack of Shatter Armor.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 260%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 280%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 300%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Vital Strike",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "2s",
+                "range": "1 tile",
+                "description": "Kruger launches a powerful attack to the adjacent enemies who are not Vulnerable with Shatter Armor lower than <b>4</b> stacks, dealing <b>400%</b> damage and inflicting Vulnerable. For Vulnerable enemies, their physical damage taken is increased by <b>40%,</b> and <b>40%</b> of their damage taken is transformed to Kruger's HP.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases damage to 440%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 480%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases damage to 520%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases Ranged DEF by <b>16 </b>during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases Ranged DEF by 21 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases Ranged DEF by 26 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Lone Warrior",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "When a battle starts, Kruger gains a shield that blocks damage equal to<b> 40% </b>of his HP for <b>15s </b>if no allies are present within the surrounding <b>1 </b>tile. The shield also grants him control immunity. Additionally, Kruger gains <b>30 </b>Life Drain when no allies are detected within the surrounding tile.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases the shield value to 44%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Removes the distance limit for the Vital Strike (the other restrictions remain). Kruger can rush to Vulnerable enemies and cast Vital Strike to deal damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases the shield value to 48%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Kruger's ATK is increased by 40% until the battle ends when the Vulnerable enemy is defeated by Vital Strike, up to 2 stacks."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Battle Rush",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Increases own Haste by <b>21 </b>for <b>10s </b>after each Ultimate cast.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the Haste bonus to 23."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the Haste bonus to 25."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the Haste bonus to 27."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the Haste bonus to 29."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the Haste bonus to 31."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the Haste bonus to 33."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the Haste bonus to 35."
+                    }
+                ]
+            }
+        }
+    ]
+}

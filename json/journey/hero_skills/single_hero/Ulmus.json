@@ -1,0 +1,175 @@
+{
+    "name": "Ulmus",
+    "level": "A-Level",
+    "class": "Tank",
+    "damage_type": "Physical",
+    "faction": "Wilder",
+    "description": "A resilient Tank who can withstand attacks and become more offensive in battle.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Ancient Tenacity",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "1 Tile",
+                "initial_energy": "0",
+                "description": "<b>Passive</b>. When Ulmus' HP ratio drops below <b>30%</b> for the first time, he retreats to the backline and takes root to recover <b>30%</b> + <b>2%</b> HP. While rooted, Ulmus is Unaffected and unable to move. His normal attacks become ranged and deal an additional<b> 50%</b> damage to enemies surrounding the primary target.<p><b>Active.</b> Ulmus attacks an enemy, knocking the target and adjacent enemies into the air. dealing <b>200%</b> +<b> 20%</b> damage plus an extra 4% damage. This skill prioritizes the area with the most enemies within his attack range.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases the damage dealt to 210% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the damage dealt to 220% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases the damage dealt to 230% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases the damage dealt to 240% + 20%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Verdant Barrier",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "14s",
+                "range": "Global",
+                "description": "Ulmus gains a <b>25% + 3%</b> shield that lasts <b>10s</b>. When the shield breaks, it deals : <b>160% + 15%</b> damage to surrounding enemies. If Ulmus is rooted, he will grant the shield to the frontmost ally instead.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases the shield value to 28% + 23%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the shield value to 32% + 23%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the shield value to 35% + 23%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Way of the Forest",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "<b>Passive. </b>Ulmus recovers<b> 3.5% + 20.5%</b> of his lost HP per second. When rooted, he will instead recover <b>30 + 4 </b>Energy per second.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases the HP recovered per second to 4% + 20.5%, or the Energy recovered to 32 + 4."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the HP recovered per second to 4.5% + 20.5%, or the Energy recovered to 34 + 4."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases the HP recovered per second to 5% + 20.5%, or the Energy recovered to 36 + 4."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases max HP by <b>17%</b> during the battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases max HP by 23% during the battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases max HP by 29% during the battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Prowling Roots",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Ulmus extends his roots to trap vulnerable enemies on the battlefield. Whenever an enemy target is knocked down, knocked into the air or affected by other displacement effects, Ulmus binds the target to the ground, increasing the knockdown duration by <b>2s </b>and dealing <b>80%</b> damage. This effect can only affect the same enemy once every <b>10s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases the damage dealt to 100%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Gains 60 Life Drain when dealing damage with this skill."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases the damage dealt to 120%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Ulmus knocks back adjacent enemies by 1 tile when the shield granted by Verdant Barrier breaks or vanishes."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Lock-on Projectiles",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Shoots a projectile at the target for every <b>2s </b>your control effects last on that target, dealing <b>120%</b> damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases damage to 125%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 130%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases damage to 135%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases damage to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases damage to 145%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases damage to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases damage to 155%."
+                    }
+                ]
+            }
+        }
+    ]
+}

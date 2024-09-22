@@ -1,0 +1,175 @@
+{
+    "name": "Alsa",
+    "level": "S-Level",
+    "class": "Mage",
+    "damage_type": "Magic",
+    "faction": "Mauler",
+    "description": "",
+    "auto_attack_range": "6",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Twirling Rocks",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "6 tile",
+                "initial_energy": "300",
+                "description": "Alsa curls into a ball and moves to the target tile, dealing <b>300% + 20%</b> damage to adjacent enemies, then enters Combat Stance till the end of the battle. In Combat Stance, Alsa consumes <b>500 </b>Energy to cast Vigorous Slam and hits the targets, then back to the original spot, dealing <b>260% + 20%</b> damage and stunning them for <b>2s</b>. Alsa prioritizes casting Swift Evasion to deal <b>150% + 5%</b> damage to adjacent enemies when taking damage from them, reducing their movement speed by <b>60%</b> for <b>2s</b>. Alsa rolls away from attackers afterward, gaining a shield equal to <b>25% </b>of max HP for <b>7s</b>. This effect can trigger once every <b>7s </b>at most. Alsa becomes immune to control effects when curling into a ball.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases the damage dealt bv Vigorous Slam to 270% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the damage dealt bv Vigorous Slam to 280% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases the damage dealt bv Vigorous Slam to 290% + 20%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases the damage dealt bv Vigorous Slam to 300% + 20%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Stone Barrier",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "8s",
+                "range": "6 Tiles",
+                "description": "Alsa channels the power of Earth Force to blast the nearest enemy target, dealing <b>270% + 25% </b>damage and stunning them for <b>2 + 0.25s</b>. The blast Alsa creates earth pillars on the <b>3</b> tiles behind the target, knocking enemies standing on those tiles back <b>I </b>tile. There can be up to<b> 6 </b>earth pillars on the battlefield simultaneously.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 280% + 25%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 290% + 25%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 300% + 25%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Rolling Boulder",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "12s",
+                "range": "6 tiles",
+                "description": "Alsa senses the vibrations of leylines to locate all enemies recently affected by control effects, then forms and drops rocks on them, each dealing <b>250% + 25% </b>damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases damage to 260% + 25%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 270% + 25%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases damage to 280% + 25%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases Haste by <b>10 </b>during battles, gaining an extra <b>6</b> Haste after entering Combat Stance status.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases Haste by 14 during battles, gaining an extra 7 Haste after entering Combat Stance status."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases Haste by 18 during battles, gaining an extra 8 Haste after entering Combat Stance status."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Don of Terra",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "1 Tile",
+                "description": "Alsa increases the damage of Vigorous Slam by <b>50% </b>after dealing damage with the skill, stacking up to <b>2 </b>times. She also increases the shield value of Swift Evasion by <b>5% </b>of her max HP after casting it, stacking up to <b>2</b> times.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Reduces the Energy cost to 400 when the Vigorous Slam buff is stacked to its maximum."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Reduces the cooldown to 6s when the Swift Evasion buff is stacked to its maximum."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases the damage dealt by the next Vigorous Slam by 55%. This effect can stack up to 2 times."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Rolling Boulder deals an extra 180% damage to enemies recently affected by multiple control effects."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Combo",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "After casting the Ultimate, deals<b> 125%</b> damage to the current target with each of the next <b>4</b> skill casts or normal attacks.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the skill damage dealt to 130%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the skill damage dealt to 135%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the skill damage dealt to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the skill damage dealt to 145%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the skill damage dealt to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the skill damage dealt to 155%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the skill damage dealt to 160%."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "name": "Thoran",
+    "level": "S-Level",
+    "class": "Tank",
+    "damage_type": "Physical",
+    "faction": "Graveborn",
+    "description": "A Tank who can revive himself and reflect damage back to attackers.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Soul Retaliation",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "1 tiles",
+                "initial_energy": "200",
+                "description": "Thoran charges up for some time to slash at enemies in range, dealing<b> 200%</b> damage plus <b>180%</b> of damage received during the charge. And he also gains<b> 20%</b> Life Drain. Thoran is unaffected while casting this skill.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Plus 200% of the damage received during the charge."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Thoran's soul will complete the slash if his skill is interrupted."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Plus 220% of the damage received during the charge."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Plus 240% of the damage received during the charge."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Soul Plunder",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "15s",
+                "range": "Global",
+                "description": "Thoran targets the not soul-plundered enemy with the highest HP and drains <b>18%</b> of the target's current HP to increase his max HP by the same amount. He also makes this target receive <b>13%</b> more damage for the rest of the battle. Drained HP limit: <b>600%</b> of Thoran's ATK.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases drained HP to 20% of the enemy's current HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the enemy's received damage by 16% for the rest of the battle."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the enemy's received damage by 17% for the rest of the battle"
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Resurrection",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "2 tiles",
+                "description": "Thoran will resurrect with <b>40%</b> HP restored after a short time when defeated. The effect can be triggered once per battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Thoran can revive himself with 50% HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Thoran can revive himself with 60% HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Gains 500 Energy when the skill is triggered."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Thorin's normal attacks and skills increase his Energy Recovery by<b> 24%</b>. His Energy Recovery is increased by an extra <b>6% </b>when Resurrection is not triggered.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Thorin's normal attacks and skills increase his Energy Recovery by 32%. His Energy Recovery is increased by an extra 8% when Resurrection is not triggered."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Thorin's normal attacks and skills increase his Energy Recovery by 40%. His Energy Recovery is increased by an extra 10% when Resurrection is not triggered."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Soul Pact",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Before a battle starts, Thoran signs a pact with the ally on the tile behind him, agreeing to take <b>50%</b> damage for this ally until the battle ends. When Thoran is defeated, this ally sacrifices <b>85%</b> of their current HP to save and heal Thoran by <b>150%</b> of this portion of HP. After that, Thoran no longer takes damage for this ally.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "The 25% of damage dealt by this ally heals Thoran when the pact exists."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases the healing amount that Thoran receives from the ally's damage dealt to 30%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases the healing amount that Thoran receives from the ally's damage dealt to 35%"
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Thoran's Ultimate drains another 20% of the current HP from all enemies affected by Soul Plunder to increase his max HP by the same amount."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Mark of Agony",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Increases the damage dealt to a target by <b>11%</b> for <b>3s </b>after dealing damage to that target with normal attacks. This effect can't stack.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the damage taken by 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the damage taken by 13%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the damage taken by 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the damage taken by 15%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the damage taken by 16%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the damage taken by 17%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the damage taken by 18%."
+                    }
+                ]
+            }
+        }
+    ]
+}

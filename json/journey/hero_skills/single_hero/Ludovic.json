@@ -1,0 +1,175 @@
+{
+    "name": "Ludovic",
+    "level": "S-Level",
+    "class": "Support",
+    "damage_type": "Magic",
+    "faction": "Graveborn",
+    "description": "",
+    "auto_attack_range": "6",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Eternal Serenity",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "-",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Ludovic generates a field of everblooms with a total healing amount equal to <b>1200% </b>of his current ATK at his position, restoring HP for adjacent allies by up to <b>150% + 910%</b> per second. The everbloom field will wither when its healing amount depletes but will restore <b>100%</b> per second and revive when the healing amount is full.<p><b>Active. </b>Ludovic moves the everbloom field to a designated tile for it to release <b>3 </b>healing waves, each restoring HP for all allies within <b>2 </b>tiles by<b> 110%</b>. This takes effect even when the everbloom field is withered.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases the healing amount of each healing wave to 120%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the healing amount of each healing wave to 130%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases the healing amount of each healing wave to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases the healing amount of each healing wave to 150%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Lifeweaver's Blooms",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "8s",
+                "range": "Global",
+                "description": "Whenever a non-summoned enemy on the battlefield loses <b>40% </b>of their HP, the everbloom field will absorb <b>15%</b> of their max HP, up to <b>350%</b>, as nutrients to restore its healing amount.<p>Active. Ludovic hurls ever blooms at the enemy with the highest accumulated damage dealt, making them lose HP equal to <b>40% + 10%</b> per second over the next <b>4s</b>.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases the target's lost HP per second to 45% + 10%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the target's lost HP per second to 50% + 10%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the target's lost HP per second to 55% + 10%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Ethereal Blooms",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "5s",
+                "range": "Global",
+                "description": "Ludovic moves the everbloom field near the weakest ally and absorbs<b> 9% + 1% </b>of the nearest non-summoned enemy's HP, up to<b> 250%, </b>to restore the ever bloomfield's healing amount.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases the amount of absorbed HP to 10% + 1%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the amount of absorbed HP to 11% + 1%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases the amount of absorbed HP to 12% + 1%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Ludovic increases his Healing by <b>9 </b>during battle. His Healing will increase by an extra <b>2 </b>when the everbloom field accumulates a healing amount equal to <b>2400%.</b>",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Ludovic increases his Healing by 11 during battle. His Healing will increase by an extra 3 when the verbloom field accumulates a healing amount equal to 2400%"
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Ludovic increases his Healing by 14 during battle. His Healing will increase by an extra 4 when the verbloom field accumulates a healing amount equal to 2400%"
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Ephemeral Berries",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "3s",
+                "range": "Global",
+                "description": "Every <b>2</b> times the everbloom field absorbs nutrients through Lifeweavers Blooms, it will produce an Ephemeral Berry that explodes after a short delay, dealing <b>100%</b> damage to all enemies and restoring<b> 130%</b> HP for all allies within range.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases damage dealt to 110% and HP restored to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Permanently enhances the everbloom field upon the first 4 times it absorbs nutrients, restoring its healing amount by 50% per second. This takes effect even when the everbloom field is withered."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases damage dealt to 120% and HP restored to 150%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "Whenever an enemy steps into the everbloom field, they will instantly take 120% damage and be stunned for 3s. This effect can be triggered once for each enemy every 12s."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Soul-lifting Touch",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Every <b>5s</b>, increases the ATK by<b> 13%</b> and Haste by <b>11</b> for <b>3</b>s for the ally who has dealt the most damage and has a HP ratio above <b>75%.</b>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases ATK bonus by 14% and Haste bonus by 12."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases ATK bonus by 15% and Haste bonus by 13."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases ATK bonus by 16% and Haste bonus by 14."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases ATK bonus by 17% and Haste bonus by 15."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases ATK bonus by 18% and Haste bonus by 16."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases ATK bonus by 19% and Haste bonus by 17."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases ATK bonus by 20% and Haste bonus by 18."
+                    }
+                ]
+            }
+        }
+    ]
+}

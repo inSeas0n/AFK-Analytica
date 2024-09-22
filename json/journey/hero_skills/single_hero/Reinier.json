@@ -1,0 +1,175 @@
+{
+    "name": "Reinier",
+    "level": "S-Level",
+    "class": "Support",
+    "damage_type": "Magic",
+    "faction": "Hypogean",
+    "description": "A demon who pursues order and is good at using spatial magic to send enemies into another dimension.",
+    "auto_attack_range": "5",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Mutual Reflection",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "1.25s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Reinier selects an enemy, dealing <b>230%</b> damage. If the count of allied non-summoned units equals or exceeds the number of enemy non-summoned units on the battlefield, Reinier enters another dimension with the target for <b>10s</b>. Other wise, Reinier remains on the battlefield. If the target is under Steadfast or Unaffected, or if the target is the only non-summoned enemy alive, Reinier will deal <b>450%</b> damage instead of entering another dimension. This skill prioritizes the healthiest non-summoned enemy.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "The Mutual Reflection works on an extra enemy if non-summoned enemies outnumber allies by at least 2. Reduces the duration of transferring this enemy to another dimension to 7s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the damage to 250%. The damage is increased to 460% if the target is steadfast, unaffected, or the only non-summoned unit alive."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases the damage to 260%. The damage is increased to 480% if the target is steadfast, unaffected, or the only non-summoned unit alive."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases the damage to 270%. The damage is increased to 500% if the target is steadfast, unaffected, or the only non-summoned unit alive."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Dynamic Balance",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Reinier prioritizes switching an adjacent ally's position with an enemy hero if they're in a symmetrical position. Whenever the enemy hero takes damage, the allied hero restores HP equal to <b>45%</b> of the enemy hero's taken damage till a battle ends. The total HP recovery amount by this means is no more than<b> 1000% </b>in a consecutive <b>8s</b>.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Restores allied hero's HP equal to 46% of damage dealt."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Restores allied hero's HP equal to 48% of damage dealt."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Restores allied hero's HP equal to 50% of damage dealt."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Golden Ratio",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "12s",
+                "range": "Global",
+                "description": "Reinier launches a mighty strike against the healthiest enemy through the portal, interrupting them and dealing <b>45%</b> damage <b>8 </b>times. Afterward, Reinier punches and knocks them up, dealing <b>120%</b> damage. If the enemy's HP is above <b>61.8%</b>, then each hit attaches extra damage equal to <b>1%</b> of their current HP, up to <b>20%</b> of ATK.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Reinier senses satisfaction when each enemy hero's HP drops below 61.8% for the first time, recovering 200% of his ATK as HP and 80 Energy."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "The damage of each strike is increased to 1.2% of the enemy's current HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Reinier shares satisfaction with allies when each enemy hero's HP drops below 61.8% for the first time, granting all allies 120% of his ATK as HP and 50 Energy."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Reinier's Dynamic Balance increases the target's ATK by <b>7%</b> when cast on an ally or reduces the target ATK by <b>7%</b> when cast on an enemy.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Reinier's Dynamic Balance increases the target's ATK by 10% when cast on an ally or reduces the target ATK by 10% when cast on an enemy."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Reinier's Dynamic Balance increases the target's ATK by 12% when cast on an ally or reduces the target ATK by 12% when cast on an enemy."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Tuned Art",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Reinier deals <b>200%</b> damage to the enemy and knocks them down when casting Dynamic Balance, increasing their damage taken by <b>25%</b> till the battle ends.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases damage dealt to the enemy to 250%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Reduces the position-switched ally's damage taken by 25% till the battle ends."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases damage dealt to the enemy to 300%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 1",
+                "description": "Reinier increases the allied hero's ATK by 4% till the battle ends if they're in a symmetrical position with an enemy hero."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Vanguard's Bulwark",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Grants a shield to the frontmost ally (excluding the caster), absorbing <b>340%</b> damage for <b>4s </b>when a battle starts.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Shield value is increased to 360%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Shield value is increased to 380%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Shield value is increased to 400%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Shield value is increased to 420%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Shield value is increased to 440%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Shield value is increased to 460%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Shield value is increased to 480%."
+                    }
+                ]
+            }
+        }
+    ]
+}

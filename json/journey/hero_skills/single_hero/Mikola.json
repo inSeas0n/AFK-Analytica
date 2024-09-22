@@ -1,0 +1,146 @@
+{
+    "name": "Mikola",
+    "level": "S-Level",
+    "class": "Support",
+    "damage_type": "Magic",
+    "faction": "Mauler",
+    "description": "",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Dauntless Hymn",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "-",
+                "range": "2 Tiles",
+                "initial_energy": "0",
+                "description": "Mikola generates a <b>2</b>-tile Courage Sphere that follows her around, increasing Haste by <b>40 </b>and Ranged DEF by <b>10 </b>for all allies within range, while increasing her own Haste by <b>30 </b>and Ranged DEF by <b>10</b>. When Mikola deals total damage equal to <b>300%</b> of her initial ATK while Courage Sphere is around, a Healing Wave will emerge, restoring <b>80%</b> HP to all allies within range. Courage Sphere lasts for <b>10s</b>. ",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases the healing amount of Healing Wave to 90%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the duration of Courage Sphere to 12s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases the healing amount of Healing Wave to 100%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases the healing amount of Healing Wave to 110%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Heroic Duel",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Mikola generates an Honor Arena spanning the battlefield when a battle starts, lasting until the battle ends. The side with more units within the arena will gain control of it after maintaining the advantage for <b>3s</b>.<p>Mikola restores all allies' HP by <b>12% </b>per second and increases their ATK by <b>14%</b> when her side gains control of the Honor Arena.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases all allies' ATK by 16% when Mikolas side gains control of the Honor Arena."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases all allies' ATK by 18% when Mikolas side gains control of the Honor Arena."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases all allies' ATK by 20% when Mikolas side gains control of the Honor Arena."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Vigorous Call",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "12s",
+                "range": "Global",
+                "description": "Mikola rings her bell, restoring <b> 130% </b>HP and increasing Phys &amp; Magic DEF by <b>40%</b> for herself and the <b>2</b> weakest allies for <b>5s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases HP recovery amount to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases HP recovery amount to 170%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases HP recovery amount to 190%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Mikola increases her ATK by<b> 9%</b> during battle. She gains an extra <b>6%</b> ATK when her side gains control of the Honor Arena.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Mikola increases her ATK by 12% during battle. She gains an extra 8% ATK when her side gains control of the Honor Arena."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Mikola increases her ATK by 15% during battle. She gains an extra 10% ATK when her side gains control of the Honor Arena."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "1 Tile",
+                "description": "Mikola enhances her Courage Sphere after it has been active for <b>6s</b>, granting Combat Fury to all allied heroes (except herself) within range, and dealing damage equal to <b>50%</b> of her ATK per second to enemies adjacent to these allies. The enhancements reset when the Courage Sphere disappears.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases Mikolas damage dealt per second to enemies adjacent to allies carrying Combat Fury to 60% of her ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases 30 Vitality for allies carrying Combat Fury."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases Mikolas damage dealt per second to enemies adjacent to allies carrying Combat Fury to 70% of her ATK."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "Mikola's Courage Sphere remains unaffected in duration if her side gains control of the Honor Arena."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "",
+                "unlocks": "",
+                "cooldown": "",
+                "range": "",
+                "description": "",
+                "upgrades": []
+            }
+        }
+    ]
+}

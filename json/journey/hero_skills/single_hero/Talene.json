@@ -1,0 +1,175 @@
+{
+    "name": "Talene",
+    "level": "S-Level",
+    "class": "Mage",
+    "damage_type": "Magic",
+    "faction": "Celestial",
+    "description": "An elegant Mage who specializes in converting HP into magic power and possesses the ability of self-resurrection.",
+    "auto_attack_range": "3",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Divine Conflagration",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Talene flies to a designated tile in the center of the battlefield, consumes <b>12.5%</b> of her max HP and <b>250 </b>Energy per second to shoot a <b>5</b>-tile flame, dealing <b>150% + 20%</b> damage and extra damage equal to <b>170% + 1%</b> of her lost HP to enemies within range. The extra damage is shared among all hit enemies.<p>Talene can cast this skill even when she is out of Energy, but the HP consumed per second will increase to <b>20%</b>. This skill ends when there are no enemies within range.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage dealt per second to 160% + 20% and extra damage to 190% + 1% of her lost HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage dealt per second to 170% + 20% and extra damage to 210% + 1% of her lost HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage dealt per second to 180% + 20% and extra damage to 230% + 1% of her lost HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage dealt per second to 190% + 20% and extra damage to 250% + 1% of her lost HP."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Radiant Resurgence",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "12s",
+                "range": "Global",
+                "description": "<b>Passive</b>. Whenever Talene loses <b>10% </b>of her max HP, she will release a warm current that restores : <b>40% </b>HP for the weakest allied hero. Whenever she restores <b>10%</b> of her max HP, she will unleash a torrent that deals <b>50%</b> damage to the healthiest enemy.<p><b>Active</b>. Talene consumes <b>20%</b> of her max HP to summon Divine Fire in the area with the most enemies, dealing <b>200% + 10%</b> damage that comes with an extra <b>40 + 3</b> Life Drain to adjacent enemies.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage dealt to 215% + 10%"
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage dealt to 230% + 10%"
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage dealt to 240% + 10%"
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Blazing Ascension",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "3 Tiles",
+                "description": "Talene transforms into a ball of flame whenever she is defeated. During this state, she cannot be attacked as she is not considered alive, and she can restore<b> 8%</b> of her max HP per second as well as benefit from allies' skills. When her HP reaches above<b> 65%</b>, she will resurrect and bring about an explosion, dealing <b>150% + 10%</b> damage to enemies within <b>2 </b>tiles and knocking them <b>1 </b>tile back. After each resurrection, her Vitality during the flame state will be reduced permanently by <b>33</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "After each resurrection, Talene's Vitality will be reduced by 32."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "After each resurrection, Talene's Vitality will be reduced by 31."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "After each resurrection, Talene's Vitality will be reduced by 30."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Talent increases her ATK by <b>8%</b> for up to <b>32%</b> whenever she has consumed <b>50%</b> of her max HP.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Talent increases her ATK by 9% for up to 36% whenever she has consumed 50% of her max HP."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Talent increases her ATK by 10% for up to 40% whenever she has consumed 50% of her max HP."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Pyre of Renewal",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Talene grants Pyre of Renewal to the frontmost allied hero other than herself from the beginning of the battle until the end. Pyre of Renewal carrier will deal damage equal to <b>50%</b> of their ATK per second to adjacent enemies and restore HP equal to<b> 25%</b> of their damage dealt. Every time the carrier is healed by an amount equal to <b>500% </b>of their ATK, a kindling will be generated next to them to permanently enhance Talene's Pyre of Renewal, increasing its damage dealt by <b>50%</b> for up to <b>3 </b>stacks.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases Pyre of Renewal carrier's damage dealt to adjacent enemies to 55% of their ATK, and HP recovery to 30% of their damage dealt."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Increases Pyre of Renewal carrier's damage dealt to adjacent enemies to 60% of their ATK, and HP recovery to 35% of their damage dealt."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "When Pyre of Renewal reaches the maximum number of stacks and its carrier is defeated, all stacks will be consumed to transform the carrier into a ball of flame. The carrier will then resurrect in 3s with 50% of their max HP. This effect can only be triggered once in each battle."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Talene increases her HP recovered per second to 15% while in the flame state when defeated for the first time in a battle."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Energy Surge",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Recovers <b>90 </b>Energy every <b>3s </b>after a battle starts until the first Ultimate is cast.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases Energy recovery to 95."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases Energy recovery to 100."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases Energy recovery to 105."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases Energy recovery to 110."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases Energy recovery to 115."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases Energy recovery to 120."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases Energy recovery to 125."
+                    }
+                ]
+            }
+        }
+    ]
+}

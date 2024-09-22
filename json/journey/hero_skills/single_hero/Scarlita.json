@@ -1,0 +1,175 @@
+{
+    "name": "Scarlita",
+    "level": "S-Level",
+    "class": "Warrior",
+    "damage_type": "Physical",
+    "faction": "Celestial",
+    "description": "A solemn Warrior who excels at turning the tides in crucial moments and ensuring victory with allies.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Divine Quake",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Scarlita slashes the ground in the specified direction to create a 3-tile-wide Rock Wave, dealing <b>200%</b> damage to all enemies in this direction and knocking them back to the edge of the battlefield. Afterward, Scarlita charges at them and strikes, dealing <b>200%</b> damage to enemies within the radius of a 2-tile arc and stunning them for <b>1s</b>. The skill damage is increased by <b>10%</b> for each surviving ally besides Scarlita. She is Unaffected when casting this skill.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases the damage dealt by slash and strike to 220%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases the stun duration to 1.5s."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases the damage of this skill by 12% for each surviving ally besides Scarlita."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases the stun duration to 2s."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Pure Cleanse",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "When a battle starts, Scarlita blinks to the backline, ascends to the sky, and hovers above the battlefield. While in the air, she is invincible, recovering <b>40</b> Energy per second, and increasing <b>2%</b> ATK till the battle ends.<p><b>15s</b> into the battle or when there are 2 or fewer surviving non-summoned allies beside her, Scarlita descends near the frontmost enemy. She smashes the ground upon landing, dealing <b>200%</b> damage to the enemies within 2 tiles and knocking them up, stunning them for <b>4s</b>.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Scarlita recovers an extra 150 Energy if she descends after 15s into the battle."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Scarlita gains an extra 15% ATK boost till the end of battle if she descends after 15s into the battle."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 220%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Valkyrie Spirit",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "3s",
+                "range": "Global",
+                "description": "Scarlita sends the weakest non-summoned ally a blessing once every time when in mid-air, granting them a shield equal to <b>15%</b> of Scarlita's max HP for <b>3s</b>.<p>Every time Scarlita wields her axe after descending on the battlefield, she deals <b>135%</b> damage to enemies within a 2-tile arc and knocks them down. This skill damage increases by <b>10%</b> for each surviving ally besides herself.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases the shield value to 18% of Scarlita max HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the shield value to 20% of Scarlita max HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases the damage of this skill by 12% for each surviving ally besides Scarlita."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Scarlita increases Execution by <b>4 </b>for each blessing she sends while in the air.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Scarlita increases Execution by 5 for each blessing she sends while in the air."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Scarlita increases Execution by 6 for each blessing she sends while in the air."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Divine Judgement",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Deals true damage if there are at least <b>4</b> surviving non-summoned allies other than herself on the battlefield.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Deals true damage if there are at least 3 surviving non-summoned allies other than herself on the battlefield."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Scarlita's skills knock the non-boss enemies with HP lower than 180% ATK and HP ratio below 20% out of the battlefield. The enemy sent out of the combat this way cannot return and is considered defeated."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Scarlita's skills knock the non-boss enemies with HP lower than 180% ATK and HP ratio below 25% out of the battlefield. The enemy sent out of the combat this way cannot return and is considered defeated."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Scarlita increases an allied hero Phys DEF and Magic DEF when using Valkyrie Spirit to protect them, with the amount equal to 50% of Scarlita own Phys DEF and Magic DEF."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Heart of Unity",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Increases Haste by<b> 8</b> for all deployed allies if they are alive <b>10s </b>into a battle, until the end of the battle. Increases the damage dealt by all deployed allies by<b> 8%</b> if they are alive <b>40s </b>into a battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 9%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 10%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 11%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 13%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 14%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases Haste by 10 and damage dealt to 15%."
+                    }
+                ]
+            }
+        }
+    ]
+}

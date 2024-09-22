@@ -1,0 +1,175 @@
+{
+    "name": "Salazer",
+    "level": "A-Level",
+    "class": "Rogue",
+    "damage_type": "Physical",
+    "faction": "Graveborn",
+    "description": "A Rogue who can imprison enemies with low HP.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Rain of Blades",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "Salazar summons plenty of Flying Swords to launch <b>8 </b>strikes to an enemy with the highest HP. Each strike deals <b>30%</b> damage plus damage equal to <b>5%</b> of the target's current HP. Additional damage cannot exceed <b>150% </b>of Salazar's ATK. Salazar prioritizes the enemy with the most HP.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "The damage dealt by this skill grants Salazer 50 Life Drain."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "The damage of each strike is increased to 32% plus damage equal to 5.5% of the target's current HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "The damage of each strike is increased to 34% plus damage equal to 6% of the target's current HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "The damage of each strike is increased to 36% plus damage equal to 6.5% of the target's current HP."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Enraptured Whip",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "8s",
+                "range": "1 tile",
+                "description": "Salazar whips enemies within a <b>2</b>-tile arc, dealing <b>180%</b> damage. When the target's HP ratio drops below<b> 70%</b>, Salazar launches one more attack to enemies within a <b>2</b>-tile arc, dealing <b>230%</b> damage.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases the damage to 180% and the damage of the additional whip attack to 230%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the damage to 190% and the damage of the additional whip attack to 240%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the damage to 200% and the damage of the additional whip attack to 250%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Soul Cage",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "0s",
+                "range": "Global",
+                "description": "Salazar imprisons an enemy whose HP ratio is less than<b> 70%</b>, dealing <b>300%</b> damage and making them cannot move or act for <b>5s.</b> The skill can only be applied to each enemy once.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Every time Salazar imprisons an enemy, he absorbs 8% of the enemy's ATK until the battle ends. This skill can absorb up to 50% of Salazar's ATK in each battle."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Every time Salazar imprisons an enemy, he absorbs 10% of the enemy's ATK until the battle ends. This skill can absorb up to 50% of Salazar's ATK in each battle."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Every time Salazar imprisons an enemy, he absorbs 12% of the enemy's ATK until the battle ends. This skill can absorb up to 50% of Salazar's ATK in each battle."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Reduces damage taken by <b>12%</b> during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Reduces damage taken by 16% during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Reduces damage taken by 20% during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Soul Drench",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Salazar immerses himself in the power of the Spirits and casts Enraptured Whip <b>1</b> times without cooldown when a battle starts or an enemy is imprisoned. An extra whip strike will be attempted.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "The Enraptured Whip deals additional damage equal to 5% of the enemy's current HP, granting 50 Life Drain to Salazar. The additional damage cannot exceed 150% of Salazar's ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Casts Enraptured Whip 2 times without cooldown."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "The Enraptured Whip deals additional damage equal to 5.5% of the enemy's current HP, granting 52 Life Drain to Salazar. The additional damage cannot exceed 160% of Salazar's ATK."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Salazer recovers 150% of his ATK as HP for every imprisoned enemy."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Guardian Shield",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Gains a shield that absorbs<b> 280%</b> damage every <b>2s </b>if HP drops below<b> 30%</b> in the first <b>15s </b>of a battle. These shields can stack and remain effective until <b>15s </b>into the battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 290%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 300%.."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 310%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 320%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 330%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 340%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the shield value bonus gained every 2s to 350%."
+                    }
+                ]
+            }
+        }
+    ]
+}

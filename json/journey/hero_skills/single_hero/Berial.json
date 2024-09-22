@@ -1,0 +1,175 @@
+{
+    "name": "Berial",
+    "level": "S-Level",
+    "class": "Rogue",
+    "damage_type": "Magic",
+    "faction": "Hypogean",
+    "description": "An Assassin who excels at dodging damage by hiding in shadow and dealing damage to isolated targets.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Scared Swamp",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "10 tiles",
+                "initial_energy": "0",
+                "description": "Berial flies beneath the enemy, hiding within their shadow and dealing <b>36%</b> damage every <b>0.25s</b>, absorbing <b>15</b> Energy, lasting up to<b> 5s</b>. Berial is Invincible during the effect. Then he jumps out from the shadow, dealing <b>320%</b> damage to adjacent enemies and frightening them for <b>4s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Deals 38% damage to enemies every 0.25s when hiding in the shadow."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Deals 40% damage to enemies every 0.25s when hiding in the shadow."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Deals 42% damage to enemies every 0.25s when hiding in the shadow.."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Deals 45% damage to enemies every 0.25s when hiding in the shadow."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Shadow Trick",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "20s",
+                "range": "10 tiles",
+                "description": "Berial hides within the shadow, and becomes Invincible while hidden. If there are isolated enemies on the battlefield, Berial will move to each isolated target in turn, dealing <b>300%</b> damage to each target. Otherwise, he will stay in the shadow, recover a total of <b>300%</b> HP before returning to his original tile.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases the damage dealt to the isolated targets to 310%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases the damage dealt to the isolated targets to 320%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the damage dealt to the isolated targets to 350%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Devil's Contract",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "0s",
+                "range": "1 tile",
+                "description": "Berial hides within the shadow for <b>10s </b>after being defeated. However, during which, if a non-summoned enemy is taken down, Berial will revive from the vanquished enemy and return to the battlefield with <b>40%</b> of his max HP. This effect can only be triggered once per battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increases Berial's restored HP to 45% of his max HP after revival."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases Berial's restored HP to 50% of his max HP after revival."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increases Berial's restored HP to 60% of his max HP after revival."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Berial reduces the damage dealt by an isolated enemy by <b>6%</b> and increases their damage taken by <b>3%</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Berial reduces the damage dealt by an isolated enemy by 8% and increases their damage taken by 4%."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Berial reduces the damage dealt by an isolated enemy by 10% and increases their damage taken by 5%."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Shadow Reflection",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "10 tiles",
+                "description": "If non-summoned enemies remain isolated for over <b>3s</b>, they lose <b>180</b> Energy and generate a Silhouette that inherits <b>50%</b> of Berial's ATK, HP and <b>100%</b> of other stats. This Silhouette loses <b>8%</b> of its max HP per second. This effect can only be triggered once on the same target within <b>20s</b>, and the Silhouette can only deal damage by normal attacks.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "The Silhouette inherits 70% of Berial's ATK and HP."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Enemies lose 40 Energy when they receive damage from the Silhouette."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "The Silhouette inherits 80% of Berial's ATK and HP."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Increases the hiding duration after being defeated by 10s."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Combo",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "After casting the Ultimate, deals<b> 125%</b> damage to the current target with each of the next <b>4</b> skill casts or normal attacks.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases the skill damage dealt to 130%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases the skill damage dealt to 135%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases the skill damage dealt to 140%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases the skill damage dealt to 145%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases the skill damage dealt to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases the skill damage dealt to 155%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases the skill damage dealt to 160%."
+                    }
+                ]
+            }
+        }
+    ]
+}

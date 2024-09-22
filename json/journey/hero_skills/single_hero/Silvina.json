@@ -1,0 +1,175 @@
+{
+    "name": "Silvina",
+    "level": "A-Level",
+    "class": "Rogue",
+    "damage_type": "Physical",
+    "faction": "Graveborn",
+    "description": "An Assassin who can prevent enemies from casting skills, and teleport to their side instantly at the start of battle.",
+    "auto_attack_range": "1",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Soul Reaper",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "2s",
+                "range": "1 tile",
+                "initial_energy": "400",
+                "description": "Silvina deals <b>300% </b>damage to an enemy and reduces their Energy by <b>200</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage to 320%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage to 340%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage to 360%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "The Energy reduction is increased by 300."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "First Strike",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "-",
+                "range": "Global",
+                "description": "Silvina marks the closest enemy in a symmetrical position, flashes next to them, and launches an attack when a battle starts, dealing <b>300% </b>damage.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 320%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 340%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "This attack stuns the enemy for 5s."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Choking Blade",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Silvina's normal attack becomes Whirl Assault for the first <b>12s </b>of battle. Each Whirl Assault deals <b>140%</b> damage. Defeating the marked enemy prolongs the Whirl Assault duration by <b>6s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Each Whirl Assault deals 150% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Each Whirl Assault deals 160% damage."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Each Whirl Assault deals 170% damage."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Increases Crit by <b>24 </b>during battle.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Increases Crit by 32 during battle."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Increases Crit by 40 during battle."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Shield of Light",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Silvina gains a shield that can block up to <b>450%</b> damage after casting First Strike.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Shield value is increased to 500%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "When a marked enemy is defeated, Silvina frightens enemies within 2 tiles of the defeated enemy for 4s while this skill is in effect."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Shield value is increased to 600%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Skill 2",
+                "description": "Silvina also reduces the target's Vitality by 60 for 3s with each Whirl Assault."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Battle Momentum",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Grants an extra <b>11% </b>ATK and <b>18 </b>Crit in the first 8s of a battle. Defeating a non-summoned enemy while this buff is active extends its duration by <b>5s</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Grants 12% ATK and 19 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Grants 13% ATK and 20 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Grants 14% ATK and 21 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Grants 15% ATK and 22 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Grants 16% ATK and 23 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Grants 17% ATK and 24 Crit."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Grants 18% ATK and 25 Crit."
+                    }
+                ]
+            }
+        }
+    ]
+}

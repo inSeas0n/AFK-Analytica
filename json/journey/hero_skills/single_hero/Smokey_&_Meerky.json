@@ -1,0 +1,175 @@
+{
+    "name": "Smokey & Meerky",
+    "level": "S-Level",
+    "class": "Support",
+    "damage_type": "Magic",
+    "faction": "Mauler",
+    "description": "A Support who can heal and imbue buffs to nearby allies continuously.",
+    "auto_attack_range": "8",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Special Aroma",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "0s",
+                "range": "2 tiles",
+                "initial_energy": "0",
+                "description": "After a battle starts, Smokey &amp; Meerky create an aroma within <b>2</b> tiles and keep it going through channeling. While the aroma is around, Smokey &amp; Meerly recover <b>50 </b>Energy per second, and allies within the aroma recover <b>21%</b> of his ATK as HP per second. Smokey &amp; Merky cannot keep the aroma going when affected by control effects and cannot create the aroma in <b>4s</b>.<p><b>Active,</b> Smokey &amp; Merely heal allied heroes within the aroma by<b> 170%</b> of his ATK as HP, and permanently level up the aroma's effects.</p><ul><li><p>Improved Aroma I: Expands the range by <b>1</b> tile.</p></li><li><p>Improved Aroma II: Grants <b>30 </b>Haste to allied heroes affected by the aroma.\n</p></li></ul><p></p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases HP recovery per second to 24%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases HP recovery per second to 27%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases HP recovery per second to 29%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases HP recovery per second to 31%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Energizing Formula",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "-",
+                "range": "5 tiles",
+                "description": "Smokey &amp; Meerky increase the ATK of allied heroes within the aroma by<b> 16%</b>. Smokey &amp; Meerky recover <b>5 </b>additional Energy per second for every non-summoned ally affected.\n",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases the ATK of allied heroes within the aroma by 18%"
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Smokey & Meerky recover 8 additional Energy per second for every non-summoned ally affected."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases the ATK of allied heroes within the aroma by 20%"
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Quick Recovery",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "5s",
+                "range": "2 tiles",
+                "description": "Smokey &amp; Meerky heal allies within the aroma by <b>90% </b>of his ATK as<b> </b>HP.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Increase HP recovery to 100%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increase HP recovery to 110%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Increase HP recovery to 120%."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Smokey &amp; Meerky increase their ATK by <b>6%</b> during battle. If <b>3 </b>or more non-summoned allies other than Smokey &amp; Meerky are within the aroma, they increase their ATK by an additional <b>9%</b>.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Smokey & Meerky increase their ATK by 8% during battle. If 3 or more non-summoned allies other than Smokey & Meerky are within the aroma, they increase their ATK by an additional 12%."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Smokey & Meerky increase their ATK by 10% during battle. If 3 or more non-summoned allies other than Smokey & Meerky are within the aroma, they increase their ATK by an additional 15%."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Withering Potion",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "4 tiles",
+                "description": "The Special Aroma gains the third upgrading effect, extending the skill effect range by <b>1</b> tile. The Aroma will be enhanced for <b>10s </b>when max this skill gets the third upgrade for the first time, making the enemies in skill range lose <b>12%</b> of their max HP per second. The amount of lost HP is no more than <b>200%</b> of Smokey &amp; Meerky's ATK.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Enemies in skill range lose 14% of their max HP during the Aroma enhancement."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "The enemy is stunned for 0.1s while losing HP each time during the Aroma enhancement"
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Enemies in skill range lose 15% of their max HP during the Aroma enhancement."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "The healing amount is increased by 30% of his ATK when Smokey &amp; Merely use Special Aroma."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "Soul-lifting Touch",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Every <b>5s</b>, increases the ATK by <b>13%</b> and Haste by <b>11 </b>for <b>3s </b>for the ally who has dealt the most damage and has a HP ratio above<b> 75%.</b>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases ATK bonus by 14% and Haste bonus by 12."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases ATK bonus by 15% and Haste bonus by 13."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases ATK bonus by 16% and Haste bonus by 14."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases ATK bonus by 17% and Haste bonus by 15."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases ATK bonus by 18% and Haste bonus by 16."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases ATK bonus by 19% and Haste bonus by 17."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases ATK bonus by 20% and Haste bonus by 18."
+                    }
+                ]
+            }
+        }
+    ]
+}

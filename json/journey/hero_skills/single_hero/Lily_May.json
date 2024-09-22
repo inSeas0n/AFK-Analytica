@@ -1,0 +1,175 @@
+{
+    "name": "Lily May",
+    "level": "S-Level",
+    "class": "Rogue",
+    "damage_type": "Magic",
+    "faction": "Wilder",
+    "description": "An Agile Rogue who can interrupt the enemy's Ultimate and continue to grow throughout the battle.",
+    "auto_attack_range": "3",
+    "skills": [
+        {
+            "ultimate": {
+                "name": "Tempest Shot",
+                "unlocks": "Unlocks at level 1",
+                "cooldown": "-",
+                "range": "Global",
+                "initial_energy": "0",
+                "description": "<b>Passive -</b> Lily May enters a Defensive State at the start of a battle. When a non-summoned enemy casts their Ultimate, Lily May becomes Unaffected. She then leaps above them and shoots a Quillbolt, dealing <b>200%</b> damage and interrupting their Ultimate, while causing them to lose <b>700 Energy</b>. Afterward, she exits the Defensive and Unaffected States. This skill cannot interrupt boss enemies but can increase the damage Lily May deals to them by <b>400%.</b><p><b>Active - </b>Lily May can enter Defensive State to target either all non-summoned enemies or a specific one. If defending against them all, she targets the first one to use their Ultimate. If defending against a specific one, she targets only them when they use Ultimate. Once this enemy becomes untargetable for over <b>3s </b>or is defeated. Lil May switches to defending against all.</p>",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 51",
+                        "upgrade": "Increases damage dealt by Quellbolt to 210%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 111",
+                        "upgrade": "Increases damage dealt by Quellbolt to 220%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 171",
+                        "upgrade": "Increases damage dealt by Quellbolt to 230%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 231",
+                        "upgrade": "Increases damage dealt by Quellbolt to 240%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_1": {
+                "name": "Rainstorm Ballet",
+                "unlocks": "Unlocks at level 11",
+                "cooldown": "20s",
+                "range": "7 Tiles",
+                "description": "Lily May flashes to the target and attacks <b>6</b> times, dealing <b>65%</b> damage per hit. She remains Invincible during these attacks and returns to her original tile afterward. If her Defensive State is triggered during the attacks, she will finish the remaining attacks after exiting the Defensive State.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 71",
+                        "upgrade": "Increases damage to 70%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 131",
+                        "upgrade": "Increases damage to 75%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 191",
+                        "upgrade": "Increases damage to 80%."
+                    }
+                ]
+            }
+        },
+        {
+            "skill_2": {
+                "name": "Swallow's Flight",
+                "unlocks": "Unlocks at level 31",
+                "cooldown": "-",
+                "range": "3 Tiles",
+                "description": "Lily May grows stronger during battle. Each normal attack or skill grants her EXP points, with extra points awarded for Assists or Kills. Once her EXP bar is full, she grows stronger, permanently increasing her ATK by<b> 10%</b> and enhancing her next<b> 4</b> normal attacks or attacks from Rainstorm Ballet. The enhanced attacks deal additional true damage equal to <b>3% </b>of the target's max HP, up to<b> 75% </b>of Lily May's ATK. This growth effect can stack up to <b>4 </b>times.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 91",
+                        "upgrade": "Enhanced attacks deal additional true damage equal to 4% of the target's max HP, up to 100% of Lily May's ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Enhanced attacks deal additional true damage equal to 5% of the target's max HP, up to 125% of Lily May's ATK."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 211",
+                        "upgrade": "Enhanced attacks deal additional true damage equal to 6% of the target's max HP, up to 150% of Lily May's ATK."
+                    }
+                ]
+            }
+        },
+        {
+            "hero_focus": {
+                "name": "Hero Focus",
+                "unlocks": "Unlocks after reaching Legendary+",
+                "cooldown": "-",
+                "range": "1 tile",
+                "description": "Lily May gains <b>10</b> Penetration during battle and an additional <b>5</b> Penetration when using Rainstorm Ballet.",
+                "upgrades": [
+                    {
+                        "unlocks": "Level 2",
+                        "upgrade": "Lily May gains 13 Penetration during battle and an additional 6 Penetration when using Rainstorm Ballet."
+                    },
+                    {
+                        "unlocks": "Level 3",
+                        "upgrade": "Lily May gains 16 Penetration during battle and an additional 8 Penetration when using Rainstorm Ballet."
+                    }
+                ]
+            }
+        },
+        {
+            "ex_skill": {
+                "name": "Rainfall Bliss",
+                "unlocks": "Unlocks after reaching Mythic+",
+                "cooldown": "-",
+                "range": "3 Tiles",
+                "description": "Lily May grows once upon receiving a non-permanent stats boost from an ally. Each ally can trigger this effect once per battle. ",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +5",
+                        "upgrade": "Increases ATK boost granted by each of her growth to 12%."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +10",
+                        "upgrade": "Allows her to deal 2 additional attacks the next time she casts Rainstorm Ballet with each growth."
+                    },
+                    {
+                        "unlocks": "Unlocks at Ex. Weapon +15",
+                        "upgrade": "Increases ATK boost granted by each of her growth to 14%."
+                    }
+                ]
+            }
+        },
+        {
+            "enhance_force": {
+                "name": "Enhance Force",
+                "unlocks": "Unlocks after reaching Supreme+",
+                "cooldown": "-",
+                "affects": "Ultimate",
+                "description": "When Lily May first uses Tempest Shot to interrupt an enemy's Ultimate, the enemy loses 1000 Energy."
+            }
+        },
+        {
+            "season_skill": {
+                "name": "",
+                "unlocks": "Unlocks at level 51",
+                "cooldown": "",
+                "range": "Global",
+                "description": "Shoots and extra projectile after every 3 normal attacks that hit a target, dealing <b>140% </b>damage to the target.",
+                "upgrades": [
+                    {
+                        "unlocks": "Unlocks at level 101",
+                        "upgrade": "Increases damage to 145%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 151",
+                        "upgrade": "Increases damage to 150%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 201",
+                        "upgrade": "Increases damage to 155%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 251",
+                        "upgrade": "Increases damage to 160%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 301",
+                        "upgrade": "Increases damage to 165%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 351",
+                        "upgrade": "Increases damage to 170%."
+                    },
+                    {
+                        "unlocks": "Unlocks at level 401",
+                        "upgrade": "Increases damage to 175%."
+                    }
+                ]
+            }
+        }
+    ]
+}
